@@ -931,274 +931,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-040",
-      "title": "京东｜姜妍篇",
-      "titleEn": "JD.com — Jiang Yan",
-      "client": "京东",
-      "industry": "电商／零售",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「京东｜姜妍篇」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around JD.com — Jiang Yan, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-040/hero-01.jpg",
-          "filename": "BangWei_导演_京东姜妍_32_234.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 270157
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-040/gallery-01.jpg",
-          "filename": "MS-MA-0272__BangWei-image120.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 261878
-        },
-        {
-          "url": "assets/cases/MS-CA-040/gallery-02.jpg",
-          "filename": "BangWei_导演_京东姜妍_33_240.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 264493
-        },
-        {
-          "url": "assets/cases/MS-CA-040/gallery-03.jpg",
-          "filename": "BangWei_导演_京东姜妍_32_235.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 243684
-        },
-        {
-          "url": "assets/cases/MS-CA-040/gallery-04.jpg",
-          "filename": "BangWei_导演_京东姜妍_32_237.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 218860
-        },
-        {
-          "url": "assets/cases/MS-CA-040/gallery-05.jpg",
-          "filename": "BangWei_导演_京东姜妍_32_233.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 218860
-        },
-        {
-          "url": "assets/cases/MS-CA-040/gallery-06.jpg",
-          "filename": "BangWei_导演_京东姜妍_32_236.jpg",
-          "type": "image/jpeg",
-          "width": 720,
-          "height": 1280,
-          "size": 113556
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/KiaImnsto_y2fvm_bLRLmQ/K0JtXmyAUXACxY7RAuRmM9q3RDgXW9M8BtfbZ6lvHHVsHRFIMtzDBPKzRR-28w-kJ4w0C4p1tsKuV9r5nykyl6rvzDeYdZiZ3Azri3oIWNQb9zEAWcKNNt3x_ZaFCEUjfckL0ykf8Gm9GBXFg8g1cV6S6jEu-D5pgImGMb8MloRjTLgEE-orDeMgkufkxV1IjU8_F8p9YrGODx-pcyAT5g/hgF8JSCN4RDdQ_9KEg_Xq5dWX1WgjE0TaOBjSwKGxBo",
-          "filename": "MS-CA-040_BangWei_JD_Jiangyan_Hybrid_Slide24.mp4",
-          "type": "video/mp4",
-          "size": 28849744
-        }
-      ]
-    },
-    {
-      "caseId": "MS-CA-034",
-      "title": "长安汽车｜全 AI 商业广告",
-      "titleEn": "Changan Automobile — Fully AI Commercial",
-      "client": "长安汽车",
-      "industry": "汽车",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「长安汽车｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Changan Automobile — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-034/hero-01.jpg",
-          "filename": "MS-MA-0003__BangWei-image115.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 173942
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-034/gallery-01.jpg",
-          "filename": "MS-MA-0206__BangWei-image114.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 92774
-        },
-        {
-          "url": "assets/cases/MS-CA-034/gallery-02.jpg",
-          "filename": "BangWei_导演_长安汽车_22_165.jpg",
-          "type": "image/jpeg",
-          "width": 1319,
-          "height": 2364,
-          "size": 258240
-        },
-        {
-          "url": "assets/cases/MS-CA-034/gallery-03.jpg",
-          "filename": "BangWei_导演_长安汽车_23_173.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1920,
-          "size": 150097
-        },
-        {
-          "url": "assets/cases/MS-CA-034/gallery-04.jpg",
-          "filename": "BangWei_导演_长安汽车_22_163.jpg",
-          "type": "image/jpeg",
-          "width": 768,
-          "height": 1377,
-          "size": 97504
-        },
-        {
-          "url": "assets/cases/MS-CA-034/gallery-05.jpg",
-          "filename": "BangWei_导演_长安汽车_22_164.jpg",
-          "type": "image/jpeg",
-          "width": 714,
-          "height": 1280,
-          "size": 87777
-        },
-        {
-          "url": "assets/cases/MS-CA-034/gallery-06.jpg",
-          "filename": "BangWei_导演_长安汽车_22_167.jpg",
-          "type": "image/jpeg",
-          "width": 714,
-          "height": 1280,
-          "size": 86990
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/qbqjUmMpqNiHvVAumu86gA/BoxlI7O_ZNn89IyyhT1hROfJgVw3c5c4BaRahLgcBwKPs5rWse-FyFBbf9eNEDo-R_yG9vjssde-4KnT_PNEZn3oba16hrk9A5lGMEEEwtOpXZ0T96o_wBfzf4Tux3yziOkdeulfNHuvIF9jMgAv5QYTJZGc2bzL7c8csMvO11HWlNUnZTZ-nBDQB8qZdTfGirqa4cpNlSsbQCyMNSwOPA/jeQaeWt3p34RT269ZseAJWpmK31qrEqXSRIGKR1CYow",
-          "filename": "MS-CA-034_BangWei_Changan_AI_Ad_Cut01_Slide21.mp4",
-          "type": "video/mp4",
-          "size": 85620883
-        },
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/9JJXn1aEHYupPgSmmgue6Q/sFDYSiq6jJrA7CmDm26dO7xr1lmjCXbbKQZus-A6aOotKkEvToXfbWbdddru_rkxRNAj1SK7qDWBzu8k1ZHieiGNIq4SqvQ0PYspRn1YxmwKtWyxgFGTeQebya340TvHzHP8QZX8orVqHvBVFLsP9irE1XY8atW-BLcaBubDyZjaAp6o5hjHcwdTuwEpw-oKDi5-C_7S1xIYS5Luin4CXw/1gPKB09iVRY1HqNn5fR1qjardNrK7b8REoNk7Wo98qs",
-          "filename": "MS-CA-034_BangWei_Changan_AI_Ad_Cut02_Slide21.mp4",
-          "type": "video/mp4",
-          "size": 73376898
-        }
-      ]
-    },
-    {
-      "caseId": "MS-CA-046",
-      "title": "番茄小说｜9.2 分 IP AI 漫剧",
-      "titleEn": "Tomato Novel — 9.2-rated IP AI Microdrama",
-      "client": "番茄小说",
-      "industry": "数字内容／网文 IP",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「番茄小说｜9.2 分 IP AI 漫剧」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Tomato Novel — 9.2-rated IP AI Microdrama, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-046/hero-01.jpg",
-          "filename": "BangWei_导演_斩妖Trailer_43_320.jpg",
-          "type": "image/jpeg",
-          "width": 1076,
-          "height": 1924,
-          "size": 217115
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-046/gallery-01.jpg",
-          "filename": "MS-MA-0285__BangWei-image109.jpg",
-          "type": "image/jpeg",
-          "width": 355,
-          "height": 635,
-          "size": 57527
-        },
-        {
-          "url": "assets/cases/MS-CA-046/gallery-02.jpg",
-          "filename": "BangWei_导演_番茄小说_41_307.jpg",
-          "type": "image/jpeg",
-          "width": 816,
-          "height": 1456,
-          "size": 271775
-        },
-        {
-          "url": "assets/cases/MS-CA-046/gallery-03.jpg",
-          "filename": "BangWei_导演_番茄小说_41_306.jpg",
-          "type": "image/jpeg",
-          "width": 816,
-          "height": 1456,
-          "size": 226255
-        },
-        {
-          "url": "assets/cases/MS-CA-046/gallery-04.jpg",
-          "filename": "BangWei_导演_番茄小说_41_304.jpg",
-          "type": "image/jpeg",
-          "width": 816,
-          "height": 1456,
-          "size": 223654
-        },
-        {
-          "url": "assets/cases/MS-CA-046/gallery-05.jpg",
-          "filename": "BangWei_导演_番茄小说_41_305.jpg",
-          "type": "image/jpeg",
-          "width": 816,
-          "height": 1456,
-          "size": 201555
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/ggX1MGcA2Nq8sxlfA1nRmg/XWaJr_daoKpzyJ_BRO4VD35I8TN78vqRqu0l2aIXf2C2neut-AZaBwAbzSEhsM83Wwe1PaAilYUldGI9LjC70cSbMCyDFB7RLwxxZAmF9Bi3kJKYZiuTrA-JfyKs9wkFBdY-nA22vVFXiDAgQiZnVoZOLQ9lRTWcYHahhsxpbVxIUBIfF40VmJ-l0476_ynqDDwUuguy6Xi2g6mYuH8bEw/vAPnFDnSQ6rOTDN2uDnuck-KwBo7aNrrT_rHkXEuFTU",
-          "filename": "MS-CA-046_BangWei_Tomato_Novel_AI_Manju_Slide17.mp4",
-          "type": "video/mp4",
-          "size": 364913998
-        }
-      ]
-    },
-    {
       "caseId": "MS-CA-064",
       "title": "网易｜《七日世界》游戏 Trailer",
       "titleEn": "NetEase — Once Human Game Trailer",
@@ -4126,6 +3858,274 @@
         }
       ],
       "videos": []
+    },
+    {
+      "caseId": "MS-CA-040",
+      "title": "京东｜姜妍篇",
+      "titleEn": "JD.com — Jiang Yan",
+      "client": "京东",
+      "industry": "电商／零售",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「京东｜姜妍篇」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around JD.com — Jiang Yan, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-040/hero-01.jpg",
+          "filename": "BangWei_导演_京东姜妍_32_234.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 270157
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-040/gallery-01.jpg",
+          "filename": "MS-MA-0272__BangWei-image120.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 261878
+        },
+        {
+          "url": "assets/cases/MS-CA-040/gallery-02.jpg",
+          "filename": "BangWei_导演_京东姜妍_33_240.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 264493
+        },
+        {
+          "url": "assets/cases/MS-CA-040/gallery-03.jpg",
+          "filename": "BangWei_导演_京东姜妍_32_235.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 243684
+        },
+        {
+          "url": "assets/cases/MS-CA-040/gallery-04.jpg",
+          "filename": "BangWei_导演_京东姜妍_32_237.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 218860
+        },
+        {
+          "url": "assets/cases/MS-CA-040/gallery-05.jpg",
+          "filename": "BangWei_导演_京东姜妍_32_233.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 218860
+        },
+        {
+          "url": "assets/cases/MS-CA-040/gallery-06.jpg",
+          "filename": "BangWei_导演_京东姜妍_32_236.jpg",
+          "type": "image/jpeg",
+          "width": 720,
+          "height": 1280,
+          "size": 113556
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/KiaImnsto_y2fvm_bLRLmQ/K0JtXmyAUXACxY7RAuRmM9q3RDgXW9M8BtfbZ6lvHHVsHRFIMtzDBPKzRR-28w-kJ4w0C4p1tsKuV9r5nykyl6rvzDeYdZiZ3Azri3oIWNQb9zEAWcKNNt3x_ZaFCEUjfckL0ykf8Gm9GBXFg8g1cV6S6jEu-D5pgImGMb8MloRjTLgEE-orDeMgkufkxV1IjU8_F8p9YrGODx-pcyAT5g/hgF8JSCN4RDdQ_9KEg_Xq5dWX1WgjE0TaOBjSwKGxBo",
+          "filename": "MS-CA-040_BangWei_JD_Jiangyan_Hybrid_Slide24.mp4",
+          "type": "video/mp4",
+          "size": 28849744
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-034",
+      "title": "长安汽车｜全 AI 商业广告",
+      "titleEn": "Changan Automobile — Fully AI Commercial",
+      "client": "长安汽车",
+      "industry": "汽车",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「长安汽车｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Changan Automobile — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-034/hero-01.jpg",
+          "filename": "MS-MA-0003__BangWei-image115.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 173942
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-034/gallery-01.jpg",
+          "filename": "MS-MA-0206__BangWei-image114.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 92774
+        },
+        {
+          "url": "assets/cases/MS-CA-034/gallery-02.jpg",
+          "filename": "BangWei_导演_长安汽车_22_165.jpg",
+          "type": "image/jpeg",
+          "width": 1319,
+          "height": 2364,
+          "size": 258240
+        },
+        {
+          "url": "assets/cases/MS-CA-034/gallery-03.jpg",
+          "filename": "BangWei_导演_长安汽车_23_173.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 150097
+        },
+        {
+          "url": "assets/cases/MS-CA-034/gallery-04.jpg",
+          "filename": "BangWei_导演_长安汽车_22_163.jpg",
+          "type": "image/jpeg",
+          "width": 768,
+          "height": 1377,
+          "size": 97504
+        },
+        {
+          "url": "assets/cases/MS-CA-034/gallery-05.jpg",
+          "filename": "BangWei_导演_长安汽车_22_164.jpg",
+          "type": "image/jpeg",
+          "width": 714,
+          "height": 1280,
+          "size": 87777
+        },
+        {
+          "url": "assets/cases/MS-CA-034/gallery-06.jpg",
+          "filename": "BangWei_导演_长安汽车_22_167.jpg",
+          "type": "image/jpeg",
+          "width": 714,
+          "height": 1280,
+          "size": 86990
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/qbqjUmMpqNiHvVAumu86gA/BoxlI7O_ZNn89IyyhT1hROfJgVw3c5c4BaRahLgcBwKPs5rWse-FyFBbf9eNEDo-R_yG9vjssde-4KnT_PNEZn3oba16hrk9A5lGMEEEwtOpXZ0T96o_wBfzf4Tux3yziOkdeulfNHuvIF9jMgAv5QYTJZGc2bzL7c8csMvO11HWlNUnZTZ-nBDQB8qZdTfGirqa4cpNlSsbQCyMNSwOPA/jeQaeWt3p34RT269ZseAJWpmK31qrEqXSRIGKR1CYow",
+          "filename": "MS-CA-034_BangWei_Changan_AI_Ad_Cut01_Slide21.mp4",
+          "type": "video/mp4",
+          "size": 85620883
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/9JJXn1aEHYupPgSmmgue6Q/sFDYSiq6jJrA7CmDm26dO7xr1lmjCXbbKQZus-A6aOotKkEvToXfbWbdddru_rkxRNAj1SK7qDWBzu8k1ZHieiGNIq4SqvQ0PYspRn1YxmwKtWyxgFGTeQebya340TvHzHP8QZX8orVqHvBVFLsP9irE1XY8atW-BLcaBubDyZjaAp6o5hjHcwdTuwEpw-oKDi5-C_7S1xIYS5Luin4CXw/1gPKB09iVRY1HqNn5fR1qjardNrK7b8REoNk7Wo98qs",
+          "filename": "MS-CA-034_BangWei_Changan_AI_Ad_Cut02_Slide21.mp4",
+          "type": "video/mp4",
+          "size": 73376898
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-046",
+      "title": "番茄小说｜9.2 分 IP AI 漫剧",
+      "titleEn": "Tomato Novel — 9.2-rated IP AI Microdrama",
+      "client": "番茄小说",
+      "industry": "数字内容／网文 IP",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「番茄小说｜9.2 分 IP AI 漫剧」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Tomato Novel — 9.2-rated IP AI Microdrama, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-046/hero-01.jpg",
+          "filename": "BangWei_导演_斩妖Trailer_43_320.jpg",
+          "type": "image/jpeg",
+          "width": 1076,
+          "height": 1924,
+          "size": 217115
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-046/gallery-01.jpg",
+          "filename": "MS-MA-0285__BangWei-image109.jpg",
+          "type": "image/jpeg",
+          "width": 355,
+          "height": 635,
+          "size": 57527
+        },
+        {
+          "url": "assets/cases/MS-CA-046/gallery-02.jpg",
+          "filename": "BangWei_导演_番茄小说_41_307.jpg",
+          "type": "image/jpeg",
+          "width": 816,
+          "height": 1456,
+          "size": 271775
+        },
+        {
+          "url": "assets/cases/MS-CA-046/gallery-03.jpg",
+          "filename": "BangWei_导演_番茄小说_41_306.jpg",
+          "type": "image/jpeg",
+          "width": 816,
+          "height": 1456,
+          "size": 226255
+        },
+        {
+          "url": "assets/cases/MS-CA-046/gallery-04.jpg",
+          "filename": "BangWei_导演_番茄小说_41_304.jpg",
+          "type": "image/jpeg",
+          "width": 816,
+          "height": 1456,
+          "size": 223654
+        },
+        {
+          "url": "assets/cases/MS-CA-046/gallery-05.jpg",
+          "filename": "BangWei_导演_番茄小说_41_305.jpg",
+          "type": "image/jpeg",
+          "width": 816,
+          "height": 1456,
+          "size": 201555
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/ggX1MGcA2Nq8sxlfA1nRmg/XWaJr_daoKpzyJ_BRO4VD35I8TN78vqRqu0l2aIXf2C2neut-AZaBwAbzSEhsM83Wwe1PaAilYUldGI9LjC70cSbMCyDFB7RLwxxZAmF9Bi3kJKYZiuTrA-JfyKs9wkFBdY-nA22vVFXiDAgQiZnVoZOLQ9lRTWcYHahhsxpbVxIUBIfF40VmJ-l0476_ynqDDwUuguy6Xi2g6mYuH8bEw/vAPnFDnSQ6rOTDN2uDnuck-KwBo7aNrrT_rHkXEuFTU",
+          "filename": "MS-CA-046_BangWei_Tomato_Novel_AI_Manju_Slide17.mp4",
+          "type": "video/mp4",
+          "size": 364913998
+        }
+      ]
     }
   ]
 }

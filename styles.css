@@ -48,7 +48,7 @@ main{padding-top:74px}.hero{min-height:790px;position:relative;display:flex;flex
 .case-face{position:absolute;inset:0;overflow:hidden;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);backface-visibility:hidden}
 .case-front{display:flex;flex-direction:column}
 .case-back{transform:rotateY(180deg);padding:22px;display:flex;flex-direction:column}
-.case-img{height:auto;aspect-ratio:9/16;flex:none}
+.case-img{height:auto;aspect-ratio:3/4;flex:none}
 .case-img img{object-fit:contain;background:#0e100d}
 .case-body{display:flex;flex-direction:column;flex:1;padding-bottom:34px}
 .case-meta,.case-back-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
