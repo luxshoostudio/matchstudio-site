@@ -1,441 +1,129 @@
-/* ===== Match Studio 官网脚本 ===== */
+/* Match Studio — bilingual public site and interaction layer */
 (function () {
   'use strict';
 
-  /* ------------------------------------------------------------
-   * Airtable 数据层
-   * - Base：Match Studio｜Business OS（appNw0RvbOkZByR62）
-   * - 填好 PAT 后，站点内容会从 Airtable 拉取并覆盖下方 FALLBACK
-   * - 字段映射（按底稿 5 表 MVP）：
-   *    案例 / 能力  → 表「Cases & Capabilities」
-   *      字段：Name(名称) / Industry(行业) / Market(市场) / ContentType(内容类型)
-   *            Stat(数据) / Pitch(说明) / Hero(图) / PublicLevel(公开等级 P0-P3)
-   *    团队        → 表「Team」
-   *      字段：Name / Role(角色) / Bio(简介) / Photo(照片)
-   * ------------------------------------------------------------ */
-  const AIRTABLE = {
-    BASE_ID: 'appNw0RvbOkZByR62',
-    PAT: '', // ← 填入你的 Airtable Personal Access Token（只读即可）
-    TABLES: { cases: 'Cases & Capabilities', team: 'Team' }
-  };
-
-  /* ---------- 兜底内容（当前设计稿） ---------- */
+  const IMAGE_ROOT = 'assets/capabilities/';
+  const CASE_PAGE_SIZE = 6;
+  const BRANDS = ['Tencent', 'Kuaishou', 'Douyin', 'JD', 'Huawei', 'Discovery', 'Dreame', 'OPPO', 'Vivo', 'Alibaba', 'CCTV', 'DJI', 'CATL', 'Luckin Coffee', 'BMW', 'Audi'];
   const FALLBACK = {
-    cases: [
-      { id: 'MS-CA-001', name: 'Luckin Coffee', nameCn: '瑞幸', tag: 'COFFEE', title: '第 30000 家门店 · 印尼寻豆之旅', stat: '8.1M 播放', gradient: 'linear-gradient(180deg, #29140d, #d98424)' },
-      { id: 'MS-CA-002', name: 'HUAWEI', nameCn: '华为', tag: 'TECH', title: 'Mate 80 旗舰 TVC', stat: '21.3M 播放', gradient: 'linear-gradient(180deg, #1a0a0d, #d91f1f)' },
-      { id: 'MS-CA-003', name: 'INTEL', nameCn: '英特尔', tag: 'SEMICONDUCTOR', title: '实拍 + AI 重绘', stat: '6.7M 播放', gradient: 'linear-gradient(180deg, #081426, #1a73e6)' },
-      { id: 'MS-CA-004', name: 'JD.com', nameCn: '京东', tag: 'E-COMMERCE', title: '《江燕》品牌片', stat: '15.2M 播放', gradient: 'linear-gradient(180deg, #260d05, #e6401a)' }
-    ],
-    filters: ['全部', '消费电子', '电商', '汽车', '美妆', '餐饮'],
-    stats: [
-      { num: '13', label: '协作网络覆盖国家' },
-      { num: '13', label: '协作网络覆盖城市' },
-      { num: '15', label: '最多同步出发人数' },
-      { num: '100+', label: '核心团队项目经验' }
-    ],
-    team: [
-      { name: 'Lux', role: '创始人 · 项目负责人', desc: '10+ 年品牌营销与整合 Campaign，100+ 项目经验，常驻美国', photo: 'assets/team/lux.jpg' },
-      { name: '廖阔', role: '全球拍摄与直播', desc: '十多年纪录片、宣传片、无人机与海外拍摄经验', photo: 'assets/team/liaokuo.jpg' },
-      { name: '邦威', role: 'AI 导演 · 后期监制', desc: 'TVC、CG、特效、AI 视频导演与整体制作统筹', photo: 'assets/team/bangwei.jpg' },
-      { name: '刘宸', role: '企业 AI 落地', desc: '工学博士、大数据科学家，企业 AI 培训与工作流共创', photo: 'assets/team/liuchen.jpg' }
-    ],
-    capabilities: [
-      { title: '海外拍摄与直播', chips: ['现场执行', '发布会', '纪录片', '航拍'], gradient: 'linear-gradient(180deg, #0a1220, #14627a)' },
-      { title: '品牌营销', chips: ['现场执行', '直播', '跨洲链路'], gradient: 'linear-gradient(180deg, #0a1a14, #147a5e)' },
-      { title: '视频制作', chips: ['实拍', 'AIGC', '重绘', '创意导演'], gradient: 'linear-gradient(180deg, #140a22, #5a2a8a)' },
-      { title: '企业培训与业务共创', chips: ['AI 认知', '数字员工', '工作流', '业务共创'], gradient: 'linear-gradient(180deg, #12140a, #6a7a14)' }
-    ],
-    europe: ['assets/europe/1.jpg', 'assets/europe/2.jpg', 'assets/europe/3.jpg', 'assets/europe/4.jpg'],
-    briefChips: {
-      business: ['电商零售', '消费电子', '美妆时尚', '汽车'],
-      market: ['北美', '欧洲', '东南亚', '拉美'],
-      content: ['客户故事', '活动纪实', 'AI 分版广告', '直播']
-    }
+    cases: [{ caseId: 'MS-CA-004', title: '瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅', titleEn: 'Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story', client: '瑞幸咖啡', industry: '连锁咖啡／消费品牌', services: ['Field', 'Video'], intro: { zh: '围绕「瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。', en: 'A project built around Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story, focused on field production and brand film production.' }, approach: { zh: '现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。', en: 'Field production and cross-market collaboration; live action, editing and brand film production.' }, hero: [], gallery: [], videos: [] }]
   };
-
   let DATA = FALLBACK;
+  let lang = 'zh';
+  let casePage = 0;
+  const favorites = new Set(JSON.parse(localStorage.getItem('ms-favorites') || '[]'));
 
-  /* ---------- 语言字典 ---------- */
   const I18N = {
     zh: {
       'nav.services': '服务', 'nav.cases': '案例', 'nav.team': '团队', 'nav.capabilities': '能力', 'nav.cta': '预约咨询',
-      'hero.slogan': '让品牌在全球开机，让 AI 在业务里落地。',
-      'hero.sub': '中国企业出海传播的全球内容制作与企业 AI 共创伙伴',
-      'hero.cta': '预约咨询',
-      'cases.eyebrow': '我们的作品', 'cases.title': '案例精选', 'cases.sub': '100+ 个出海案例，横滑浏览，喜欢就收藏。',
-      'services.eyebrow': '出海服务', 'services.title': '全球现场与跨洲直播', 'services.sub': '13 国协作网络 · 从海外拍摄到跨洲直播的现场执行能力',
-      'services.field.title': '海外拍摄', 'services.live.title': '跨洲直播',
+      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan.1': '让品牌在全球开机，', 'hero.slogan.2': '让 AI 在业务里落地。', 'hero.sub': '中国企业出海传播的全球内容制作与企业 AI 共创伙伴', 'hero.cta': '预约咨询', 'hero.secondary': '浏览案例 ', 'hero.railLabel': '合作品牌',
+      'cases.eyebrow': '真实项目库', 'cases.title': '案例精选', 'cases.sub': '从内容制作到现场交付，浏览 Match Studio 的项目案例。',
+      'services.eyebrow': '出海服务', 'services.title': '全球现场与跨洲直播', 'services.sub': '从拍摄记录到跨洲直播，现场执行、制作协作和交付链路都在同一张网络上。', 'services.field.title': '海外拍摄', 'services.live.title': '跨洲直播', 'services.countriesLabel': '拍摄记录国家', 'services.citiesLabel': '协作网络城市', 'services.flip': '查看网络', 'services.flipBack': '返回服务',
       'team.eyebrow': '关于我们', 'team.title': '创始人 & 核心团队', 'team.sub': '一支有审美、懂叙事、能落地的出海内容与 AI 团队。',
-      'brief.eyebrow': '发起项目', 'brief.title': '告诉我们你的需求', 'brief.sub': '六道题，帮你锁定第一版出海内容方案。',
-      'brief.q1': '这是为哪个业务单元准备的？', 'brief.q2': '目标市场是哪里？', 'brief.q3': '需要什么类型的内容？',
-      'brief.cta': '看看我们会怎么做',
-      'concierge.eyebrow': 'AI 礼宾', 'concierge.title': '工作室礼宾',
-      'concierge.msg1': '你收藏了 3 项能力。告诉我你的需求——行业、市场、想要什么内容。',
-      'concierge.msg2': '消费电子 · 北美市场 · 一条 AI 分版广告片',
-      'concierge.placeholder': '姓名和邮箱…',
-      'capabilities.eyebrow': '能力矩阵', 'capabilities.title': '四种能力',
-      'capabilities.sub': '海外拍摄与直播、品牌营销、视频制作、企业 AI 共创，一条出海链路全覆盖。',
-      'footer.tagline': '中国企业出海的全球内容制作伙伴',
-      'footer.col1': '工作室', 'footer.services': '服务', 'footer.cases': '案例',
-      'footer.col2': '公司', 'footer.team': '团队', 'footer.contact': '联系',
-      'footer.col3': '资源', 'footer.capabilities': '能力', 'footer.brief': '项目简报',
-      'footer.made': '为中国企业出海而生'
+      'brief.eyebrow': '发起项目', 'brief.title': '告诉我们你的需求', 'brief.sub': '三步形成一份可继续讨论的第一版项目简报。', 'brief.q1': '这是为哪个业务单元准备的？', 'brief.q2': '目标市场是哪里？', 'brief.q3': '需要什么类型的内容？', 'brief.cta': '生成项目简报',
+      'concierge.eyebrow': 'AI 礼宾', 'concierge.title': '工作室礼宾', 'concierge.msg1': '告诉我行业、市场和你要解决的内容问题。', 'concierge.msg2': '消费电子 · 北美市场 · 一条 AI 分版广告片', 'concierge.placeholder': '补充一句你的需求…',
+      'capabilities.eyebrow': '能力矩阵', 'capabilities.title': '四种能力', 'capabilities.sub': 'Field、Live、Story + AI、AI in Business，一条出海链路全覆盖。',
+      'footer.tagline': '中国企业出海的全球内容制作伙伴', 'footer.col1': '工作室', 'footer.services': '服务', 'footer.cases': '案例', 'footer.col2': '公司', 'footer.team': '团队', 'footer.contact': '联系', 'footer.col3': '资源', 'footer.capabilities': '能力', 'footer.brief': '项目简报', 'footer.made': '为中国企业出海而生',
+      'case.intro': 'Case Intro', 'case.approach': 'Creative / Production Approach', 'case.viewApproach': '查看制作方式', 'case.back': '返回案例', 'case.media': '查看项目素材', 'case.favorite': '收藏', 'case.unfavorite': '已收藏', 'case.mediaLabel': '项目素材', 'case.openVideo': '打开视频',
+      'modal.close': '关闭', 'modal.background': '个人介绍', 'team.open': '查看成员', 'drawer.eyebrow': '项目礼宾', 'drawer.title': '把需求先说清楚', 'drawer.body': '选择三项信息，我们会把它整理成一份可继续讨论的项目简报。', 'drawer.cta': '跳到项目表单', 'form.missing': '请先选择业务、市场和内容类型。', 'form.done': '已生成项目简报，我们会尽快跟进。', 'chat.empty': '先写一句需求，再发送。', 'cap.open': '查看能力'
     },
     en: {
       'nav.services': 'Services', 'nav.cases': 'Cases', 'nav.team': 'Team', 'nav.capabilities': 'Capabilities', 'nav.cta': 'Book a consult',
-      'hero.slogan': 'Turn brands on globally. Put AI to work in business.',
-      'hero.sub': 'Global content production & AI co-creation partner for outbound Chinese brands',
-      'hero.cta': 'Book a consult',
-      'cases.eyebrow': 'Our Work', 'cases.title': 'Selected Cases', 'cases.sub': '100+ outbound cases. Swipe to browse, save what you like.',
-      'services.eyebrow': 'Outbound Services', 'services.title': 'Global Field & Cross-Continental Live', 'services.sub': '13-country network · on-the-ground execution from shoot to live',
-      'services.field.title': 'Overseas Shoot', 'services.live.title': 'Cross-Continental Live',
-      'team.eyebrow': 'About Us', 'team.title': 'Founder & Core Team', 'team.sub': 'A team with taste, story and delivery for outbound content & AI.',
-      'brief.eyebrow': 'Start a Project', 'brief.title': 'Tell us about you', 'brief.sub': 'Six questions to lock your first outbound content plan.',
-      'brief.q1': 'What part of the business is this for?', 'brief.q2': 'Which market are we shooting for?', 'brief.q3': 'What kind of content do you need?',
-      'brief.cta': 'See what we\'d build',
-      'concierge.eyebrow': 'AI Concierge', 'concierge.title': 'Studio concierge',
-      'concierge.msg1': 'You shortlisted 3 capabilities. Tell me about your brief — industry, market, what you need.',
-      'concierge.msg2': 'Consumer tech · North America · an AI-versioned ad',
-      'concierge.placeholder': 'Name and email…',
-      'capabilities.eyebrow': 'Capabilities', 'capabilities.title': 'Four Capabilities',
-      'capabilities.sub': 'Field, Live, Story + AI, AI in Business — one outbound chain, full coverage.',
-      'footer.tagline': 'Global content partner for outbound Chinese brands',
-      'footer.col1': 'Studio', 'footer.services': 'Services', 'footer.cases': 'Cases',
-      'footer.col2': 'Company', 'footer.team': 'Team', 'footer.contact': 'Contact',
-      'footer.col3': 'Resources', 'footer.capabilities': 'Capabilities', 'footer.brief': 'Brief',
-      'footer.made': 'Made for outbound Chinese brands'
+      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan.1': 'Put your brand on air globally.', 'hero.slogan.2': 'Put AI to work in the business.', 'hero.sub': 'Global content production and AI co-creation for Chinese brands expanding overseas.', 'hero.cta': 'Book a consult', 'hero.secondary': 'Browse cases ', 'hero.railLabel': 'Partner brands',
+      'cases.eyebrow': 'Project library', 'cases.title': 'Selected cases', 'cases.sub': 'Explore Match Studio projects across content production and field delivery.',
+      'services.eyebrow': 'Global services', 'services.title': 'Field production and cross-continental live', 'services.sub': 'One network for field production, distributed crews, live delivery and post-production.', 'services.field.title': 'Field production', 'services.live.title': 'Cross-continental live', 'services.countriesLabel': 'Countries with shoot records', 'services.citiesLabel': 'Collaboration network cities', 'services.flip': 'View network', 'services.flipBack': 'Back to service',
+      'team.eyebrow': 'About us', 'team.title': 'Founder & core team', 'team.sub': 'A small team with taste, narrative judgment and the ability to deliver overseas.',
+      'brief.eyebrow': 'Start a project', 'brief.title': 'Tell us what you need', 'brief.sub': 'Three choices to shape a first project brief we can discuss.', 'brief.q1': 'Which business unit is this for?', 'brief.q2': 'Which market are you targeting?', 'brief.q3': 'What kind of content do you need?', 'brief.cta': 'Build the first brief',
+      'concierge.eyebrow': 'AI concierge', 'concierge.title': 'Studio concierge', 'concierge.msg1': 'Tell me the industry, market and content problem you need to solve.', 'concierge.msg2': 'Consumer tech · North America · one AI-versioned commercial', 'concierge.placeholder': 'Add one line about the brief…',
+      'capabilities.eyebrow': 'Capability matrix', 'capabilities.title': 'Four capabilities', 'capabilities.sub': 'Field, Live, Story + AI, and AI in Business — one connected outbound chain.',
+      'footer.tagline': 'Global content partner for Chinese brands expanding overseas', 'footer.col1': 'Studio', 'footer.services': 'Services', 'footer.cases': 'Cases', 'footer.col2': 'Company', 'footer.team': 'Team', 'footer.contact': 'Contact', 'footer.col3': 'Resources', 'footer.capabilities': 'Capabilities', 'footer.brief': 'Project brief', 'footer.made': 'Built for Chinese brands going global',
+      'case.intro': 'Case Intro', 'case.approach': 'Creative / Production Approach', 'case.viewApproach': 'View approach', 'case.back': 'Back to case', 'case.media': 'View project media', 'case.favorite': 'Save', 'case.unfavorite': 'Saved', 'case.mediaLabel': 'Project media', 'case.openVideo': 'Open video',
+      'modal.close': 'Close', 'modal.background': 'Background', 'team.open': 'View member', 'drawer.eyebrow': 'Project concierge', 'drawer.title': 'Start with a clear brief', 'drawer.body': 'Choose three inputs and we will turn them into a first project brief for discussion.', 'drawer.cta': 'Go to project form', 'form.missing': 'Choose a business, market and content type first.', 'form.done': 'Your first brief is ready. We will follow up shortly.', 'chat.empty': 'Write one line about the brief first.', 'cap.open': 'View capability'
     }
   };
-  let lang = 'zh';
 
-  /* ============================================================
-   * 渲染函数
-   * ============================================================ */
-  function el(tag, cls, html) {
-    const e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (html != null) e.innerHTML = html;
-    return e;
-  }
+  const TERM = { '京东': 'JD', '腾讯': 'Tencent', '快手': 'Kuaishou', '抖音': 'Douyin', '华为': 'Huawei', '追觅': 'Dreame', '奥迪': 'Audi', '瑞幸咖啡': 'Luckin Coffee', '优酷': 'Youku', '淘宝': 'Taobao', '天猫': 'Tmall', '欧洲医学会': 'European medical congress', '家有恶猫': 'My Cat from Hell', '探索新境': 'Exploration New Ground', '寻找王一博': 'Finding Wang Yibo', '七日世界': 'Once Human', '姜妍': 'Jiang Yan', '闪耀的平凡': 'Ordinary Brilliance', '熊猫繁育员': 'Panda Keeper', '第 30000 店开业／印尼寻豆之旅': '30,000th Store Opening / Indonesia Coffee-Origin Story', '成都—厦门 24 小时智驾 2000KM 网络直播': '24-Hour, 2,000 km Intelligent-Driving Livestream from Chengdu to Xiamen', '跨年盛典': 'New Year’s Eve Gala', '创作者盛典': 'Creator Awards', '理想之城': 'Ideal City', '第二季': 'Season 2', '第一季': 'Season 1', '第四集': 'Episode 4', '第五／六集': 'Episodes 5/6', '世界屋脊之路': 'The Roof of the World', '全 AI': 'Fully AI', '商业广告': 'Commercial', '第十一代酷睿全球线上发布会': '11th Gen Core Global Online Launch', '四季中国': 'Seasons of China' };
+  const INDUSTRY_EN = { '电商／零售': 'E-commerce / retail', '活动／展会／现场运营': 'Events / field operations', '汽车': 'Automotive', '数字内容／网文 IP': 'Digital content / web IP', '游戏／数字内容': 'Games / digital content', '美妆': 'Beauty', '流媒体／纪录片': 'Streaming / documentary', '医疗／医学会议': 'Healthcare / medical congress', '科技／消费电子': 'Technology / consumer electronics', '国际纪录片': 'International documentary', '智能家居／清洁电器': 'Smart home / floor care', '消费电子': 'Consumer electronics', '半导体／科技': 'Semiconductors / technology', '国际传播／纪录片': 'International communications / documentary', '食品／快消': 'Food / FMCG', '乳业／快消': 'Dairy / FMCG', '饮料／消费品牌': 'Beverage / consumer brand', '医药／大健康': 'Pharma / health', '内容平台／大型活动': 'Content platform / large-scale event', '连锁咖啡／消费品牌': 'Coffee chain / consumer brand' };
+  const STATIC = {
+    countries: { zh: ['美国', '英国', '德国', '意大利', '法国', '希腊', '澳大利亚', '瑞典', '新加坡', '印度尼西亚', '马来西亚'], en: ['United States', 'United Kingdom', 'Germany', 'Italy', 'France', 'Greece', 'Australia', 'Sweden', 'Singapore', 'Indonesia', 'Malaysia'] },
+    cities: { zh: ['成都', '北京', '上海', '深圳', '香港', '伦敦', '巴黎', '柏林', '慕尼黑', '墨尔本', '纽约', '旧金山', '洛杉矶'], en: ['Chengdu', 'Beijing', 'Shanghai', 'Shenzhen', 'Hong Kong', 'London', 'Paris', 'Berlin', 'Munich', 'Melbourne', 'New York', 'San Francisco', 'Los Angeles'] },
+    serviceItems: { zh: { field: ['海外活动与发布会拍摄', '纪录片与品牌内容拍摄', '当地摄制组和技术人员配置', '航拍、灯光、收音与后期协作'], live: ['多机位和现场导播', 'Starlink、5G、聚合网络与无线图传', '国内 / 欧洲双链路和备份', '多语言字幕与云端分发'] }, en: { field: ['International event and launch coverage', 'Documentary and brand-content production', 'Local crew and technical staffing', 'Aerial, lighting, sound and post-production support'], live: ['Multi-camera production and live direction', 'Starlink, 5G, bonded networks and wireless transmission', 'China / Europe dual-link redundancy', 'Multilingual captions and cloud distribution'] } },
+    stats: { zh: [['11', '拍摄记录国家'], ['13', '协作网络城市'], ['44', '案例'], ['100+', '核心团队项目经验']], en: [['11', 'countries with shoot records'], ['13', 'network cities'], ['44', 'projects'], ['100+', 'core-team project experience']] }
+  };
+  const TEAM = [
+    { name: 'Lux', nameEn: 'Lux', role: { zh: '创始人 · 项目负责人', en: 'Founder · Executive producer' }, desc: { zh: '品牌营销、整合 Campaign 与跨市场项目统筹。', en: 'Brand marketing, integrated campaigns and cross-market production.' }, background: { zh: '10+ 年品牌营销与整合 Campaign 经验，100+ 项目经验；负责中美团队沟通、内容创作与跨市场项目统筹，常驻美国。', en: '10+ years in brand marketing and integrated campaigns, with 100+ projects across US–China teams, content and cross-market production.' }, initials: 'LX', photo: 'assets/team/lux.jpg' },
+    { name: '廖阔', nameEn: 'Liao Kuo', role: { zh: '全球拍摄与直播', en: 'Global field production and live' }, desc: { zh: '纪录片、宣传片、无人机与海外现场制作。', en: 'Documentary, branded film, aerial and overseas field production.' }, background: { zh: '十多年纪录片、宣传片、无人机和海外拍摄经验，覆盖摄影指导、导播直播、航拍与全球现场执行。', en: 'More than a decade in documentary, branded film, aerial and overseas production, spanning cinematography, live direction and field execution.' }, initials: 'LK', photo: 'assets/team/liaokuo.jpg', safeHeadroom: true },
+    { name: '邦威', nameEn: 'Bang Wei', role: { zh: 'AI 导演 · 后期监制', en: 'AI director · Post-production supervisor' }, desc: { zh: 'TVC、CG、特效、AI 视频导演与整体制作统筹。', en: 'TVC, CG, VFX and AI video direction across the full production.' }, background: { zh: 'AI 导演、后期导演与后期监制，覆盖 TVC、CG、特效、AI 视频和整体制作统筹。', en: 'AI director, post-production director and supervisor across TVC, CG, VFX, AI video and full production coordination.' }, initials: 'BW', photo: 'assets/team/bangwei.jpg' },
+    { name: '刘宸', nameEn: 'Liu Chen', role: { zh: '企业 AI 落地', en: 'AI in Business' }, desc: { zh: '工学博士、大数据科学家，企业 AI 培训与工作流共创。', en: 'Engineer, data scientist and partner for AI training and workflow design.' }, background: { zh: '工学博士、大数据科学家与 AI 部署实践者，参与银行和企业 AI 培训、Agent、数字员工与工作流共创。', en: 'Engineer, data scientist and AI deployment practitioner working across enterprise training, agents, digital workers and workflow design.' }, initials: 'LC', photo: 'assets/team/liuchen.jpg' }
+  ];
+  const CAPABILITIES = [
+    { key: 'field', title: { zh: '海外拍摄与直播', en: 'Field production & live' }, body: { zh: '在海外把现场拍好、把信号送回去。', en: 'Capture the field and get the signal home.' }, chips: { zh: ['现场执行', '发布会', '纪录片', '航拍'], en: ['Field ops', 'Launches', 'Documentary', 'Aerial'] }, image: IMAGE_ROOT + 'field-production.png' },
+    { key: 'brand', title: { zh: '品牌营销', en: 'Brand marketing' }, body: { zh: '从品牌命题到现场触点，连起传播和执行。', en: 'Connect brand strategy, live touchpoints and delivery.' }, chips: { zh: ['策略', '事件', '传播', '跨洲协作'], en: ['Strategy', 'Experiential', 'Comms', 'Distributed'] }, image: IMAGE_ROOT + 'brand-marketing.png' },
+    { key: 'video', title: { zh: '视频制作', en: 'Video production' }, body: { zh: '实拍、后期与 AI 版本化协同交付。', en: 'Live action, post and AI versioning in one workflow.' }, chips: { zh: ['实拍', 'AIGC', '重绘', '创意导演'], en: ['Live action', 'AIGC', 'Rebuild', 'Creative'] }, image: IMAGE_ROOT + 'video-ai.png' },
+    { key: 'business', title: { zh: '企业 AI 共创', en: 'AI in Business' }, body: { zh: '把 AI 从认知培训推进到业务工作流。', en: 'Move AI from awareness training into working systems.' }, chips: { zh: ['AI 认知', '数字员工', '工作流', '业务共创'], en: ['AI literacy', 'Digital workers', 'Workflows', 'Co-build'] }, image: IMAGE_ROOT + 'ai-business.png' }
+  ];
+  const BRIEF_CHIPS = { zh: { business: ['电商零售', '消费电子', '美妆时尚', '汽车'], market: ['北美', '欧洲', '东南亚', '拉美'], content: ['客户故事', '活动纪实', 'AI 分版广告', '直播'] }, en: { business: ['E-commerce / retail', 'Consumer tech', 'Beauty / fashion', 'Automotive'], market: ['North America', 'Europe', 'Southeast Asia', 'Latin America'], content: ['Customer story', 'Event coverage', 'AI-versioned commercial', 'Live'] } };
 
+  function t(key) { return I18N[lang][key] || key; }
+  function esc(value) { return String(value == null ? '' : value).replace(/[&<>"']/g, function (char) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]; }); }
+  function el(tag, cls, html) { const node = document.createElement(tag); if (cls) node.className = cls; if (html !== undefined) node.innerHTML = html; return node; }
+  function translate(value) { let out = String(value || ''); Object.keys(TERM).sort(function (a, b) { return b.length - a.length; }).forEach(function (key) { out = out.split(key).join(TERM[key]); }); return out.replace(/｜/g, ' — ').replace(/／/g, ' / '); }
+  function fileUrl(file) { return file && (file.url || (file.thumbnails && file.thumbnails.large && file.thumbnails.large.url)); }
+  function caseImage(c) { return fileUrl((c.hero || [])[0]) || fileUrl((c.gallery || [])[0]); }
+  function localizedCase(c) { if (lang === 'zh') return { title: c.title, client: c.client, industry: c.industry, intro: c.intro.zh, approach: c.approach.zh }; const title = c.titleEn || translate(c.title); return { title: title, client: title.split(' — ')[0], industry: INDUSTRY_EN[c.industry] || translate(c.industry), intro: c.intro.en, approach: c.approach.en }; }
   function renderCases() {
-    const grid = document.getElementById('casesGrid');
-    grid.innerHTML = '';
-    DATA.cases.forEach(function (c) {
-      const card = el('article', 'case-card');
-      card.innerHTML =
-        '<div class="case-img" style="background:' + c.gradient + '">' +
-          '<span class="case-tag">' + c.tag + '</span>' +
-        '</div>' +
-        '<div class="case-body">' +
-          '<div class="case-name">' + c.name + '</div>' +
-          '<div class="case-name-cn">' + c.nameCn + '</div>' +
-          '<div class="case-title">' + c.title + '</div>' +
-          '<div class="case-stat">' + c.stat + '</div>' +
-        '</div>';
-      card.addEventListener('click', function () { openCaseModal(c); });
+    const list = DATA.cases || [], pages = Math.max(1, Math.ceil(list.length / CASE_PAGE_SIZE));
+    if (casePage >= pages) casePage = pages - 1;
+    const start = casePage * CASE_PAGE_SIZE;
+    const grid = document.getElementById('casesGrid'); grid.innerHTML = '';
+    list.slice(start, start + CASE_PAGE_SIZE).forEach(function (c) {
+      const x = localizedCase(c), img = caseImage(c), card = el('article', 'case-card');
+      const mediaButton = c.gallery?.length || c.videos?.length ? '<button class="case-media" type="button">' + esc(t('case.media')) + ' ↗</button>' : '';
+      card.innerHTML = '<div class="case-card-inner"><div class="case-face case-front"><div class="case-img"' + (img ? '' : ' data-empty="true"') + '>' + (img ? '<img src="' + esc(img) + '" alt="' + esc(x.title) + '" loading="lazy">' : '<span class="case-empty-mark">MS</span>') + '</div><div class="case-body"><div class="case-meta"><span>' + esc(x.client || x.industry) + '</span><button class="save-case" type="button" aria-label="' + esc(favorites.has(c.caseId) ? t('case.unfavorite') : t('case.favorite')) + '">' + (favorites.has(c.caseId) ? '★' : '☆') + '</button></div><h3 class="case-title">' + esc(x.title) + '</h3><span class="case-copy-label">' + esc(t('case.intro')) + '</span><p class="case-intro">' + esc(x.intro) + '</p><button class="case-flip" type="button">' + esc(t('case.viewApproach')) + ' ↗</button></div></div><div class="case-face case-back"><div class="case-back-top"><span class="case-copy-label">' + esc(t('case.approach')) + '</span><button class="case-flip" type="button" aria-label="' + esc(t('case.back')) + '">↺</button></div><h3 class="case-title">' + esc(x.title) + '</h3><div class="case-back-copy"><span class="case-copy-label">' + esc(t('case.intro')) + '</span><p class="case-intro">' + esc(x.intro) + '</p><span class="case-copy-label">' + esc(t('case.approach')) + '</span><p class="case-approach">' + esc(x.approach) + '</p></div>' + mediaButton + '</div></div>';
+      card.addEventListener('click', function (event) { if (event.target.closest('.save-case, .case-media, .case-flip')) return; card.classList.toggle('is-flipped'); });
+      card.querySelectorAll('.case-flip').forEach(function (button) { button.addEventListener('click', function (event) { event.stopPropagation(); card.classList.toggle('is-flipped'); }); });
+      card.querySelector('.save-case').addEventListener('click', function (event) { event.stopPropagation(); toggleFavorite(c.caseId); });
+      const media = card.querySelector('.case-media'); if (media) media.addEventListener('click', function (event) { event.stopPropagation(); openCaseMediaModal(c); });
       grid.appendChild(card);
     });
+    document.getElementById('caseCounter').textContent = String(Math.min(start + 1, list.length)).padStart(2, '0') + '–' + String(Math.min(start + list.slice(start, start + CASE_PAGE_SIZE).length, list.length)).padStart(2, '0') + ' / ' + list.length;
+    document.getElementById('prevCase').disabled = casePage === 0; document.getElementById('nextCase').disabled = casePage >= pages - 1;
   }
+  function toggleFavorite(id) { if (favorites.has(id)) favorites.delete(id); else favorites.add(id); localStorage.setItem('ms-favorites', JSON.stringify(Array.from(favorites))); renderCases(); showToast(favorites.has(id) ? t('case.unfavorite') : t('case.favorite')); }
+  function renderLogos() { const box = document.getElementById('clientLogoRail'); box.innerHTML = ''; BRANDS.forEach(function (brand) { box.appendChild(el('span', 'brand-logo', esc(brand))); }); }
+  function renderStats() { const box = document.getElementById('stats'); box.innerHTML = ''; STATIC.stats[lang].forEach(function (s) { box.appendChild(el('div', 'stat', '<span class="stat-num">' + esc(s[0]) + '</span><span class="stat-label">' + esc(s[1]) + '</span>')); }); }
+  function renderLocations() { const render = function (id, values) { const box = document.getElementById(id); if (!box) return; box.innerHTML = ''; values.forEach(function (value, i) { box.appendChild(el('span', 'location-pill', '<b>' + String(i + 1).padStart(2, '0') + '</b>' + esc(value))); }); }; render('countryList', STATIC.countries[lang]); render('cityList', STATIC.cities[lang]); }
+  function renderTeam() { const grid = document.getElementById('teamGrid'); grid.innerHTML = ''; TEAM.forEach(function (m) { const card = el('article', 'member-card'); const displayName = lang === 'zh' ? m.name : m.nameEn; card.innerHTML = '<div class="member-photo' + (m.safeHeadroom ? ' safe-headroom' : '') + '"><img src="' + esc(m.photo) + '" alt="' + esc(displayName) + '" loading="lazy"></div><div class="member-body"><div class="member-name">' + esc(displayName) + '</div><div class="member-role">' + esc(m.role[lang]) + '</div><div class="member-desc">' + esc(m.desc[lang]) + '</div><button class="member-open" type="button">' + esc(t('team.open')) + ' ↗</button></div>'; card.addEventListener('click', function () { openTeamModal(m); }); grid.appendChild(card); }); }
+  function renderCapabilities() { const grid = document.getElementById('capGrid'); grid.innerHTML = ''; CAPABILITIES.forEach(function (c, index) { const card = el('article', 'cap-card'); card.innerHTML = '<div class="cap-img"><img src="' + esc(c.image) + '" alt="' + esc(c.title[lang]) + '" loading="lazy"><span class="cap-index">0' + (index + 1) + '</span></div><div class="cap-chips">' + c.chips[lang].map(function (chip) { return '<span class="cap-chip">' + esc(chip) + '</span>'; }).join('') + '</div><div class="cap-title">' + esc(c.title[lang]) + '</div><p class="cap-body">' + esc(c.body[lang]) + '</p><button class="cap-open" type="button">' + esc(t('cap.open')) + ' ↗</button>'; card.addEventListener('click', function () { openCapabilityModal(c); }); grid.appendChild(card); }); }
+  function renderBriefChips() { document.querySelectorAll('[data-chips]').forEach(function (group) { const key = group.getAttribute('data-chips'); group.innerHTML = ''; BRIEF_CHIPS[lang][key].forEach(function (label) { const button = el('button', 'chip', esc(label)); button.type = 'button'; button.addEventListener('click', function () { group.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('selected'); }); button.classList.add('selected'); updateProgress(); }); group.appendChild(button); }); }); }
+  function renderServiceLists() { document.querySelectorAll('[data-i18n-list]').forEach(function (list) { const key = list.getAttribute('data-i18n-list').split('.')[1]; list.innerHTML = STATIC.serviceItems[lang][key].map(function (item) { return '<li>' + esc(item) + '</li>'; }).join(''); }); }
+  function renderAll() { renderCases(); renderLogos(); renderStats(); renderLocations(); renderTeam(); renderCapabilities(); renderBriefChips(); renderServiceLists(); }
 
-  function renderFilters() {
-    const box = document.getElementById('filters');
-    box.innerHTML = '';
-    DATA.filters.forEach(function (f, i) {
-      const b = el('button', 'filter-chip' + (i === 0 ? ' active' : ''), f);
-      b.addEventListener('click', function () {
-        box.querySelectorAll('.filter-chip').forEach(function (x) { x.classList.remove('active'); });
-        b.classList.add('active');
-      });
-      box.appendChild(b);
-    });
+  function modalShell(content, cls) { const root = document.getElementById('modalRoot'); root.innerHTML = '<div class="modal-backdrop" data-close-modal><div class="modal-card ' + (cls || '') + '" role="dialog" aria-modal="true">' + content + '</div></div>'; root.querySelector('[data-close-modal]').addEventListener('click', function (event) { if (event.target === event.currentTarget) closeModal(); }); root.querySelectorAll('.modal-close').forEach(function (button) { button.addEventListener('click', closeModal); }); document.addEventListener('keydown', escClose); }
+  function closeModal() { document.getElementById('modalRoot').innerHTML = ''; document.removeEventListener('keydown', escClose); }
+  function escClose(event) { if (event.key === 'Escape') closeModal(); }
+  function openCaseMediaModal(c) { const x = localizedCase(c), hero = caseImage(c), gallery = (c.gallery || []).map(fileUrl).filter(Boolean); const media = gallery.slice(0, 12).map(function (url) { return '<img src="' + esc(url) + '" alt="" loading="lazy">'; }).join(''); const videos = (c.videos || []).map(function (video) { const url = fileUrl(video); return '<div class="video-row"><span>' + esc(video.filename || 'Video') + '</span><a href="' + esc(url) + '" target="_blank" rel="noreferrer">' + esc(t('case.openVideo')) + ' ↗</a></div>'; }).join(''); modalShell('<button class="modal-close" type="button" aria-label="' + esc(t('modal.close')) + '">×</button><div class="modal-hero">' + (hero ? '<img src="' + esc(hero) + '" alt="' + esc(x.title) + '">' : '<span class="case-empty-mark">MS</span>') + '</div><div class="modal-body"><div class="modal-kicker">' + esc(t('case.mediaLabel')) + '</div><h3>' + esc(x.title) + '</h3><p class="modal-intro">' + esc(x.intro) + '</p>' + (media || videos ? '<div class="media-section"><div class="media-grid">' + media + '</div><div class="video-list">' + videos + '</div></div>' : '') + '</div>', 'case-modal-card'); }
+  function openCapabilityModal(c) { modalShell('<button class="modal-close" type="button" aria-label="' + esc(t('modal.close')) + '">×</button><div class="cap-modal-image"><img src="' + esc(c.image) + '" alt="' + esc(c.title[lang]) + '"></div><div class="modal-body"><div class="modal-kicker">0' + (CAPABILITIES.indexOf(c) + 1) + '</div><h3>' + esc(c.title[lang]) + '</h3><p class="modal-intro">' + esc(c.body[lang]) + '</p><div class="modal-cap-list">' + c.chips[lang].map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('') + '</div><button class="btn btn-primary" type="button" data-modal-brief>' + esc(t('nav.cta')) + '</button></div>', 'cap-modal-card'); document.querySelector('[data-modal-brief]').addEventListener('click', function () { closeModal(); openBriefDrawer(); }); }
+  function openTeamModal(m) { const displayName = lang === 'zh' ? m.name : m.nameEn; modalShell('<button class="modal-close" type="button" aria-label="' + esc(t('modal.close')) + '">×</button><div class="team-modal-photo"><img src="' + esc(m.photo) + '" alt="' + esc(displayName) + '"></div><div class="modal-body"><div class="modal-kicker">MATCH STUDIO</div><h3>' + esc(displayName) + '</h3><p class="modal-client">' + esc(m.role[lang]) + '</p><div class="team-background"><span class="detail-label">' + esc(t('modal.background')) + '</span><p>' + esc(m.background[lang]) + '</p></div><button class="btn btn-primary" type="button" data-modal-brief>' + esc(t('nav.cta')) + '</button></div>', 'team-modal-card'); document.querySelector('[data-modal-brief]').addEventListener('click', function () { closeModal(); openBriefDrawer(); }); }
+  function openBriefDrawer() { const root = document.getElementById('drawerRoot'); root.innerHTML = '<div class="drawer-backdrop" data-close-drawer><aside class="drawer" role="dialog" aria-modal="true"><button class="drawer-close" type="button" aria-label="' + esc(t('modal.close')) + '">×</button><span class="eyebrow">' + esc(t('drawer.eyebrow')) + '</span><h3>' + esc(t('drawer.title')) + '</h3><p>' + esc(t('drawer.body')) + '</p><div class="drawer-summary" id="drawerSummary"></div><button class="btn btn-primary" type="button" id="drawerCta">' + esc(t('drawer.cta')) + ' ↓</button></aside></div>'; root.querySelector('[data-close-drawer]').addEventListener('click', function (event) { if (event.target === event.currentTarget) closeDrawer(); }); root.querySelector('.drawer-close').addEventListener('click', closeDrawer); root.querySelector('#drawerCta').addEventListener('click', function () { closeDrawer(); document.getElementById('brief').scrollIntoView({ behavior: 'smooth' }); }); updateDrawerSummary(); }
+  function closeDrawer() { document.getElementById('drawerRoot').innerHTML = ''; }
+  function updateDrawerSummary() { const summary = document.getElementById('drawerSummary'); if (!summary) return; const picked = Array.from(document.querySelectorAll('.chip.selected')).map(function (x) { return x.textContent; }); summary.innerHTML = (picked.length ? picked : [lang === 'zh' ? '尚未选择' : 'No choices yet']).map(function (x) { return '<span>' + esc(x) + '</span>'; }).join(''); }
+  function updateProgress() { const count = document.querySelectorAll('.chip.selected').length; document.getElementById('progressLabel').textContent = String(Math.min(count + 1, 3)).padStart(2, '0') + ' / 03'; document.getElementById('progressFill').style.width = Math.max(12, count / 3 * 100) + '%'; updateDrawerSummary(); }
+  function showToast(message) { const toast = document.getElementById('toast'); toast.textContent = message; toast.classList.add('show'); setTimeout(function () { toast.classList.remove('show'); }, 1800); }
+  function applyLang() { document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en'; document.querySelectorAll('[data-i18n]').forEach(function (node) { const key = node.getAttribute('data-i18n'); if (I18N[lang][key]) node.textContent = I18N[lang][key]; }); document.querySelectorAll('[data-i18n-placeholder]').forEach(function (node) { node.placeholder = I18N[lang][node.getAttribute('data-i18n-placeholder')]; }); document.querySelector('.lang-zh').classList.toggle('active', lang === 'zh'); document.querySelector('.lang-en').classList.toggle('active', lang === 'en'); renderAll(); }
+  function initInteractions() {
+    document.getElementById('langToggle').addEventListener('click', function () { lang = lang === 'zh' ? 'en' : 'zh'; applyLang(); });
+    document.querySelectorAll('[data-open-brief]').forEach(function (button) { button.addEventListener('click', openBriefDrawer); });
+    document.getElementById('prevCase').addEventListener('click', function () { casePage = Math.max(0, casePage - 1); renderCases(); });
+    document.getElementById('nextCase').addEventListener('click', function () { casePage += 1; renderCases(); });
+    document.querySelectorAll('[data-service-flip]').forEach(function (pair) { const flip = function () { pair.classList.toggle('is-flipped'); }; pair.querySelectorAll('.flip-hint').forEach(function (button) { button.addEventListener('click', function (event) { event.stopPropagation(); flip(); }); }); pair.addEventListener('click', function (event) { if (!event.target.closest('button')) flip(); }); pair.addEventListener('keydown', function (event) { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); flip(); } }); });
+    document.getElementById('briefForm').addEventListener('submit', function (event) { event.preventDefault(); const picked = document.querySelectorAll('.chip.selected').length; const note = document.getElementById('formNote'); note.hidden = false; note.textContent = picked === 3 ? t('form.done') : t('form.missing'); if (picked === 3) showToast(t('form.done')); });
+    const chatInput = document.getElementById('chatInput'); document.getElementById('chatSend').addEventListener('click', sendChat); chatInput.addEventListener('keydown', function (event) { if (event.key === 'Enter') sendChat(); });
+    function sendChat() { const value = chatInput.value.trim(); if (!value) { showToast(t('chat.empty')); return; } const message = el('div', 'msg user', '<p>' + esc(value) + '</p>'); document.getElementById('chat').appendChild(message); chatInput.value = ''; }
   }
+  function initReveal() { const nodes = document.querySelectorAll('.reveal'); if (!('IntersectionObserver' in window)) { nodes.forEach(function (x) { x.classList.add('visible'); }); return; } const io = new IntersectionObserver(function (entries) { entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); io.unobserve(entry.target); } }); }, { threshold: 0.08 }); nodes.forEach(function (node) { io.observe(node); }); window.addEventListener('scroll', function () { document.getElementById('header').classList.toggle('scrolled', window.scrollY > 10); }, { passive: true }); }
+  function initCursor() { if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || window.matchMedia('(pointer: coarse)').matches) return; document.body.classList.add('custom-cursor'); const dot = document.getElementById('cursorDot'), ring = document.getElementById('cursorRing'), canvas = document.getElementById('cursorTrail'), ctx = canvas.getContext('2d'); let x = innerWidth / 2, y = innerHeight / 2, rx = x, ry = y, trail = []; function resize() { canvas.width = innerWidth; canvas.height = innerHeight; } resize(); window.addEventListener('resize', resize); window.addEventListener('mousemove', function (event) { x = event.clientX; y = event.clientY; trail.push({ x: x, y: y, life: 1 }); if (trail.length > 48) trail.shift(); }); document.addEventListener('mouseover', function (event) { if (event.target.closest('a,button,.case-card,.cap-card,.member-card,.chip,.service-pair')) ring.classList.add('is-hover'); }); document.addEventListener('mouseout', function (event) { if (event.target.closest('a,button,.case-card,.cap-card,.member-card,.chip,.service-pair')) ring.classList.remove('is-hover'); }); function loop() { rx += (x - rx) * .18; ry += (y - ry) * .18; dot.style.transform = 'translate(' + x + 'px,' + y + 'px) translate(-50%,-50%)'; ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)'; ctx.clearRect(0, 0, canvas.width, canvas.height); trail.forEach(function (point) { point.life -= .045; if (point.life <= 0) return; ctx.beginPath(); ctx.arc(point.x, point.y, Math.max(.1, 3 * point.life), 0, Math.PI * 2); ctx.fillStyle = 'rgba(231,255,46,' + (.45 * point.life) + ')'; ctx.fill(); }); trail = trail.filter(function (point) { return point.life > 0; }); requestAnimationFrame(loop); } loop(); }
+  async function loadData() { try { const response = await fetch('data/cases.json', { cache: 'no-store' }); if (!response.ok) throw new Error('case data unavailable'); DATA = await response.json(); } catch (error) { console.warn('Using local fallback:', error.message); } renderAll(); }
 
-  function renderStats() {
-    const box = document.getElementById('stats');
-    box.innerHTML = '';
-    DATA.stats.forEach(function (s) {
-      box.appendChild(el('div', 'stat', '<span class="stat-num">' + s.num + '</span><span class="stat-label">' + s.label + '</span>'));
-    });
-  }
-
-  function renderTeam() {
-    const grid = document.getElementById('teamGrid');
-    grid.innerHTML = '';
-    DATA.team.forEach(function (m) {
-      const card = el('div', 'member-card');
-      card.innerHTML =
-        '<div class="member-photo"><img src="' + m.photo + '" alt="' + m.name + '" loading="lazy"></div>' +
-        '<div class="member-body">' +
-          '<div class="member-name">' + m.name + '</div>' +
-          '<div class="member-role">' + m.role + '</div>' +
-          '<div class="member-desc">' + m.desc + '</div>' +
-        '</div>';
-      grid.appendChild(card);
-    });
-  }
-
-  function renderCapabilities() {
-    const grid = document.getElementById('capGrid');
-    grid.innerHTML = '';
-    DATA.capabilities.forEach(function (c) {
-      const card = el('div', 'cap-card');
-      const chips = c.chips.map(function (k) { return '<span class="cap-chip">' + k + '</span>'; }).join('');
-      card.innerHTML =
-        '<div class="cap-img" style="background:' + c.gradient + '"></div>' +
-        '<div class="cap-chips">' + chips + '</div>' +
-        '<div class="cap-title">' + c.title + '</div>';
-      grid.appendChild(card);
-    });
-  }
-
-  function renderEurope() {
-    const box = document.getElementById('europePhotos');
-    box.innerHTML = '';
-    DATA.europe.forEach(function (src) {
-      const img = document.createElement('img');
-      img.src = src;
-      img.alt = '欧洲仓库';
-      img.loading = 'lazy';
-      box.appendChild(img);
-    });
-  }
-
-  function renderBriefChips() {
-    document.querySelectorAll('[data-chips]').forEach(function (group) {
-      const key = group.getAttribute('data-chips');
-      group.innerHTML = '';
-      (DATA.briefChips[key] || []).forEach(function (label) {
-        const b = el('button', 'chip', label);
-        b.type = 'button';
-        b.addEventListener('click', function () {
-          group.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('selected'); });
-          b.classList.add('selected');
-        });
-        group.appendChild(b);
-      });
-    });
-  }
-
-  function renderAll() {
-    renderCases(); renderFilters(); renderStats(); renderTeam(); renderCapabilities(); renderEurope(); renderBriefChips();
-  }
-
-  /* ============================================================
-   * 案例详情弹窗
-   * ============================================================ */
-  function openCaseModal(c) {
-    let modal = document.getElementById('caseModal');
-    if (!modal) {
-      modal = el('div', 'case-modal');
-      modal.id = 'caseModal';
-      document.body.appendChild(modal);
-      modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
-    }
-    modal.innerHTML =
-      '<div class="case-modal-card">' +
-        '<button class="modal-close" aria-label="关闭">×</button>' +
-        '<div class="case-modal-img" style="background:' + c.gradient + '"></div>' +
-        '<div class="case-modal-body">' +
-          '<h3>' + c.name + ' · ' + c.nameCn + '</h3>' +
-          '<p class="case-title">' + c.title + '</p>' +
-          '<p class="case-stat">' + c.stat + '</p>' +
-        '</div>' +
-      '</div>';
-    modal.classList.add('open');
-    modal.querySelector('.modal-close').addEventListener('click', closeModal);
-    document.addEventListener('keydown', escClose);
-  }
-  function closeModal() { const m = document.getElementById('caseModal'); if (m) m.classList.remove('open'); document.removeEventListener('keydown', escClose); }
-  function escClose(e) { if (e.key === 'Escape') closeModal(); }
-
-  /* ============================================================
-   * 计数器动画（数字从 0 滚到目标）
-   * ============================================================ */
-  function animateCounters(box) {
-    box.querySelectorAll('.stat-num').forEach(function (n) {
-      const text = n.textContent;
-      const m = text.match(/^(\d+)(\+?)$/);
-      if (!m) return;
-      const target = parseInt(m[1], 10), suffix = m[2] || '';
-      let start = null;
-      function step(ts) {
-        if (!start) start = ts;
-        const p = Math.min((ts - start) / 1200, 1);
-        const eased = 1 - Math.pow(1 - p, 3);
-        n.textContent = Math.round(target * eased) + suffix;
-        if (p < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    });
-  }
-
-  /* ============================================================
-   * 语言切换
-   * ============================================================ */
-  function applyLang() {
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    document.querySelectorAll('[data-i18n]').forEach(function (n) {
-      const k = n.getAttribute('data-i18n');
-      if (I18N[lang][k]) n.textContent = I18N[lang][k];
-    });
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(function (n) {
-      const k = n.getAttribute('data-i18n-placeholder');
-      if (I18N[lang][k]) n.placeholder = I18N[lang][k];
-    });
-    document.querySelector('.lang-zh').classList.toggle('active', lang === 'zh');
-    document.querySelector('.lang-en').classList.toggle('active', lang === 'en');
-  }
-  document.getElementById('langToggle').addEventListener('click', function () {
-    lang = lang === 'zh' ? 'en' : 'zh';
-    applyLang();
-  });
-
-  /* ============================================================
-   * 简报表单提交（写回 Airtable 或本地确认）
-   * ============================================================ */
-  const briefForm = document.getElementById('briefForm');
-  briefForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    const picked = {};
-    document.querySelectorAll('[data-chips]').forEach(function (g) {
-      const sel = g.querySelector('.chip.selected');
-      picked[g.getAttribute('data-chips')] = sel ? sel.textContent : null;
-    });
-    const note = document.getElementById('formNote');
-    note.hidden = false;
-    note.textContent = lang === 'zh' ? '已收到，我们会尽快跟进。' : "You're on the list — we'll follow up shortly.";
-    if (AIRTABLE.PAT) {
-      // TODO: 写入 Airtable「Action Queue」表（需 PAT + 表已建）
-      console.log('brief picked:', picked);
-    }
-    briefForm.querySelector('.btn').textContent = lang === 'zh' ? '已提交' : 'Submitted';
-  });
-
-  document.getElementById('chatSend').addEventListener('click', function () {
-    const input = document.getElementById('chatInput');
-    if (!input.value.trim()) return;
-    const chat = document.querySelector('.chat');
-    const m = el('div', 'msg user', '<p>' + input.value.replace(/</g, '&lt;') + '</p>');
-    chat.appendChild(m);
-    input.value = '';
-  });
-
-  /* ============================================================
-   * 自定义光标（点 + 环 + 彗星尾）
-   * ============================================================ */
-  function initCursor() {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    if (window.matchMedia('(pointer: coarse)').matches) return; // 触屏不启用
-    document.body.classList.add('custom-cursor');
-
-    const dot = document.getElementById('cursorDot');
-    const ring = document.getElementById('cursorRing');
-    const canvas = document.getElementById('cursorTrail');
-    const ctx = canvas.getContext('2d');
-
-    let mx = innerWidth / 2, my = innerHeight / 2;
-    let rx = mx, ry = my; // ring 位置（带缓动）
-    const trail = []; // 彗星尾粒子
-
-    function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
-    resize(); addEventListener('resize', resize);
-
-    addEventListener('mousemove', function (e) {
-      mx = e.clientX; my = e.clientY;
-      // 生成彗星尾粒子
-      trail.push({ x: mx, y: my, life: 1, vx: (Math.random() - 0.5) * 1.2, vy: (Math.random() - 0.5) * 1.2 - 0.4 });
-      if (trail.length > 60) trail.shift();
-    });
-
-    // hover 放大环
-    document.addEventListener('mouseover', function (e) {
-      if (e.target.closest('a, button, .chip, .filter-chip, .case-card, .cap-card, .member-card')) ring.classList.add('is-hover');
-    });
-    document.addEventListener('mouseout', function (e) {
-      if (e.target.closest('a, button, .chip, .filter-chip, .case-card, .cap-card, .member-card')) ring.classList.remove('is-hover');
-    });
-
-    function loop() {
-      // 环缓动
-      rx += (mx - rx) * 0.18;
-      ry += (my - ry) * 0.18;
-      dot.style.transform = 'translate(' + mx + 'px,' + my + 'px) translate(-50%,-50%)';
-      ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)';
-
-      // 彗星尾
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (let i = trail.length - 1; i >= 0; i--) {
-        const p = trail[i];
-        p.life -= 0.035;
-        p.x += p.vx; p.y += p.vy;
-        if (p.life <= 0) { trail.splice(i, 1); continue; }
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 3 * p.life, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(231,255,46,' + (0.5 * p.life).toFixed(3) + ')';
-        ctx.fill();
-      }
-      requestAnimationFrame(loop);
-    }
-    requestAnimationFrame(loop);
-  }
-
-  /* ============================================================
-   * 滚动动画 + 头部状态
-   * ============================================================ */
-  function initScroll() {
-    const io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          if (entry.target.querySelector('.stat-num')) animateCounters(entry.target);
-          io.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    document.querySelectorAll('.reveal').forEach(function (n) { io.observe(n); });
-
-    const header = document.getElementById('header');
-    addEventListener('scroll', function () {
-      header.classList.toggle('scrolled', scrollY > 10);
-    }, { passive: true });
-  }
-
-  /* ============================================================
-   * Airtable 拉取（PAT 配置后生效）
-   * ============================================================ */
-  async function loadFromAirtable() {
-    if (!AIRTABLE.PAT) return;
-    const headers = { Authorization: 'Bearer ' + AIRTABLE.PAT };
-    try {
-      const [cases, team] = await Promise.all([
-        fetch('https://api.airtable.com/v0/' + AIRTABLE.BASE_ID + '/' + encodeURIComponent(AIRTABLE.TABLES.cases) + '?maxRecords=100', { headers }),
-        fetch('https://api.airtable.com/v0/' + AIRTABLE.BASE_ID + '/' + encodeURIComponent(AIRTABLE.TABLES.team) + '?maxRecords=100', { headers })
-      ]);
-      const cj = await cases.json(); const tj = await team.json();
-      if (cj.records && cj.records.length) {
-        DATA.cases = cj.records.map(function (r) {
-          const f = r.fields;
-          return { name: f.Name || '', nameCn: f.NameCN || '', tag: f.Industry || '', title: f.Title || '', stat: f.Stat || '', gradient: 'linear-gradient(180deg,#141410,#2a2a22)' };
-        });
-      }
-      if (tj.records && tj.records.length) {
-        DATA.team = tj.records.map(function (r) {
-          const f = r.fields;
-          return { name: f.Name || '', role: f.Role || '', desc: f.Bio || '', photo: (f.Photo && f.Photo[0] && f.Photo[0].url) || '' };
-        });
-      }
-      renderAll();
-    } catch (err) {
-      console.warn('Airtable 拉取失败，使用内置内容：', err);
-    }
-  }
-
-  /* ---------- 启动 ---------- */
-  renderAll();
-  applyLang();
-  initCursor();
-  initScroll();
-  loadFromAirtable();
+  initInteractions(); renderAll(); applyLang(); initReveal(); initCursor(); loadData();
 })();

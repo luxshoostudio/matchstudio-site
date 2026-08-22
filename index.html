@@ -1,223 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Match Studio — 中国企业出海的全球内容制作伙伴</title>
-<meta name="description" content="Match Studio 为中国企业出海提供海外拍摄、跨洲直播、视频制作与企业 AI 共创服务。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080807">
+  <title>Match Studio — 中国企业出海的全球内容伙伴</title>
+  <meta name="description" content="Match Studio 为中国企业出海提供全球现场制作、跨洲直播、品牌视频和企业 AI 共创。">
+  <link rel="icon" href="assets/match-studio-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260822-10">
 </head>
 <body>
-
-<!-- 自定义光标 -->
-<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
-<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
-<canvas id="cursorTrail" aria-hidden="true"></canvas>
-
-<!-- Header -->
-<header class="header" id="header">
-  <div class="header-inner">
-    <a class="logo" href="#top" data-cursor>
-      <span class="logo-mark"></span><span class="logo-word">MATCH STUDIO</span>
-    </a>
-    <nav class="nav">
-      <a href="#services" data-i18n="nav.services" data-cursor>服务</a>
-      <a href="#cases" data-i18n="nav.cases" data-cursor>案例</a>
-      <a href="#team" data-i18n="nav.team" data-cursor>团队</a>
-      <a href="#capabilities" data-i18n="nav.capabilities" data-cursor>能力</a>
-    </nav>
-    <div class="header-right">
-      <button class="lang-toggle" id="langToggle" data-cursor aria-label="切换语言">
-        <span class="lang-zh active">中文</span><span class="lang-sep">/</span><span class="lang-en">EN</span>
-      </button>
-      <a href="#brief" class="btn btn-primary" data-i18n="nav.cta" data-cursor>预约咨询</a>
-    </div>
-  </div>
-</header>
-
-<main id="top">
-
-  <!-- Hero / Banner -->
-  <section class="hero">
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="hero-content reveal">
-      <div class="hero-logo" data-cursor>
-        <span class="logo-mark"></span><span class="logo-word">MATCH STUDIO</span>
-      </div>
-      <h1 class="hero-slogan" data-i18n="hero.slogan">让品牌在全球开机，让 AI 在业务里落地。</h1>
-      <p class="hero-sub" data-i18n="hero.sub">中国企业出海传播的全球内容制作与企业 AI 共创伙伴</p>
-      <a href="#brief" class="btn btn-primary btn-lg" data-i18n="hero.cta" data-cursor>预约咨询</a>
-    </div>
-    <div class="hero-logos reveal" data-cursor>
-      <span class="brand-logo">DREAME</span>
-      <span class="brand-logo">HUAWEI</span>
-      <span class="brand-logo">INTEL</span>
-      <span class="brand-logo">DJI</span>
-      <span class="brand-logo">Anker</span>
-      <span class="brand-logo">瑞幸咖啡</span>
-      <span class="brand-logo">京东</span>
-      <span class="brand-logo">alibaba</span>
-      <span class="brand-logo">OPPO</span>
-      <span class="brand-logo">Discovery</span>
-    </div>
-  </section>
-
-  <!-- 案例 100+ -->
-  <section class="section cases" id="cases">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="cases.eyebrow">我们的作品</span>
-      <h2 class="section-title" data-i18n="cases.title">案例精选</h2>
-      <p class="section-sub" data-i18n="cases.sub">100+ 个出海案例，横滑浏览，喜欢就收藏。</p>
-    </div>
-    <div class="cases-toolbar reveal">
-      <div class="filters" id="filters" data-cursor></div>
-      <div class="cases-nav">
-        <button class="nav-arrow" id="prevCase" aria-label="上一个" data-cursor>
-          <svg viewBox="0 0 20 20" fill="none"><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-        <span class="counter" id="caseCounter">01 / 100+</span>
-        <button class="nav-arrow" id="nextCase" aria-label="下一个" data-cursor>
-          <svg viewBox="0 0 20 20" fill="none"><path d="M8 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-      </div>
-    </div>
-    <div class="cases-grid reveal" id="casesGrid" data-cursor></div>
-  </section>
-
-  <!-- 出海服务 -->
-  <section class="section services" id="services">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="services.eyebrow">出海服务</span>
-      <h2 class="section-title" data-i18n="services.title">全球现场与跨洲直播</h2>
-      <p class="section-sub" data-i18n="services.sub">13 国协作网络 · 从海外拍摄到跨洲直播的现场执行能力</p>
-    </div>
-    <div class="stats reveal" id="stats" data-cursor></div>
-    <div class="services-cols reveal">
-      <div class="service-card" data-cursor>
-        <h3 class="service-card-title" data-i18n="services.field.title">海外拍摄</h3>
-        <ul class="service-list" data-i18n-list="services.field.items">
-          <li>海外活动与发布会拍摄</li>
-          <li>海外纪录片和品牌内容拍摄</li>
-          <li>当地摄制组配置</li>
-          <li>航拍、灯光、收音和后期</li>
-        </ul>
-      </div>
-      <div class="service-card" data-cursor>
-        <h3 class="service-card-title" data-i18n="services.live.title">跨洲直播</h3>
-        <ul class="service-list" data-i18n-list="services.live.items">
-          <li>多机位和现场导播</li>
-          <li>Starlink、5G、聚合网络和无线图传</li>
-          <li>国内/欧洲双链路</li>
-          <li>多语言字幕和云端分发</li>
-        </ul>
-      </div>
-    </div>
-    <div class="europe-photos reveal" id="europePhotos" data-cursor></div>
-  </section>
-
-  <!-- 核心成员 -->
-  <section class="section team" id="team">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="team.eyebrow">关于我们</span>
-      <h2 class="section-title" data-i18n="team.title">创始人 &amp; 核心团队</h2>
-      <p class="section-sub" data-i18n="team.sub">一支有审美、懂叙事、能落地的出海内容与 AI 团队。</p>
-    </div>
-    <div class="team-grid reveal" id="teamGrid" data-cursor></div>
-  </section>
-
-  <!-- 告诉我们你的需求 -->
-  <section class="section brief" id="brief">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="brief.eyebrow">发起项目</span>
-      <h2 class="section-title" data-i18n="brief.title">告诉我们你的需求</h2>
-      <p class="section-sub" data-i18n="brief.sub">六道题，帮你锁定第一版出海内容方案。</p>
-    </div>
-    <div class="brief-cols reveal">
-      <form class="brief-form" id="briefForm">
-        <div class="progress-row">
-          <span class="progress-label">1 / 2</span>
-          <span class="progress-track"><span class="progress-fill"></span></span>
-        </div>
-        <div class="question">
-          <p class="q-label" data-i18n="brief.q1">这是为哪个业务单元准备的？</p>
-          <div class="chips" data-chips="business" data-cursor></div>
-        </div>
-        <div class="question">
-          <p class="q-label" data-i18n="brief.q2">目标市场是哪里？</p>
-          <div class="chips" data-chips="market" data-cursor></div>
-        </div>
-        <div class="question">
-          <p class="q-label" data-i18n="brief.q3">需要什么类型的内容？</p>
-          <div class="chips" data-chips="content" data-cursor></div>
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg" data-i18n="brief.cta" data-cursor>看看我们会怎么做</button>
-        <p class="form-note" id="formNote" hidden></p>
-      </form>
-      <aside class="concierge" data-cursor>
-        <span class="eyebrow" data-i18n="concierge.eyebrow">AI 礼宾</span>
-        <h3 class="concierge-title" data-i18n="concierge.title">工作室礼宾</h3>
-        <div class="chat">
-          <div class="msg agent"><p data-i18n="concierge.msg1">你收藏了 3 项能力。告诉我你的需求——行业、市场、想要什么内容。</p></div>
-          <div class="msg user"><p data-i18n="concierge.msg2">消费电子 · 北美市场 · 一条 AI 分版广告片</p></div>
-        </div>
-        <div class="chat-input">
-          <input type="text" id="chatInput" data-i18n-placeholder="concierge.placeholder" placeholder="姓名和邮箱…">
-          <button class="send-btn" id="chatSend" aria-label="发送" data-cursor>
-            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <!-- 四种能力 -->
-  <section class="section capabilities" id="capabilities">
-    <div class="section-head reveal">
-      <span class="eyebrow" data-i18n="capabilities.eyebrow">能力矩阵</span>
-      <h2 class="section-title" data-i18n="capabilities.title">四种能力</h2>
-      <p class="section-sub" data-i18n="capabilities.sub">海外拍摄与直播、品牌营销、视频制作、企业 AI 共创，一条出海链路全覆盖。</p>
-    </div>
-    <div class="cap-grid reveal" id="capGrid" data-cursor></div>
-  </section>
-
-</main>
-
-<!-- Footer -->
-<footer class="footer" id="footer">
-  <div class="footer-inner">
-    <div class="footer-left">
-      <a class="logo" href="#top" data-cursor>
-        <span class="logo-mark"></span><span class="logo-word">MATCH STUDIO</span>
-      </a>
-      <p class="footer-tagline" data-i18n="footer.tagline">中国企业出海的全球内容制作伙伴</p>
-    </div>
-    <div class="footer-nav" data-cursor>
-      <div class="footer-col">
-        <span class="footer-col-head" data-i18n="footer.col1">工作室</span>
-        <a href="#services" data-i18n="footer.services">服务</a>
-        <a href="#cases" data-i18n="footer.cases">案例</a>
-      </div>
-      <div class="footer-col">
-        <span class="footer-col-head" data-i18n="footer.col2">公司</span>
-        <a href="#team" data-i18n="footer.team">团队</a>
-        <a href="#brief" data-i18n="footer.contact">联系</a>
-      </div>
-      <div class="footer-col">
-        <span class="footer-col-head" data-i18n="footer.col3">资源</span>
-        <a href="#capabilities" data-i18n="footer.capabilities">能力</a>
-        <a href="#brief" data-i18n="footer.brief">项目简报</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>2026 Match Studio · matchstudio.cn</span>
-    <span data-i18n="footer.made">为中国企业出海而生</span>
-  </div>
-</footer>
-
-<script src="app.js"></script>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div><div class="cursor-ring" id="cursorRing" aria-hidden="true"></div><canvas id="cursorTrail" aria-hidden="true"></canvas>
+  <header class="header" id="header"><div class="header-inner">
+    <a class="brand-lockup" href="#top" data-cursor aria-label="Match Studio home"><span class="logo-mark" aria-hidden="true">MS</span><span class="logo-word">MATCH STUDIO</span></a>
+    <nav class="nav" aria-label="Primary navigation"><a href="#services" data-i18n="nav.services" data-cursor>服务</a><a href="#cases" data-i18n="nav.cases" data-cursor>案例</a><a href="#team" data-i18n="nav.team" data-cursor>团队</a><a href="#capabilities" data-i18n="nav.capabilities" data-cursor>能力</a></nav>
+    <div class="header-right"><button class="lang-toggle" id="langToggle" type="button" data-cursor aria-label="切换语言"><span class="lang-zh active">中文</span><span class="lang-sep">/</span><span class="lang-en">EN</span></button><button class="btn btn-primary" type="button" data-open-brief data-i18n="nav.cta" data-cursor>预约咨询</button></div>
+  </div></header>
+  <main id="top">
+    <section class="hero"><div class="hero-glow" aria-hidden="true"></div><div class="hero-content reveal">
+      <div class="hero-logo"><span class="logo-mark" aria-hidden="true">MS</span><span class="logo-word">MATCH STUDIO</span></div><p class="hero-kicker" data-i18n="hero.kicker">GLOBAL PRODUCTION / AI CO-CREATION</p><h1 class="hero-slogan"><span data-i18n="hero.slogan.1">让品牌在全球开机，</span><span data-i18n="hero.slogan.2">让 AI 在业务里落地。</span></h1><p class="hero-sub" data-i18n="hero.sub">中国企业出海传播的全球内容制作与企业 AI 共创伙伴</p><div class="hero-actions"><button class="btn btn-primary btn-lg" type="button" data-open-brief data-i18n="hero.cta" data-cursor>预约咨询</button><a class="text-link" href="#cases" data-i18n="hero.secondary" data-cursor>浏览案例 <span>↘</span></a></div>
+    </div><div class="logo-rail-wrap reveal"><div class="rail-label" data-i18n="hero.railLabel">合作品牌</div><div class="hero-logos" id="clientLogoRail" aria-label="Partner brands"></div></div></section>
+    <section class="section cases" id="cases"><div class="section-head reveal"><span class="eyebrow" data-i18n="cases.eyebrow">真实项目库</span><h2 class="section-title" data-i18n="cases.title">案例精选</h2><p class="section-sub" data-i18n="cases.sub">从内容制作到现场交付，浏览 Match Studio 的项目案例。</p></div><div class="cases-toolbar reveal"><div class="cases-nav"><button class="nav-arrow" id="prevCase" type="button" aria-label="上一个案例" data-cursor>←</button><span class="counter" id="caseCounter">01 / 44</span><button class="nav-arrow" id="nextCase" type="button" aria-label="下一个案例" data-cursor>→</button></div></div><div class="cases-grid reveal" id="casesGrid"></div></section>
+    <section class="section services" id="services"><div class="section-head reveal"><span class="eyebrow" data-i18n="services.eyebrow">出海服务</span><h2 class="section-title" data-i18n="services.title">全球现场与跨洲直播</h2><p class="section-sub" data-i18n="services.sub">从拍摄记录到跨洲直播，现场执行、制作协作和交付链路都在同一张网络上。</p></div><div class="stats reveal" id="stats"></div><div class="services-cols reveal"><article class="service-pair" data-service-flip="a" tabindex="0" data-cursor><div class="service-flip-inner"><div class="service-face service-front"><span class="service-pair-label">A</span><div class="card-index">01</div><h3 class="service-card-title" data-i18n="services.field.title">海外拍摄</h3><ul class="service-list" data-i18n-list="services.field.items"></ul><button class="flip-hint" type="button" data-i18n="services.flip">查看网络</button></div><div class="service-face service-back"><span class="service-pair-label">A</span><div class="location-heading"><span class="eyebrow" data-i18n="services.countriesLabel">拍摄记录国家</span><span class="location-count">11</span></div><div class="location-list" id="countryList"></div><button class="flip-hint" type="button" data-i18n="services.flipBack">返回服务</button></div></div></article><article class="service-pair" data-service-flip="b" tabindex="0" data-cursor><div class="service-flip-inner"><div class="service-face service-front"><span class="service-pair-label">B</span><div class="card-index">02</div><h3 class="service-card-title" data-i18n="services.live.title">跨洲直播</h3><ul class="service-list" data-i18n-list="services.live.items"></ul><button class="flip-hint" type="button" data-i18n="services.flip">查看网络</button></div><div class="service-face service-back"><span class="service-pair-label">B</span><div class="location-heading"><span class="eyebrow" data-i18n="services.citiesLabel">协作网络城市</span><span class="location-count">13</span></div><div class="location-list" id="cityList"></div><button class="flip-hint" type="button" data-i18n="services.flipBack">返回服务</button></div></div></article></div><div class="europe-photos reveal" id="europePhotos"></div></section>
+    <section class="section team" id="team"><div class="section-head reveal"><span class="eyebrow" data-i18n="team.eyebrow">关于我们</span><h2 class="section-title" data-i18n="team.title">创始人 &amp; 核心团队</h2><p class="section-sub" data-i18n="team.sub">一支有审美、懂叙事、能落地的出海内容与 AI 团队。</p></div><div class="team-grid reveal" id="teamGrid"></div></section>
+    <section class="section brief" id="brief"><div class="section-head reveal"><span class="eyebrow" data-i18n="brief.eyebrow">发起项目</span><h2 class="section-title" data-i18n="brief.title">告诉我们你的需求</h2><p class="section-sub" data-i18n="brief.sub">三步形成一份可继续讨论的第一版项目简报。</p></div><div class="brief-cols reveal"><form class="brief-form" id="briefForm"><div class="progress-row"><span class="progress-label" id="progressLabel">01 / 03</span><span class="progress-track"><span class="progress-fill" id="progressFill"></span></span></div><div class="question"><p class="q-label" data-i18n="brief.q1">这是为哪个业务单元准备的？</p><div class="chips" data-chips="business"></div></div><div class="question"><p class="q-label" data-i18n="brief.q2">目标市场是哪里？</p><div class="chips" data-chips="market"></div></div><div class="question"><p class="q-label" data-i18n="brief.q3">需要什么类型的内容？</p><div class="chips" data-chips="content"></div></div><button type="submit" class="btn btn-primary btn-lg" data-i18n="brief.cta" data-cursor>生成项目简报</button><p class="form-note" id="formNote" hidden></p></form><aside class="concierge" data-cursor><span class="eyebrow" data-i18n="concierge.eyebrow">AI 礼宾</span><h3 class="concierge-title" data-i18n="concierge.title">工作室礼宾</h3><div class="chat" id="chat"><div class="msg agent"><p data-i18n="concierge.msg1">告诉我行业、市场和你要解决的内容问题。</p></div><div class="msg user"><p data-i18n="concierge.msg2">消费电子 · 北美市场 · 一条 AI 分版广告片</p></div></div><div class="chat-input"><input type="text" id="chatInput" data-i18n-placeholder="concierge.placeholder" placeholder="补充一句你的需求…"><button class="send-btn" id="chatSend" type="button" aria-label="发送" data-cursor>→</button></div></aside></div></section>
+    <section class="section capabilities" id="capabilities"><div class="section-head reveal"><span class="eyebrow" data-i18n="capabilities.eyebrow">能力矩阵</span><h2 class="section-title" data-i18n="capabilities.title">四种能力</h2><p class="section-sub" data-i18n="capabilities.sub">Field、Live、Story + AI、AI in Business，一条出海链路全覆盖。</p></div><div class="cap-grid reveal" id="capGrid"></div></section>
+  </main>
+  <footer class="footer" id="footer"><div class="footer-inner"><div class="footer-left"><a class="brand-lockup" href="#top" data-cursor><span class="logo-mark" aria-hidden="true">MS</span><span class="logo-word">MATCH STUDIO</span></a><p class="footer-tagline" data-i18n="footer.tagline">中国企业出海的全球内容制作伙伴</p></div><div class="footer-nav"><div class="footer-col"><span class="footer-col-head" data-i18n="footer.col1">工作室</span><a href="#services" data-i18n="footer.services">服务</a><a href="#cases" data-i18n="footer.cases">案例</a></div><div class="footer-col"><span class="footer-col-head" data-i18n="footer.col2">公司</span><a href="#team" data-i18n="footer.team">团队</a><button type="button" class="footer-action" data-open-brief data-i18n="footer.contact">联系</button></div><div class="footer-col"><span class="footer-col-head" data-i18n="footer.col3">资源</span><a href="#capabilities" data-i18n="footer.capabilities">能力</a><a href="#brief" data-i18n="footer.brief">项目简报</a></div></div></div><div class="footer-bottom"><span>2026 Match Studio · matchstudio.cn</span><span data-i18n="footer.made">为中国企业出海而生</span></div></footer>
+  <div id="modalRoot" aria-live="polite"></div><div id="drawerRoot"></div><div class="toast" id="toast" role="status" aria-live="polite"></div><script src="app.js?v=20260822-9"></script>
 </body>
 </html>
