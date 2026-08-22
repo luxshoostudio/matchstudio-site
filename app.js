@@ -3,7 +3,7 @@
   'use strict';
 
   const IMAGE_ROOT = 'assets/capabilities/';
-  const CASE_PAGE_SIZE = 6;
+  const CASE_PAGE_SIZE = 8;
   const BRANDS = ['Tencent', 'Kuaishou', 'Douyin', 'JD', 'Huawei', 'Discovery', 'Dreame', 'OPPO', 'Vivo', 'Alibaba', 'CCTV', 'DJI', 'CATL', 'Luckin Coffee', 'BMW', 'Audi'];
   const FALLBACK = {
     cases: [{ caseId: 'MS-CA-004', title: '瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅', titleEn: 'Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story', client: '瑞幸咖啡', industry: '连锁咖啡／消费品牌', services: ['Field', 'Video'], intro: { zh: '围绕「瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。', en: 'A project built around Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story, focused on field production and brand film production.' }, approach: { zh: '现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。', en: 'Field production and cross-market collaboration; live action, editing and brand film production.' }, hero: [], gallery: [], videos: [] }]
@@ -29,7 +29,7 @@
     },
     en: {
       'nav.services': 'Services', 'nav.cases': 'Cases', 'nav.team': 'Team', 'nav.capabilities': 'Capabilities', 'nav.cta': 'Book a consult',
-      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan.1': 'Put your brand on air globally.', 'hero.slogan.2': 'Put AI to work in the business.', 'hero.sub': 'Global content production and AI co-creation for Chinese brands expanding overseas.', 'hero.cta': 'Book a consult', 'hero.secondary': 'Browse cases ', 'hero.railLabel': 'Partner brands',
+      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan.1': 'Put your brand on air globally.', 'hero.slogan.2': 'Put AI to work in the business.', 'hero.sub': 'Global content production and AI co-creation for Chinese brands expanding overseas.', 'hero.cta': 'Book a consult', 'hero.secondary': 'Browse cases ', 'hero.railLabel': 'Partner Brands',
       'cases.eyebrow': 'Project library', 'cases.title': 'Selected cases', 'cases.sub': 'Explore Match Studio projects across content production and field delivery.',
       'services.eyebrow': 'Global services', 'services.title': 'Field production and cross-continental live', 'services.sub': 'One network for field production, distributed crews, live delivery and post-production.', 'services.field.title': 'Field production', 'services.live.title': 'Cross-continental live', 'services.countriesLabel': 'Countries with shoot records', 'services.citiesLabel': 'Collaboration network cities', 'services.flip': 'View network', 'services.flipBack': 'Back to service',
       'team.eyebrow': 'About us', 'team.title': 'Founder & core team', 'team.sub': 'A small team with taste, narrative judgment and the ability to deliver overseas.',
