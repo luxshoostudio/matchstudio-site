@@ -1,6 +1,936 @@
 {
   "cases": [
     {
+      "caseId": "MS-CA-015",
+      "title": "《探索新境·寻找王一博》",
+      "titleEn": "Exploration New Ground — Finding Wang Yibo",
+      "client": "探索新境·寻找王一博",
+      "industry": "流媒体／纪录片",
+      "services": [
+        "Video",
+        "Field"
+      ],
+      "year": "2024",
+      "country": "China",
+      "city": "海南、珠海、桂林、青海、内蒙古",
+      "intro": {
+        "zh": "围绕「《探索新境·寻找王一博》」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "en": "A project built around Exploration New Ground — Finding Wang Yibo, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "en": "live action, editing and brand film production; field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-015/hero-01.jpg",
+          "filename": "MS-MA-0010-KEKE-image80.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 208032
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-015/gallery-01.jpg",
+          "filename": "MS-MA-0258-KEKE-image79.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 151373
+        },
+        {
+          "url": "assets/cases/MS-CA-015/gallery-02.jpg",
+          "filename": "MS-MA-0234-KEKE-image77.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 284708
+        },
+        {
+          "url": "assets/cases/MS-CA-015/gallery-03.jpg",
+          "filename": "MS-MA-0372-KEKE-image78.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 177145
+        },
+        {
+          "url": "assets/cases/MS-CA-015/gallery-04.jpg",
+          "filename": "MS-MA-0111-LiaoKuo-image17.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 233248
+        },
+        {
+          "url": "assets/cases/MS-CA-015/gallery-05.jpg",
+          "filename": "MS-MA-0213-KEKE-image6.jpg",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1919,
+          "size": 256444
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-003",
+      "title": "ESMO｜Berlin 欧洲医学会现场",
+      "titleEn": "ESMO — Berlin Medical Congress Field Production",
+      "client": "ESMO",
+      "industry": "医疗／医学会议",
+      "services": [
+        "Field",
+        "Live"
+      ],
+      "year": "2026",
+      "country": "Germany",
+      "city": "Berlin",
+      "intro": {
+        "zh": "围绕「ESMO｜Berlin 欧洲医学会现场」展开，聚焦现场摄制与跨地区协作、直播信号与多端分发。",
+        "en": "A project built around ESMO — Berlin Medical Congress Field Production, focused on field production and cross-market collaboration and related production services."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作；直播信号与多端分发。",
+        "en": "field production and cross-market collaboration; live signal delivery and multi-platform distribution."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-003/hero-01.jpg",
+          "filename": "MS-MA-0333-KEKE-image35.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 564463
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-003/gallery-01.jpg",
+          "filename": "MS-MA-0024-KEKE-image34.jpg",
+          "type": "image/jpeg",
+          "width": 1603,
+          "height": 2400,
+          "size": 270062
+        },
+        {
+          "url": "assets/cases/MS-CA-003/gallery-02.jpg",
+          "filename": "MS-MA-0057-KEKE-image38.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 433301
+        },
+        {
+          "url": "assets/cases/MS-CA-003/gallery-03.jpg",
+          "filename": "MS-MA-0070-KEKE-image37.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 783155
+        },
+        {
+          "url": "assets/cases/MS-CA-003/gallery-04.jpg",
+          "filename": "MS-MA-0125-KEKE-image39.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 239618
+        },
+        {
+          "url": "assets/cases/MS-CA-003/gallery-05.jpg",
+          "filename": "MS-MA-0386-KEKE-image36.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 457465
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-016",
+      "title": "《家有恶猫》第一季",
+      "titleEn": "My Cat from Hell — Season 1",
+      "client": "家有恶猫第一季",
+      "industry": "流媒体／真人秀纪录片",
+      "services": [
+        "Video",
+        "Field"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "Beijing",
+      "intro": {
+        "zh": "围绕「《家有恶猫》第一季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "en": "A project built around My Cat from Hell — Season 1, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "en": "live action, editing and brand film production; field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-016/hero-01.jpg",
+          "filename": "MS-MA-0013-KEKE-image91.jpg",
+          "type": "image/jpeg",
+          "width": 960,
+          "height": 540,
+          "size": 94674
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-016/gallery-01.jpg",
+          "filename": "MS-MA-0093-KEKE-image87.jpg",
+          "type": "image/jpeg",
+          "width": 2083,
+          "height": 1170,
+          "size": 122014
+        },
+        {
+          "url": "assets/cases/MS-CA-016/gallery-02.jpg",
+          "filename": "MS-MA-0092-KEKE-image92.jpg",
+          "type": "image/jpeg",
+          "width": 2080,
+          "height": 1170,
+          "size": 228095
+        },
+        {
+          "url": "assets/cases/MS-CA-016/gallery-03.jpg",
+          "filename": "MS-MA-0369-KEKE-image89.jpg",
+          "type": "image/jpeg",
+          "width": 2075,
+          "height": 1170,
+          "size": 209245
+        },
+        {
+          "url": "assets/cases/MS-CA-016/gallery-04.jpg",
+          "filename": "MS-MA-0021-KEKE-image90.jpg",
+          "type": "image/jpeg",
+          "width": 2071,
+          "height": 1170,
+          "size": 204922
+        },
+        {
+          "url": "assets/cases/MS-CA-016/gallery-05.jpg",
+          "filename": "MS-MA-0041-KEKE-image88.jpg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 741,
+          "size": 103672
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-001",
+      "title": "追觅 DREAME｜旧金山发布会",
+      "titleEn": "Dreame — San Francisco Launch Event",
+      "client": "追觅 DREAME",
+      "industry": "智能家居／清洁电器",
+      "services": [
+        "Field",
+        "Video"
+      ],
+      "year": "2026",
+      "country": "US",
+      "city": "San Francisco",
+      "intro": {
+        "zh": "围绕「追觅 DREAME｜旧金山发布会」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "en": "A project built around Dreame — San Francisco Launch Event, focused on field production and cross-market collaboration and related production services."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "en": "field production and cross-market collaboration; live action, editing and brand film production."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-001/hero-01.jpg",
+          "filename": "MS-MA-0185__KEKE-image18.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1280,
+          "size": 224891
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-001/gallery-01.jpg",
+          "filename": "MS-MA-0107__KEKE-image17.jpg",
+          "type": "image/jpeg",
+          "width": 1919,
+          "height": 1280,
+          "size": 161174
+        },
+        {
+          "url": "assets/cases/MS-CA-001/gallery-02.jpg",
+          "filename": "g2.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1280,
+          "size": 192764
+        },
+        {
+          "url": "assets/cases/MS-CA-001/gallery-03.jpg",
+          "filename": "g3.jpg",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 960,
+          "size": 99790
+        },
+        {
+          "url": "assets/cases/MS-CA-001/gallery-04.jpg",
+          "filename": "g4.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1280,
+          "size": 215578
+        },
+        {
+          "url": "assets/cases/MS-CA-001/gallery-05.jpg",
+          "filename": "g5.jpg",
+          "type": "image/jpeg",
+          "width": 1919,
+          "height": 1280,
+          "size": 137779
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-008",
+      "title": "巴西总统卢拉｜政要拍摄",
+      "titleEn": "President Lula — Executive Portrait / Field Shoot",
+      "client": "巴西总统卢拉",
+      "industry": "政要／机构传播",
+      "services": [
+        "Field",
+        "Video"
+      ],
+      "year": "",
+      "country": "Brazil",
+      "city": "",
+      "intro": {
+        "zh": "围绕「巴西总统卢拉｜政要拍摄」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "en": "A project built around President Lula — Executive Portrait / Field Shoot, focused on field production and cross-market collaboration and related production services."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "en": "field production and cross-market collaboration; live action, editing and brand film production."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-008/hero-01.jpg",
+          "filename": "MS-MA-0152__KEKE-image10.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 356258
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-008/gallery-01.jpg",
+          "filename": "MS-MA-0166-KEKE-image14.jpg",
+          "type": "image/jpeg",
+          "width": 1107,
+          "height": 2400,
+          "size": 147247
+        },
+        {
+          "url": "assets/cases/MS-CA-008/gallery-02.jpg",
+          "filename": "MS-MA-0152-KEKE-image10.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 356258
+        },
+        {
+          "url": "assets/cases/MS-CA-008/gallery-03.jpg",
+          "filename": "MS-MA-0365-KEKE-image11.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 295836
+        },
+        {
+          "url": "assets/cases/MS-CA-008/gallery-04.jpg",
+          "filename": "MS-MA-0201-KEKE-image12.jpg",
+          "type": "image/jpeg",
+          "width": 1919,
+          "height": 1079,
+          "size": 199382
+        },
+        {
+          "url": "assets/cases/MS-CA-008/gallery-05.jpg",
+          "filename": "MS-MA-0118__KEKE-image13.jpg",
+          "type": "image/jpeg",
+          "width": 1107,
+          "height": 2400,
+          "size": 202542
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-018",
+      "title": "CNC／新华社《四季中国》第二季",
+      "titleEn": "CNC / Xinhua — Seasons of China, Season 2",
+      "client": "CNC／新华社四季中国第二季",
+      "industry": "国际传播／纪录片",
+      "services": [
+        "Video",
+        "Field"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「CNC／新华社《四季中国》第二季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "en": "A project built around CNC / Xinhua — Seasons of China, Season 2, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "en": "live action, editing and brand film production; field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-018/hero-01.jpg",
+          "filename": "MS-MA-0095-LiaoKuo-image46.jpg",
+          "type": "image/jpeg",
+          "width": 2078,
+          "height": 1170,
+          "size": 128069
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-018/gallery-01.jpg",
+          "filename": "MS-MA-0178-LiaoKuo-image45.jpg",
+          "type": "image/jpeg",
+          "width": 2073,
+          "height": 1170,
+          "size": 216630
+        },
+        {
+          "url": "assets/cases/MS-CA-018/gallery-02.jpg",
+          "filename": "MS-MA-0190-LiaoKuo-image44.jpg",
+          "type": "image/jpeg",
+          "width": 2080,
+          "height": 1170,
+          "size": 192030
+        },
+        {
+          "url": "assets/cases/MS-CA-018/gallery-03.jpg",
+          "filename": "MS-MA-0416-LiaoKuo-image47.jpg",
+          "type": "image/jpeg",
+          "width": 2073,
+          "height": 1170,
+          "size": 182738
+        },
+        {
+          "url": "assets/cases/MS-CA-018/gallery-04.jpg",
+          "filename": "MS-MA-0224-KEKE-image128.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1350,
+          "size": 662170
+        },
+        {
+          "url": "assets/cases/MS-CA-018/gallery-05.jpg",
+          "filename": "MS-MA-0320__LiaoKuo-image49.jpg",
+          "type": "image/jpeg",
+          "width": 2080,
+          "height": 1170,
+          "size": 144381
+        },
+        {
+          "url": "assets/cases/MS-CA-018/gallery-06.jpg",
+          "filename": "MS-MA-0320-LiaoKuo-image49.jpg",
+          "type": "image/jpeg",
+          "width": 2080,
+          "height": 1170,
+          "size": 144381
+        },
+        {
+          "url": "assets/cases/MS-CA-018/gallery-07.jpg",
+          "filename": "MS-MA-0178-LiaoKuo-image45.jpg",
+          "type": "image/jpeg",
+          "width": 2073,
+          "height": 1170,
+          "size": 216630
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-002",
+      "title": "追觅 DREAME｜Las Vegas CES 展会现场",
+      "titleEn": "Dreame — Las Vegas CES Field Production",
+      "client": "追觅 DREAME",
+      "industry": "智能家居／清洁电器",
+      "services": [
+        "Field"
+      ],
+      "year": "2026",
+      "country": "US",
+      "city": "Las Vegas",
+      "intro": {
+        "zh": "围绕「追觅 DREAME｜Las Vegas CES 展会现场」展开，聚焦现场摄制与跨地区协作。",
+        "en": "A project built around Dreame — Las Vegas CES Field Production, focused on field production and cross-market collaboration."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作。",
+        "en": "field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-002/hero-01.jpg",
+          "filename": "MS-MA-0175-KEKE-image29.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 637441
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-002/gallery-01.jpg",
+          "filename": "MS-MA-0188-KEKE-image31.jpg",
+          "type": "image/jpeg",
+          "width": 1620,
+          "height": 1080,
+          "size": 215839
+        },
+        {
+          "url": "assets/cases/MS-CA-002/gallery-02.jpg",
+          "filename": "MS-MA-0308-KEKE-image32.jpg",
+          "type": "image/jpeg",
+          "width": 1620,
+          "height": 1080,
+          "size": 309283
+        },
+        {
+          "url": "assets/cases/MS-CA-002/gallery-03.jpg",
+          "filename": "MS-MA-0353-KEKE-image24.jpg",
+          "type": "image/jpeg",
+          "width": 1620,
+          "height": 1080,
+          "size": 196404
+        },
+        {
+          "url": "assets/cases/MS-CA-002/gallery-04.jpg",
+          "filename": "MS-MA-0402-KEKE-image26.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 639482
+        },
+        {
+          "url": "assets/cases/MS-CA-002/gallery-05.jpg",
+          "filename": "MS-MA-0405-KEKE-image27.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 653368
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-020",
+      "title": "《乘火车看中国》第五／六集《世界屋脊之路》",
+      "titleEn": "Watching China by Train — Episodes 5/6: The Roof of the World",
+      "client": "乘火车看中国第五／六集世界屋脊之路",
+      "industry": "国际传播／纪录片",
+      "services": [
+        "Video",
+        "Field"
+      ],
+      "year": "",
+      "country": "China—France",
+      "city": "",
+      "intro": {
+        "zh": "围绕「《乘火车看中国》第五／六集《世界屋脊之路》」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "en": "A project built around Watching China by Train — Episodes 5/6: The Roof of the World, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "en": "live action, editing and brand film production; field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-020/hero-01.jpg",
+          "filename": "MS-MA-0005__KEKE-image93.jpg",
+          "type": "image/jpeg",
+          "width": 2208,
+          "height": 1242,
+          "size": 322924
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-020/gallery-01.jpg",
+          "filename": "MS-MA-0012__KEKE-image97.jpg",
+          "type": "image/jpeg",
+          "width": 2208,
+          "height": 1242,
+          "size": 152698
+        },
+        {
+          "url": "assets/cases/MS-CA-020/gallery-02.jpg",
+          "filename": "MS-MA-0282__KEKE-image96.jpg",
+          "type": "image/jpeg",
+          "width": 2208,
+          "height": 1242,
+          "size": 82265
+        },
+        {
+          "url": "assets/cases/MS-CA-020/gallery-03.jpg",
+          "filename": "MS-MA-0292__KEKE-image94.jpg",
+          "type": "image/jpeg",
+          "width": 2208,
+          "height": 1242,
+          "size": 165801
+        },
+        {
+          "url": "assets/cases/MS-CA-020/gallery-04.jpg",
+          "filename": "MS-MA-0014__KEKE-image95.jpg",
+          "type": "image/jpeg",
+          "width": 2208,
+          "height": 1242,
+          "size": 118451
+        },
+        {
+          "url": "assets/cases/MS-CA-020/gallery-05.jpg",
+          "filename": "MS-MA-0078__KEKE-image98.jpg",
+          "type": "image/jpeg",
+          "width": 2208,
+          "height": 1242,
+          "size": 309986
+        },
+        {
+          "url": "assets/cases/MS-CA-020/gallery-06.jpg",
+          "filename": "MS-MA-0394__LiaoKuo-image1.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1350,
+          "size": 626858
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-011",
+      "title": "可口可乐｜马年烟花大秀多地互动直播",
+      "titleEn": "Coca-Cola — Lunar New Year Fireworks Multi-City Livestream",
+      "client": "可口可乐",
+      "industry": "饮料／消费品牌",
+      "services": [
+        "Live"
+      ],
+      "year": "2026",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「可口可乐｜马年烟花大秀多地互动直播」展开，聚焦直播信号与多端分发。",
+        "en": "A project built around Coca-Cola — Lunar New Year Fireworks Multi-City Livestream, focused on live signal delivery and multi-platform distribution."
+      },
+      "approach": {
+        "zh": "直播信号与多端分发。",
+        "en": "live signal delivery and multi-platform distribution."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-011/hero-01.jpg",
+          "filename": "MS-MA-0048__KEKE-image55.jpg",
+          "type": "image/jpeg",
+          "width": 1107,
+          "height": 2400,
+          "size": 259188
+        },
+        {
+          "url": "assets/cases/MS-CA-011/hero-02.jpg",
+          "filename": "FW9.jpg",
+          "type": "image/jpeg",
+          "width": 1024,
+          "height": 683,
+          "size": 116086
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-011/gallery-01.jpg",
+          "filename": "MS-MA-0309-KEKE-image54.jpg",
+          "type": "image/jpeg",
+          "width": 1088,
+          "height": 2400,
+          "size": 269284
+        },
+        {
+          "url": "assets/cases/MS-CA-011/gallery-02.jpg",
+          "filename": "MS-MA-0218-KEKE-image51.jpg",
+          "type": "image/jpeg",
+          "width": 1109,
+          "height": 2400,
+          "size": 273406
+        },
+        {
+          "url": "assets/cases/MS-CA-011/gallery-03.jpg",
+          "filename": "MS-MA-0315-KEKE-image52.jpg",
+          "type": "image/jpeg",
+          "width": 1108,
+          "height": 2400,
+          "size": 336086
+        },
+        {
+          "url": "assets/cases/MS-CA-011/gallery-04.jpg",
+          "filename": "MS-MA-0072-KEKE-image53.jpg",
+          "type": "image/jpeg",
+          "width": 1107,
+          "height": 2400,
+          "size": 318304
+        },
+        {
+          "url": "assets/cases/MS-CA-011/gallery-05.jpg",
+          "filename": "MS-MA-0102-KEKE-image56.jpg",
+          "type": "image/jpeg",
+          "width": 1109,
+          "height": 2400,
+          "size": 272950
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-004",
+      "title": "瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅",
+      "titleEn": "Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story",
+      "client": "瑞幸咖啡",
+      "industry": "连锁咖啡／消费品牌",
+      "services": [
+        "Field",
+        "Video"
+      ],
+      "year": "2026",
+      "country": "",
+      "city": "",
+      "intro": {
+        "zh": "围绕「瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "en": "A project built around Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story, focused on field production and cross-market collaboration and related production services."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "en": "field production and cross-market collaboration; live action, editing and brand film production."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-004/hero-01.jpg",
+          "filename": "MS-MA-0350-KEKE-image47.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 589121
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-004/gallery-01.jpg",
+          "filename": "MS-MA-0219-KEKE-image45.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 553689
+        },
+        {
+          "url": "assets/cases/MS-CA-004/gallery-02.jpg",
+          "filename": "MS-MA-0227-KEKE-image50.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 607233
+        },
+        {
+          "url": "assets/cases/MS-CA-004/gallery-03.jpg",
+          "filename": "MS-MA-0318-KEKE-image44.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 517736
+        },
+        {
+          "url": "assets/cases/MS-CA-004/gallery-04.jpg",
+          "filename": "MS-MA-0359-KEKE-image48.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 251831
+        },
+        {
+          "url": "assets/cases/MS-CA-004/gallery-05.jpg",
+          "filename": "MS-MA-0377-KEKE-image46.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "size": 362815
+        },
+        {
+          "url": "assets/cases/MS-CA-004/gallery-06.jpg",
+          "filename": "BangWei_导演_瑞幸咖啡_19_128.jpg",
+          "type": "image/jpeg",
+          "width": 2636,
+          "height": 1471,
+          "size": 355570
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-009",
+      "title": "极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播",
+      "titleEn": "Jiyue Auto — 24-Hour, 2,000 km Intelligent-Driving Livestream",
+      "client": "极越汽车",
+      "industry": "汽车",
+      "services": [
+        "Live",
+        "Field"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "Chengdu—Xiamen",
+      "intro": {
+        "zh": "围绕「极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播」展开，聚焦直播信号与多端分发、现场摄制与跨地区协作。",
+        "en": "A project built around Jiyue Auto — 24-Hour, 2,000 km Intelligent-Driving Livestream, focused on live signal delivery and multi-platform distribution and related production services."
+      },
+      "approach": {
+        "zh": "直播信号与多端分发；现场摄制与跨地区协作。",
+        "en": "live signal delivery and multi-platform distribution; field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-009/hero-01.jpg",
+          "filename": "MS-MA-0033-KEKE-image58.jpg",
+          "type": "image/jpeg",
+          "width": 1707,
+          "height": 1280,
+          "size": 159639
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-009/gallery-01.jpg",
+          "filename": "MS-MA-0223-KEKE-image61.jpg",
+          "type": "image/jpeg",
+          "width": 1702,
+          "height": 1276,
+          "size": 212009
+        },
+        {
+          "url": "assets/cases/MS-CA-009/gallery-02.jpg",
+          "filename": "MS-MA-0128-KEKE-image60.jpg",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1080,
+          "size": 177476
+        },
+        {
+          "url": "assets/cases/MS-CA-009/gallery-03.jpg",
+          "filename": "MS-MA-0324-KEKE-image59.jpg",
+          "type": "image/jpeg",
+          "width": 1707,
+          "height": 1280,
+          "size": 251414
+        },
+        {
+          "url": "assets/cases/MS-CA-009/gallery-04.jpg",
+          "filename": "MS-MA-0313-KEKE-image57.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 1920,
+          "size": 277334
+        },
+        {
+          "url": "assets/cases/MS-CA-009/gallery-05.jpg",
+          "filename": "MS-MA-0341-KEKE-image64.jpg",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1080,
+          "size": 252304
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-017",
+      "title": "《家有恶猫》第二季",
+      "titleEn": "My Cat from Hell — Season 2",
+      "client": "家有恶猫第二季",
+      "industry": "流媒体／真人秀纪录片",
+      "services": [
+        "Video",
+        "Field"
+      ],
+      "year": "2023",
+      "country": "China",
+      "city": "Guangzhou",
+      "intro": {
+        "zh": "围绕「《家有恶猫》第二季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "en": "A project built around My Cat from Hell — Season 2, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "en": "live action, editing and brand film production; field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-017/hero-01.jpg",
+          "filename": "MS-MA-0404__KEKE-image83.jpg",
+          "type": "image/jpeg",
+          "width": 2078,
+          "height": 1170,
+          "size": 200388
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-017/gallery-01.jpg",
+          "filename": "MS-MA-0177-KEKE-image84.jpg",
+          "type": "image/jpeg",
+          "width": 2072,
+          "height": 1170,
+          "size": 162319
+        },
+        {
+          "url": "assets/cases/MS-CA-017/gallery-02.jpg",
+          "filename": "MS-MA-0162-KEKE-image81.jpg",
+          "type": "image/jpeg",
+          "width": 2080,
+          "height": 1170,
+          "size": 246044
+        },
+        {
+          "url": "assets/cases/MS-CA-017/gallery-03.jpg",
+          "filename": "MS-MA-0065-KEKE-image85.jpg",
+          "type": "image/jpeg",
+          "width": 2276,
+          "height": 1280,
+          "size": 514303
+        },
+        {
+          "url": "assets/cases/MS-CA-017/gallery-04.jpg",
+          "filename": "MS-MA-0112-KEKE-image86.jpg",
+          "type": "image/jpeg",
+          "width": 2073,
+          "height": 1170,
+          "size": 188189
+        }
+      ],
+      "videos": []
+    },
+    {
       "caseId": "MS-CA-040",
       "title": "京东｜姜妍篇",
       "titleEn": "JD.com — Jiang Yan",
@@ -89,72 +1019,6 @@
           "size": 28849744
         }
       ]
-    },
-    {
-      "caseId": "MS-CA-077",
-      "title": "2020腾讯TGC",
-      "titleEn": "2020 Tencent TGC",
-      "client": "2020腾讯TGC",
-      "industry": "活动／展会／现场运营",
-      "services": [
-        "Field"
-      ],
-      "year": "2020",
-      "country": "中国",
-      "city": "",
-      "intro": {
-        "zh": "围绕「2020腾讯TGC」展开，聚焦现场摄制与跨地区协作。",
-        "en": "A project built around 2020 Tencent TGC, focused on field production and cross-market collaboration."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作。",
-        "en": "field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-077/hero-01.jpg",
-          "filename": "hero_91508661.jpg",
-          "type": "image/jpeg",
-          "width": 2004,
-          "height": 1080,
-          "size": 233125
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-077/gallery-01.jpg",
-          "filename": "gal_91508661_0.jpg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 800,
-          "size": 171691
-        },
-        {
-          "url": "assets/cases/MS-CA-077/gallery-02.jpg",
-          "filename": "gal_91508661_1.jpg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 768,
-          "size": 175619
-        },
-        {
-          "url": "assets/cases/MS-CA-077/gallery-03.jpg",
-          "filename": "gal_91508661_2.jpg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 800,
-          "size": 166435
-        },
-        {
-          "url": "assets/cases/MS-CA-077/gallery-04.jpg",
-          "filename": "gal_91508661_3.jpg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 767,
-          "size": 156175
-        }
-      ],
-      "videos": []
     },
     {
       "caseId": "MS-CA-034",
@@ -418,80 +1282,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-096",
-      "title": "2018 Play嘉年华",
-      "titleEn": "2018 Play Carnival",
-      "client": "2018 Play嘉年华",
-      "industry": "活动／展会／现场运营",
-      "services": [
-        "Field"
-      ],
-      "year": "2018",
-      "country": "中国",
-      "city": "",
-      "intro": {
-        "zh": "围绕「2018 Play嘉年华」展开，聚焦现场摄制与跨地区协作。",
-        "en": "A project built around 2018 Play Carnival, focused on field production and cross-market collaboration."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作。",
-        "en": "field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-096/hero-01.jpg",
-          "filename": "70C15329-B8F6-4F20-B48D-D9922654E75C.jpeg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 800,
-          "size": 315333
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-096/gallery-01.jpg",
-          "filename": "1E363ECF-F43B-4A48-83AC-4A87D9317219_1_105_c.jpeg",
-          "type": "image/jpeg",
-          "width": 1086,
-          "height": 724,
-          "size": 233682
-        },
-        {
-          "url": "assets/cases/MS-CA-096/gallery-02.jpg",
-          "filename": "3B7A6C03-044D-4EF3-A800-53E6C2EE8B0E.jpeg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 800,
-          "size": 305027
-        },
-        {
-          "url": "assets/cases/MS-CA-096/gallery-03.jpg",
-          "filename": "3B669068-684B-4113-9FF7-EC6F6AFF3A2B.jpeg",
-          "type": "image/jpeg",
-          "width": 1620,
-          "height": 1080,
-          "size": 402360
-        },
-        {
-          "url": "assets/cases/MS-CA-096/gallery-04.jpg",
-          "filename": "70C15329-B8F6-4F20-B48D-D9922654E75C.jpeg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 800,
-          "size": 315333
-        },
-        {
-          "url": "assets/cases/MS-CA-096/gallery-05.jpg",
-          "filename": "5309D2A0-F68B-4C96-A950-09B925012591.jpeg",
-          "type": "image/jpeg",
-          "width": 1200,
-          "height": 800,
-          "size": 261545
-        }
-      ],
-      "videos": []
-    },
-    {
       "caseId": "MS-CA-041",
       "title": "小鸟转｜客户人物素材 AI 训练",
       "titleEn": "Xiaoniaozhuan — AI Training with Client Character Assets",
@@ -588,226 +1378,829 @@
       ]
     },
     {
-      "caseId": "MS-CA-015",
-      "title": "《探索新境·寻找王一博》",
-      "titleEn": "Exploration New Ground — Finding Wang Yibo",
-      "client": "探索新境·寻找王一博",
-      "industry": "流媒体／纪录片",
+      "caseId": "MS-CA-033",
+      "title": "奥迪｜AI 商业广告",
+      "titleEn": "Audi — AI Commercial",
+      "client": "奥迪",
+      "industry": "汽车",
       "services": [
         "Video",
-        "Field"
-      ],
-      "year": "2024",
-      "country": "China",
-      "city": "海南、珠海、桂林、青海、内蒙古",
-      "intro": {
-        "zh": "围绕「《探索新境·寻找王一博》」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
-        "en": "A project built around Exploration New Ground — Finding Wang Yibo, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
-        "en": "live action, editing and brand film production; field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-015/hero-01.jpg",
-          "filename": "MS-MA-0010-KEKE-image80.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 208032
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-015/gallery-01.jpg",
-          "filename": "MS-MA-0258-KEKE-image79.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 151373
-        },
-        {
-          "url": "assets/cases/MS-CA-015/gallery-02.jpg",
-          "filename": "MS-MA-0234-KEKE-image77.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 284708
-        },
-        {
-          "url": "assets/cases/MS-CA-015/gallery-03.jpg",
-          "filename": "MS-MA-0372-KEKE-image78.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 177145
-        },
-        {
-          "url": "assets/cases/MS-CA-015/gallery-04.jpg",
-          "filename": "MS-MA-0111-LiaoKuo-image17.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 233248
-        },
-        {
-          "url": "assets/cases/MS-CA-015/gallery-05.jpg",
-          "filename": "MS-MA-0213-KEKE-image6.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1919,
-          "size": 256444
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-003",
-      "title": "ESMO｜Berlin 欧洲医学会现场",
-      "titleEn": "ESMO — Berlin Medical Congress Field Production",
-      "client": "ESMO",
-      "industry": "医疗／医学会议",
-      "services": [
-        "Field",
-        "Live"
-      ],
-      "year": "2026",
-      "country": "Germany",
-      "city": "Berlin",
-      "intro": {
-        "zh": "围绕「ESMO｜Berlin 欧洲医学会现场」展开，聚焦现场摄制与跨地区协作、直播信号与多端分发。",
-        "en": "A project built around ESMO — Berlin Medical Congress Field Production, focused on field production and cross-market collaboration and related production services."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作；直播信号与多端分发。",
-        "en": "field production and cross-market collaboration; live signal delivery and multi-platform distribution."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-003/hero-01.jpg",
-          "filename": "MS-MA-0333-KEKE-image35.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 564463
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-003/gallery-01.jpg",
-          "filename": "MS-MA-0024-KEKE-image34.jpg",
-          "type": "image/jpeg",
-          "width": 1603,
-          "height": 2400,
-          "size": 270062
-        },
-        {
-          "url": "assets/cases/MS-CA-003/gallery-02.jpg",
-          "filename": "MS-MA-0057-KEKE-image38.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 433301
-        },
-        {
-          "url": "assets/cases/MS-CA-003/gallery-03.jpg",
-          "filename": "MS-MA-0070-KEKE-image37.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 783155
-        },
-        {
-          "url": "assets/cases/MS-CA-003/gallery-04.jpg",
-          "filename": "MS-MA-0125-KEKE-image39.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 239618
-        },
-        {
-          "url": "assets/cases/MS-CA-003/gallery-05.jpg",
-          "filename": "MS-MA-0386-KEKE-image36.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 457465
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-016",
-      "title": "《家有恶猫》第一季",
-      "titleEn": "My Cat from Hell — Season 1",
-      "client": "家有恶猫第一季",
-      "industry": "流媒体／真人秀纪录片",
-      "services": [
-        "Video",
-        "Field"
+        "AI"
       ],
       "year": "",
       "country": "China",
-      "city": "Beijing",
+      "city": "",
       "intro": {
-        "zh": "围绕「《家有恶猫》第一季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
-        "en": "A project built around My Cat from Hell — Season 1, focused on live action, editing and brand film production and related production services."
+        "zh": "围绕「奥迪｜AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Audi — AI Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
-        "en": "live action, editing and brand film production; field production and cross-market collaboration."
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-016/hero-01.jpg",
-          "filename": "MS-MA-0013-KEKE-image91.jpg",
+          "url": "assets/cases/MS-CA-033/hero-01.jpg",
+          "filename": "BangWei_导演_奥迪_10_062.jpg",
           "type": "image/jpeg",
-          "width": 960,
-          "height": 540,
-          "size": 94674
+          "width": 1920,
+          "height": 1050,
+          "size": 157126
         }
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-016/gallery-01.jpg",
-          "filename": "MS-MA-0093-KEKE-image87.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-01.jpg",
+          "filename": "MS-MA-0358__BangWei-image122.jpg",
           "type": "image/jpeg",
-          "width": 2083,
-          "height": 1170,
-          "size": 122014
+          "width": 920,
+          "height": 521,
+          "size": 34413
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-02.jpg",
-          "filename": "MS-MA-0092-KEKE-image92.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-02.jpg",
+          "filename": "BangWei_导演_奥迪_11_065.jpg",
           "type": "image/jpeg",
-          "width": 2080,
-          "height": 1170,
-          "size": 228095
+          "width": 960,
+          "height": 544,
+          "size": 75873
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-03.jpg",
-          "filename": "MS-MA-0369-KEKE-image89.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-03.jpg",
+          "filename": "BangWei_导演_奥迪_11_069.jpg",
           "type": "image/jpeg",
-          "width": 2075,
-          "height": 1170,
-          "size": 209245
+          "width": 960,
+          "height": 544,
+          "size": 67034
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-04.jpg",
-          "filename": "MS-MA-0021-KEKE-image90.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-04.jpg",
+          "filename": "BangWei_导演_奥迪_11_067.jpg",
           "type": "image/jpeg",
-          "width": 2071,
-          "height": 1170,
-          "size": 204922
+          "width": 960,
+          "height": 544,
+          "size": 60251
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-05.jpg",
-          "filename": "MS-MA-0041-KEKE-image88.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-05.jpg",
+          "filename": "BangWei_导演_奥迪_11_073.jpg",
+          "type": "image/jpeg",
+          "width": 960,
+          "height": 544,
+          "size": 55066
+        },
+        {
+          "url": "assets/cases/MS-CA-033/gallery-06.jpg",
+          "filename": "BangWei_导演_奥迪_11_071.jpg",
+          "type": "image/jpeg",
+          "width": 960,
+          "height": 544,
+          "size": 53352
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/ssrD_agEC_Rnzh1lD5GJPw/3yCSfpurZyqntdvgdDbnHGdkmVo6OClRXESjJy0JtDIrMRppxrC1eMWLIueP0OZT3DF3dY5POlbHqu5SlREt3AyM0bVjzZAND1RstyCMtmOUq2EN93KZvtwDaA3I5Ij1-wV7IuI3xy3SK1nE9aCGYQIlN9tjNt2JryY7xACUr8obRoKnMm_fDK1GpIvhAq4S/yb0vtV6wBl127fpO7JPdaA2qOBNempJrMmzdMh2lDaA",
+          "filename": "MS-CA-033_BangWei_Audi_AI_Ad_Slide26.mp4",
+          "type": "video/mp4",
+          "size": 5174399
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-036",
+      "title": "LOVIPEER｜全 AI 广告",
+      "titleEn": "LOVIPEER — Fully AI Commercial",
+      "client": "LOVIPEER",
+      "industry": "消费品牌／美容",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "Global",
+      "city": "",
+      "intro": {
+        "zh": "围绕「LOVIPEER｜全 AI 广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around LOVIPEER — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-036/hero-01.jpg",
+          "filename": "BangWei_导演_Lovipeer_24_176.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 717,
+          "size": 66463
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-036/gallery-01.jpg",
+          "filename": "MS-MA-0314__BangWei-image111.jpg",
+          "type": "image/jpeg",
+          "width": 831,
+          "height": 467,
+          "size": 35238
+        },
+        {
+          "url": "assets/cases/MS-CA-036/gallery-02.jpg",
+          "filename": "BangWei_导演_Lovipeer_24_183.jpg",
+          "type": "image/jpeg",
+          "width": 1664,
+          "height": 932,
+          "size": 136678
+        },
+        {
+          "url": "assets/cases/MS-CA-036/gallery-03.jpg",
+          "filename": "BangWei_导演_Lovipeer_24_179.jpg",
+          "type": "image/jpeg",
+          "width": 1663,
+          "height": 932,
+          "size": 127330
+        },
+        {
+          "url": "assets/cases/MS-CA-036/gallery-04.jpg",
+          "filename": "BangWei_导演_Lovipeer_24_180.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 717,
+          "size": 118060
+        },
+        {
+          "url": "assets/cases/MS-CA-036/gallery-05.jpg",
+          "filename": "BangWei_导演_Lovipeer_24_181.jpg",
+          "type": "image/jpeg",
+          "width": 1215,
+          "height": 816,
+          "size": 117819
+        },
+        {
+          "url": "assets/cases/MS-CA-036/gallery-06.jpg",
+          "filename": "BangWei_导演_Lovipeer_25_187.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 96356
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/O6LYnJZhXR2TZBBLw9rzFQ/8PwwE1-cJMN-RlENfROXrdY4a6dz4RPbC76_5QQ36RvpEGG5HD3weoWfvSphVt4RxWpT_GOh-cOUiefLLeIS9VdDie9cjsAQXuds3dggGb0r0b2o_bay5IksDajtNQOWIZeohWUuLbRp6yDFMK9RZz2bUHw6MxTzeETGz9Lu7Zt-wNiIG75o2Qh25vBo5FJAbbT-oOFr_dOdapZnJWprlw/M-eOoAWiIKmGSD6qQFULKzVGg3YG9iMRLT0Vc_7Ghtc",
+          "filename": "MS-CA-036_BangWei_LOVIPEER_AI_Ad_Slide19.mp4",
+          "type": "video/mp4",
+          "size": 68273882
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-037",
+      "title": "德芙｜全 AI 商业广告",
+      "titleEn": "Dove — Fully AI Commercial",
+      "client": "德芙",
+      "industry": "食品／快消",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「德芙｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Dove — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-037/hero-01.jpg",
+          "filename": "MS-MA-0174__BangWei-image110.jpg",
+          "type": "image/jpeg",
+          "width": 1924,
+          "height": 1076,
+          "size": 227287
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-037/gallery-01.jpg",
+          "filename": "BangWei_导演_德芙_06_036.jpg",
+          "type": "image/jpeg",
+          "width": 2560,
+          "height": 1440,
+          "size": 334420
+        },
+        {
+          "url": "assets/cases/MS-CA-037/gallery-02.jpg",
+          "filename": "BangWei_导演_德芙_07_042.jpg",
+          "type": "image/jpeg",
+          "width": 2752,
+          "height": 1536,
+          "size": 289829
+        },
+        {
+          "url": "assets/cases/MS-CA-037/gallery-03.jpg",
+          "filename": "BangWei_导演_德芙_07_040.jpg",
+          "type": "image/jpeg",
+          "width": 1278,
+          "height": 714,
+          "size": 228188
+        },
+        {
+          "url": "assets/cases/MS-CA-037/gallery-04.jpg",
+          "filename": "BangWei_导演_德芙_07_046.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 710,
+          "size": 173643
+        },
+        {
+          "url": "assets/cases/MS-CA-037/gallery-05.jpg",
+          "filename": "BangWei_导演_德芙_07_045.jpg",
+          "type": "image/jpeg",
+          "width": 1278,
+          "height": 715,
+          "size": 160581
+        },
+        {
+          "url": "assets/cases/MS-CA-037/gallery-06.jpg",
+          "filename": "BangWei_导演_德芙_07_043.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 96368
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/E7QOTeMidLrxGhwawm4fLg/PxIqtIqDQiZtVp7BfbhVRD2AMg2zdDlC7YfStHtQqP-aA03fKXwXL5RIs5_4HUuIdVqhVJOjAzxc_Jw33gxp_WU0QMX_7NDVaL-FjxMmNKMi8ph2eOWeXPRFrOnmFIE9wlEwKXP4sNmZZfnJXK0-ZMYTlDz-3TyK50bWC3850lXLoZSGv_dIGGTL19Rsx7fr/p22_XhL6LKt2MVUG9RDe6osXPgkTPdBy2S5YM9Tvz5k",
+          "filename": "MS-CA-037_BangWei_Dove_AI_Ad_Slide18.mp4",
+          "type": "video/mp4",
+          "size": 84533016
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-038",
+      "title": "蒙牛｜环境 AI + 人物实拍",
+      "titleEn": "Mengniu — AI Environment + Live Action",
+      "client": "蒙牛",
+      "industry": "乳业／快消",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「蒙牛｜环境 AI + 人物实拍」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Mengniu — AI Environment + Live Action, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-038/hero-01.jpg",
+          "filename": "MS-MA-0110__BangWei-image113.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "size": 64274
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-038/gallery-01.jpg",
+          "filename": "MS-MA-0194__BangWei-image124.jpg",
+          "type": "image/jpeg",
+          "width": 2400,
+          "height": 1350,
+          "size": 211832
+        },
+        {
+          "url": "assets/cases/MS-CA-038/gallery-02.jpg",
+          "filename": "BangWei_导演_蒙牛_34_245.jpg",
+          "type": "image/jpeg",
+          "width": 2367,
+          "height": 994,
+          "size": 490873
+        },
+        {
+          "url": "assets/cases/MS-CA-038/gallery-03.jpg",
+          "filename": "BangWei_导演_蒙牛_34_243.jpg",
+          "type": "image/jpeg",
+          "width": 1181,
+          "height": 496,
+          "size": 142747
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/Xm6Cu4BHvW0Be5xKOTbDzA/mKGoZQhIhqAGp_dTMO55LN--_fVdBc1O-Gh24Bi8Rgfh6rVtHjSKkNpZ8ZwJb0ipjdV3WstYS8fBmWhyboS164CGaxaf5K3kBY6aZXCV7jSLGvnrWtOnrLA3pCk66CeaHFFf-sJhgduQiadv92JAcekpr00U-QFQAWPT5GlaDN-LmvDag2lstSzuOetqoE7FeN3U3bvA3abHn7ksaNkG7Q/VY0N3ocmeoGmWWFTRwGwV2Qf98uV2OXtGQYij6cF9RA",
+          "filename": "MS-CA-038_BangWei_Mengniu_AI_Ad_V2_Slide28.mp4",
+          "type": "video/mp4",
+          "size": 214492567
+        },
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/11G3djDHDv--vNENrCBhHw/wrQA5yoFMqg_rUFXyFZY1PwV7Cf-D6IFsrLfKQp9EZGZHntW84pqgC-rIHujqAKuWfVPUIkl60-eC8FfV3X0B_fOibJ9Xkk3fj57YIJ7W2m9Pt0VzWsodce-PmEiVEd1064iCsKfx5WE0kLTSWd2w-QhTIy-QEs0YxQfsMyAdMrPfZA4q8VJzj1_lW_H02x53ZygDWs4d9xN4Atw0M6MiQ/ctrEdhTb865UxOAycxmnfpdFiuGKStNIDpwS3v1YeUY",
+          "filename": "MS-CA-038_BangWei_Mengniu_Hybrid_AI_Slide20.mp4",
+          "type": "video/mp4",
+          "size": 10663064
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-043",
+      "title": "海信｜全 AI 商业广告",
+      "titleEn": "Hisense — Fully AI Commercial",
+      "client": "海信",
+      "industry": "消费电子／家电",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「海信｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Hisense — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-043/hero-01.jpg",
+          "filename": "BangWei_导演_海信_31_230.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 340968
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-043/gallery-01.jpg",
+          "filename": "MS-MA-0349__BangWei-image123.jpg",
+          "type": "image/jpeg",
+          "width": 1920,
+          "height": 1080,
+          "size": 370944
+        },
+        {
+          "url": "assets/cases/MS-CA-043/gallery-02.jpg",
+          "filename": "BangWei_导演_海信_30_227.jpg",
+          "type": "image/jpeg",
+          "width": 1737,
+          "height": 977,
+          "size": 187526
+        },
+        {
+          "url": "assets/cases/MS-CA-043/gallery-03.jpg",
+          "filename": "BangWei_导演_海信_30_226.jpg",
+          "type": "image/jpeg",
+          "width": 1756,
+          "height": 982,
+          "size": 145618
+        },
+        {
+          "url": "assets/cases/MS-CA-043/gallery-04.jpg",
+          "filename": "BangWei_导演_海信_30_223.jpg",
+          "type": "image/jpeg",
+          "width": 1226,
+          "height": 982,
+          "size": 142052
+        },
+        {
+          "url": "assets/cases/MS-CA-043/gallery-05.jpg",
+          "filename": "BangWei_导演_海信_30_225.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "size": 134186
+        },
+        {
+          "url": "assets/cases/MS-CA-043/gallery-06.jpg",
+          "filename": "BangWei_导演_海信_30_224.jpg",
+          "type": "image/jpeg",
+          "width": 1224,
+          "height": 1080,
+          "size": 92089
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/nHMUpzG9_QYSnXcaM1qw_g/16-e_00NuTnNwQmjuT5oNQ4H14e0Mp-JKwv6LTYqiycs5GeJHowG83PuAHWvJO63TogwN5Iz8hKj3T8AF-kVInFST8oh2qDWtrIyOfQVT1Z-uOYZk_tfPO_O_N3rZ2CTGoJ24dtDaIOnI4gUDLYfpdS13Kboe7EQ1zC4ZtyXEbNC-Bpeu4VuDvkEL8DsyOtJV4eJ0DopdlC3fRZ24h0EQw/U-sHWrKbMg-iHPsxR5z4_QbtjX-vL3K82BEs00B2bZo",
+          "filename": "MS-CA-043_BangWei_Hisense_AI_Ad_Slide27.mp4",
+          "type": "video/mp4",
+          "size": 152637575
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-065",
+      "title": "路虎｜AI／商业影像项目",
+      "titleEn": "Land Rover — AI / Commercial Imaging Project",
+      "client": "路虎",
+      "industry": "汽车",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "",
+      "city": "",
+      "intro": {
+        "zh": "围绕「路虎｜AI／商业影像项目」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Land Rover — AI / Commercial Imaging Project, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-065/hero-01.jpg",
+          "filename": "BangWei_导演_路虎_09_056.jpg",
+          "type": "image/jpeg",
+          "width": 2751,
+          "height": 1536,
+          "size": 523853
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-065/gallery-01.jpg",
+          "filename": "BangWei_导演_路虎_09_058.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 692,
+          "size": 192937
+        },
+        {
+          "url": "assets/cases/MS-CA-065/gallery-02.jpg",
+          "filename": "BangWei_导演_路虎_08_049.jpg",
+          "type": "image/jpeg",
+          "width": 1924,
+          "height": 1076,
+          "size": 190960
+        },
+        {
+          "url": "assets/cases/MS-CA-065/gallery-03.jpg",
+          "filename": "BangWei_导演_路虎_09_053.jpg",
+          "type": "image/jpeg",
+          "width": 1376,
+          "height": 768,
+          "size": 127370
+        },
+        {
+          "url": "assets/cases/MS-CA-065/gallery-04.jpg",
+          "filename": "BangWei_导演_路虎_09_055.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 702,
+          "size": 125305
+        },
+        {
+          "url": "assets/cases/MS-CA-065/gallery-05.jpg",
+          "filename": "BangWei_导演_路虎_09_052.jpg",
+          "type": "image/jpeg",
+          "width": 1270,
+          "height": 721,
+          "size": 102691
+        },
+        {
+          "url": "assets/cases/MS-CA-065/gallery-06.jpg",
+          "filename": "BangWei_导演_路虎_09_057.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 692,
+          "size": 96919
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-066",
+      "title": "Sunseeker｜除草机 AI 影像项目",
+      "titleEn": "Sunseeker — AI Commercial Imaging Project",
+      "client": "Sunseeker",
+      "industry": "工业／消费产品",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "",
+      "city": "",
+      "intro": {
+        "zh": "围绕「Sunseeker｜除草机 AI 影像项目」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around Sunseeker — AI Commercial Imaging Project, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-066/hero-01.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_139.jpg",
+          "type": "image/jpeg",
+          "width": 2213,
+          "height": 1235,
+          "size": 436418
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-066/gallery-01.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_141.jpg",
+          "type": "image/jpeg",
+          "width": 1300,
+          "height": 1249,
+          "size": 340051
+        },
+        {
+          "url": "assets/cases/MS-CA-066/gallery-02.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_142.jpg",
+          "type": "image/jpeg",
+          "width": 2003,
+          "height": 1118,
+          "size": 267296
+        },
+        {
+          "url": "assets/cases/MS-CA-066/gallery-03.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_138.jpg",
+          "type": "image/jpeg",
+          "width": 1452,
+          "height": 661,
+          "size": 229839
+        },
+        {
+          "url": "assets/cases/MS-CA-066/gallery-04.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_140.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 1280,
+          "size": 146154
+        },
+        {
+          "url": "assets/cases/MS-CA-066/gallery-05.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_145.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 141611
+        },
+        {
+          "url": "assets/cases/MS-CA-066/gallery-06.jpg",
+          "filename": "BangWei_导演_除草机sunseeker_20_144.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 133837
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-042",
+      "title": "战马｜全 AI 功能饮料广告",
+      "titleEn": "War Horse — Fully AI Functional Beverage Commercial",
+      "client": "战马",
+      "industry": "饮料／快消",
+      "services": [
+        "Video",
+        "AI"
+      ],
+      "year": "",
+      "country": "China",
+      "city": "",
+      "intro": {
+        "zh": "围绕「战马｜全 AI 功能饮料广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "en": "A project built around War Horse — Fully AI Functional Beverage Commercial, focused on live action, editing and brand film production and related production services."
+      },
+      "approach": {
+        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-042/hero-01.jpg",
+          "filename": "BangWei_导演_战马_28_210.jpg",
+          "type": "image/jpeg",
+          "width": 1897,
+          "height": 1067,
+          "size": 187917
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-042/gallery-01.jpg",
+          "filename": "MS-MA-0310__BangWei-image118.jpg",
+          "type": "image/jpeg",
+          "width": 921,
+          "height": 518,
+          "size": 55793
+        },
+        {
+          "url": "assets/cases/MS-CA-042/gallery-02.jpg",
+          "filename": "BangWei_导演_战马_28_209.jpg",
+          "type": "image/jpeg",
+          "width": 1890,
+          "height": 1063,
+          "size": 168654
+        },
+        {
+          "url": "assets/cases/MS-CA-042/gallery-03.jpg",
+          "filename": "BangWei_导演_战马_28_217.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "size": 116206
+        },
+        {
+          "url": "assets/cases/MS-CA-042/gallery-04.jpg",
+          "filename": "BangWei_导演_战马_28_213.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "size": 108482
+        },
+        {
+          "url": "assets/cases/MS-CA-042/gallery-05.jpg",
+          "filename": "BangWei_导演_战马_28_215.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "size": 93397
+        },
+        {
+          "url": "assets/cases/MS-CA-042/gallery-06.jpg",
+          "filename": "BangWei_导演_战马_28_214.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "size": 88331
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/GKB5xaNIkcgPEUv36-JFEw/y_nDNczO7gNH2mChbiEpZqJyBLJtjhloT6swK9I4e6Ep7O_pO_vqJz5JtTgHc2tNuykNrIxXlijhyVOoN6r_ZCsF22936E-ywYgeIQXJdvI6HG2hFgwDM6Beo0atfCQboX0fAJMQdHnrUWfjxS7QFSZOiG6MCrFQ4ZVS9U6BXpTRzrXrr8GxGNxeh9Je6E6OKc-uUcNdEOrBVQBYA-ILEA/7fkknW9BTXTj68SWn5USIDnMo2-u-TUYWk5JPxmOHvs",
+          "filename": "MS-CA-042_BangWei_Warhorse_AI_Ad_Slide23.mp4",
+          "type": "video/mp4",
+          "size": 149565591
+        }
+      ]
+    },
+    {
+      "caseId": "MS-CA-077",
+      "title": "2020腾讯TGC",
+      "titleEn": "2020 Tencent TGC",
+      "client": "2020腾讯TGC",
+      "industry": "活动／展会／现场运营",
+      "services": [
+        "Field"
+      ],
+      "year": "2020",
+      "country": "中国",
+      "city": "",
+      "intro": {
+        "zh": "围绕「2020腾讯TGC」展开，聚焦现场摄制与跨地区协作。",
+        "en": "A project built around 2020 Tencent TGC, focused on field production and cross-market collaboration."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作。",
+        "en": "field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-077/hero-01.jpg",
+          "filename": "hero_91508661.jpg",
+          "type": "image/jpeg",
+          "width": 2004,
+          "height": 1080,
+          "size": 233125
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-077/gallery-01.jpg",
+          "filename": "gal_91508661_0.jpg",
           "type": "image/jpeg",
           "width": 1200,
-          "height": 741,
-          "size": 103672
+          "height": 800,
+          "size": 171691
+        },
+        {
+          "url": "assets/cases/MS-CA-077/gallery-02.jpg",
+          "filename": "gal_91508661_1.jpg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 768,
+          "size": 175619
+        },
+        {
+          "url": "assets/cases/MS-CA-077/gallery-03.jpg",
+          "filename": "gal_91508661_2.jpg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 800,
+          "size": 166435
+        },
+        {
+          "url": "assets/cases/MS-CA-077/gallery-04.jpg",
+          "filename": "gal_91508661_3.jpg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 767,
+          "size": 156175
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-096",
+      "title": "2018 Play嘉年华",
+      "titleEn": "2018 Play Carnival",
+      "client": "2018 Play嘉年华",
+      "industry": "活动／展会／现场运营",
+      "services": [
+        "Field"
+      ],
+      "year": "2018",
+      "country": "中国",
+      "city": "",
+      "intro": {
+        "zh": "围绕「2018 Play嘉年华」展开，聚焦现场摄制与跨地区协作。",
+        "en": "A project built around 2018 Play Carnival, focused on field production and cross-market collaboration."
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作。",
+        "en": "field production and cross-market collaboration."
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-096/hero-01.jpg",
+          "filename": "70C15329-B8F6-4F20-B48D-D9922654E75C.jpeg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 800,
+          "size": 315333
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-096/gallery-01.jpg",
+          "filename": "1E363ECF-F43B-4A48-83AC-4A87D9317219_1_105_c.jpeg",
+          "type": "image/jpeg",
+          "width": 1086,
+          "height": 724,
+          "size": 233682
+        },
+        {
+          "url": "assets/cases/MS-CA-096/gallery-02.jpg",
+          "filename": "3B7A6C03-044D-4EF3-A800-53E6C2EE8B0E.jpeg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 800,
+          "size": 305027
+        },
+        {
+          "url": "assets/cases/MS-CA-096/gallery-03.jpg",
+          "filename": "3B669068-684B-4113-9FF7-EC6F6AFF3A2B.jpeg",
+          "type": "image/jpeg",
+          "width": 1620,
+          "height": 1080,
+          "size": 402360
+        },
+        {
+          "url": "assets/cases/MS-CA-096/gallery-04.jpg",
+          "filename": "70C15329-B8F6-4F20-B48D-D9922654E75C.jpeg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 800,
+          "size": 315333
+        },
+        {
+          "url": "assets/cases/MS-CA-096/gallery-05.jpg",
+          "filename": "5309D2A0-F68B-4C96-A950-09B925012591.jpeg",
+          "type": "image/jpeg",
+          "width": 1200,
+          "height": 800,
+          "size": 261545
         }
       ],
       "videos": []
@@ -1064,246 +2457,6 @@
           "width": 2048,
           "height": 1078,
           "size": 122329
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-001",
-      "title": "追觅 DREAME｜旧金山发布会",
-      "titleEn": "Dreame — San Francisco Launch Event",
-      "client": "追觅 DREAME",
-      "industry": "智能家居／清洁电器",
-      "services": [
-        "Field",
-        "Video"
-      ],
-      "year": "2026",
-      "country": "US",
-      "city": "San Francisco",
-      "intro": {
-        "zh": "围绕「追觅 DREAME｜旧金山发布会」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
-        "en": "A project built around Dreame — San Francisco Launch Event, focused on field production and cross-market collaboration and related production services."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
-        "en": "field production and cross-market collaboration; live action, editing and brand film production."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-001/hero-01.jpg",
-          "filename": "MS-MA-0185__KEKE-image18.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1280,
-          "size": 224891
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-001/gallery-01.jpg",
-          "filename": "MS-MA-0107__KEKE-image17.jpg",
-          "type": "image/jpeg",
-          "width": 1919,
-          "height": 1280,
-          "size": 161174
-        },
-        {
-          "url": "assets/cases/MS-CA-001/gallery-02.jpg",
-          "filename": "g2.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1280,
-          "size": 192764
-        },
-        {
-          "url": "assets/cases/MS-CA-001/gallery-03.jpg",
-          "filename": "g3.jpg",
-          "type": "image/jpeg",
-          "width": 1440,
-          "height": 960,
-          "size": 99790
-        },
-        {
-          "url": "assets/cases/MS-CA-001/gallery-04.jpg",
-          "filename": "g4.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1280,
-          "size": 215578
-        },
-        {
-          "url": "assets/cases/MS-CA-001/gallery-05.jpg",
-          "filename": "g5.jpg",
-          "type": "image/jpeg",
-          "width": 1919,
-          "height": 1280,
-          "size": 137779
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-033",
-      "title": "奥迪｜AI 商业广告",
-      "titleEn": "Audi — AI Commercial",
-      "client": "奥迪",
-      "industry": "汽车",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「奥迪｜AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Audi — AI Commercial, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-033/hero-01.jpg",
-          "filename": "BangWei_导演_奥迪_10_062.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1050,
-          "size": 157126
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-033/gallery-01.jpg",
-          "filename": "MS-MA-0358__BangWei-image122.jpg",
-          "type": "image/jpeg",
-          "width": 920,
-          "height": 521,
-          "size": 34413
-        },
-        {
-          "url": "assets/cases/MS-CA-033/gallery-02.jpg",
-          "filename": "BangWei_导演_奥迪_11_065.jpg",
-          "type": "image/jpeg",
-          "width": 960,
-          "height": 544,
-          "size": 75873
-        },
-        {
-          "url": "assets/cases/MS-CA-033/gallery-03.jpg",
-          "filename": "BangWei_导演_奥迪_11_069.jpg",
-          "type": "image/jpeg",
-          "width": 960,
-          "height": 544,
-          "size": 67034
-        },
-        {
-          "url": "assets/cases/MS-CA-033/gallery-04.jpg",
-          "filename": "BangWei_导演_奥迪_11_067.jpg",
-          "type": "image/jpeg",
-          "width": 960,
-          "height": 544,
-          "size": 60251
-        },
-        {
-          "url": "assets/cases/MS-CA-033/gallery-05.jpg",
-          "filename": "BangWei_导演_奥迪_11_073.jpg",
-          "type": "image/jpeg",
-          "width": 960,
-          "height": 544,
-          "size": 55066
-        },
-        {
-          "url": "assets/cases/MS-CA-033/gallery-06.jpg",
-          "filename": "BangWei_导演_奥迪_11_071.jpg",
-          "type": "image/jpeg",
-          "width": 960,
-          "height": 544,
-          "size": 53352
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/ssrD_agEC_Rnzh1lD5GJPw/3yCSfpurZyqntdvgdDbnHGdkmVo6OClRXESjJy0JtDIrMRppxrC1eMWLIueP0OZT3DF3dY5POlbHqu5SlREt3AyM0bVjzZAND1RstyCMtmOUq2EN93KZvtwDaA3I5Ij1-wV7IuI3xy3SK1nE9aCGYQIlN9tjNt2JryY7xACUr8obRoKnMm_fDK1GpIvhAq4S/yb0vtV6wBl127fpO7JPdaA2qOBNempJrMmzdMh2lDaA",
-          "filename": "MS-CA-033_BangWei_Audi_AI_Ad_Slide26.mp4",
-          "type": "video/mp4",
-          "size": 5174399
-        }
-      ]
-    },
-    {
-      "caseId": "MS-CA-008",
-      "title": "巴西总统卢拉｜政要拍摄",
-      "titleEn": "President Lula — Executive Portrait / Field Shoot",
-      "client": "巴西总统卢拉",
-      "industry": "政要／机构传播",
-      "services": [
-        "Field",
-        "Video"
-      ],
-      "year": "",
-      "country": "Brazil",
-      "city": "",
-      "intro": {
-        "zh": "围绕「巴西总统卢拉｜政要拍摄」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
-        "en": "A project built around President Lula — Executive Portrait / Field Shoot, focused on field production and cross-market collaboration and related production services."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
-        "en": "field production and cross-market collaboration; live action, editing and brand film production."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-008/hero-01.jpg",
-          "filename": "MS-MA-0152__KEKE-image10.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 356258
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-008/gallery-01.jpg",
-          "filename": "MS-MA-0166-KEKE-image14.jpg",
-          "type": "image/jpeg",
-          "width": 1107,
-          "height": 2400,
-          "size": 147247
-        },
-        {
-          "url": "assets/cases/MS-CA-008/gallery-02.jpg",
-          "filename": "MS-MA-0152-KEKE-image10.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 356258
-        },
-        {
-          "url": "assets/cases/MS-CA-008/gallery-03.jpg",
-          "filename": "MS-MA-0365-KEKE-image11.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 295836
-        },
-        {
-          "url": "assets/cases/MS-CA-008/gallery-04.jpg",
-          "filename": "MS-MA-0201-KEKE-image12.jpg",
-          "type": "image/jpeg",
-          "width": 1919,
-          "height": 1079,
-          "size": 199382
-        },
-        {
-          "url": "assets/cases/MS-CA-008/gallery-05.jpg",
-          "filename": "MS-MA-0118__KEKE-image13.jpg",
-          "type": "image/jpeg",
-          "width": 1107,
-          "height": 2400,
-          "size": 202542
         }
       ],
       "videos": []
@@ -1710,96 +2863,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-036",
-      "title": "LOVIPEER｜全 AI 广告",
-      "titleEn": "LOVIPEER — Fully AI Commercial",
-      "client": "LOVIPEER",
-      "industry": "消费品牌／美容",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "Global",
-      "city": "",
-      "intro": {
-        "zh": "围绕「LOVIPEER｜全 AI 广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around LOVIPEER — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-036/hero-01.jpg",
-          "filename": "BangWei_导演_Lovipeer_24_176.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 717,
-          "size": 66463
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-036/gallery-01.jpg",
-          "filename": "MS-MA-0314__BangWei-image111.jpg",
-          "type": "image/jpeg",
-          "width": 831,
-          "height": 467,
-          "size": 35238
-        },
-        {
-          "url": "assets/cases/MS-CA-036/gallery-02.jpg",
-          "filename": "BangWei_导演_Lovipeer_24_183.jpg",
-          "type": "image/jpeg",
-          "width": 1664,
-          "height": 932,
-          "size": 136678
-        },
-        {
-          "url": "assets/cases/MS-CA-036/gallery-03.jpg",
-          "filename": "BangWei_导演_Lovipeer_24_179.jpg",
-          "type": "image/jpeg",
-          "width": 1663,
-          "height": 932,
-          "size": 127330
-        },
-        {
-          "url": "assets/cases/MS-CA-036/gallery-04.jpg",
-          "filename": "BangWei_导演_Lovipeer_24_180.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 717,
-          "size": 118060
-        },
-        {
-          "url": "assets/cases/MS-CA-036/gallery-05.jpg",
-          "filename": "BangWei_导演_Lovipeer_24_181.jpg",
-          "type": "image/jpeg",
-          "width": 1215,
-          "height": 816,
-          "size": 117819
-        },
-        {
-          "url": "assets/cases/MS-CA-036/gallery-06.jpg",
-          "filename": "BangWei_导演_Lovipeer_25_187.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 96356
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/O6LYnJZhXR2TZBBLw9rzFQ/8PwwE1-cJMN-RlENfROXrdY4a6dz4RPbC76_5QQ36RvpEGG5HD3weoWfvSphVt4RxWpT_GOh-cOUiefLLeIS9VdDie9cjsAQXuds3dggGb0r0b2o_bay5IksDajtNQOWIZeohWUuLbRp6yDFMK9RZz2bUHw6MxTzeETGz9Lu7Zt-wNiIG75o2Qh25vBo5FJAbbT-oOFr_dOdapZnJWprlw/M-eOoAWiIKmGSD6qQFULKzVGg3YG9iMRLT0Vc_7Ghtc",
-          "filename": "MS-CA-036_BangWei_LOVIPEER_AI_Ad_Slide19.mp4",
-          "type": "video/mp4",
-          "size": 68273882
-        }
-      ]
-    },
-    {
       "caseId": "MS-CA-101",
       "title": "2017 H3C领航者峰会",
       "titleEn": "2017 H3C Navigator Summit",
@@ -1907,416 +2970,6 @@
         }
       ],
       "videos": []
-    },
-    {
-      "caseId": "MS-CA-018",
-      "title": "CNC／新华社《四季中国》第二季",
-      "titleEn": "CNC / Xinhua — Seasons of China, Season 2",
-      "client": "CNC／新华社四季中国第二季",
-      "industry": "国际传播／纪录片",
-      "services": [
-        "Video",
-        "Field"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「CNC／新华社《四季中国》第二季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
-        "en": "A project built around CNC / Xinhua — Seasons of China, Season 2, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
-        "en": "live action, editing and brand film production; field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-018/hero-01.jpg",
-          "filename": "MS-MA-0095-LiaoKuo-image46.jpg",
-          "type": "image/jpeg",
-          "width": 2078,
-          "height": 1170,
-          "size": 128069
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-018/gallery-01.jpg",
-          "filename": "MS-MA-0178-LiaoKuo-image45.jpg",
-          "type": "image/jpeg",
-          "width": 2073,
-          "height": 1170,
-          "size": 216630
-        },
-        {
-          "url": "assets/cases/MS-CA-018/gallery-02.jpg",
-          "filename": "MS-MA-0190-LiaoKuo-image44.jpg",
-          "type": "image/jpeg",
-          "width": 2080,
-          "height": 1170,
-          "size": 192030
-        },
-        {
-          "url": "assets/cases/MS-CA-018/gallery-03.jpg",
-          "filename": "MS-MA-0416-LiaoKuo-image47.jpg",
-          "type": "image/jpeg",
-          "width": 2073,
-          "height": 1170,
-          "size": 182738
-        },
-        {
-          "url": "assets/cases/MS-CA-018/gallery-04.jpg",
-          "filename": "MS-MA-0224-KEKE-image128.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1350,
-          "size": 662170
-        },
-        {
-          "url": "assets/cases/MS-CA-018/gallery-05.jpg",
-          "filename": "MS-MA-0320__LiaoKuo-image49.jpg",
-          "type": "image/jpeg",
-          "width": 2080,
-          "height": 1170,
-          "size": 144381
-        },
-        {
-          "url": "assets/cases/MS-CA-018/gallery-06.jpg",
-          "filename": "MS-MA-0320-LiaoKuo-image49.jpg",
-          "type": "image/jpeg",
-          "width": 2080,
-          "height": 1170,
-          "size": 144381
-        },
-        {
-          "url": "assets/cases/MS-CA-018/gallery-07.jpg",
-          "filename": "MS-MA-0178-LiaoKuo-image45.jpg",
-          "type": "image/jpeg",
-          "width": 2073,
-          "height": 1170,
-          "size": 216630
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-002",
-      "title": "追觅 DREAME｜Las Vegas CES 展会现场",
-      "titleEn": "Dreame — Las Vegas CES Field Production",
-      "client": "追觅 DREAME",
-      "industry": "智能家居／清洁电器",
-      "services": [
-        "Field"
-      ],
-      "year": "2026",
-      "country": "US",
-      "city": "Las Vegas",
-      "intro": {
-        "zh": "围绕「追觅 DREAME｜Las Vegas CES 展会现场」展开，聚焦现场摄制与跨地区协作。",
-        "en": "A project built around Dreame — Las Vegas CES Field Production, focused on field production and cross-market collaboration."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作。",
-        "en": "field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-002/hero-01.jpg",
-          "filename": "MS-MA-0175-KEKE-image29.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 637441
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-002/gallery-01.jpg",
-          "filename": "MS-MA-0188-KEKE-image31.jpg",
-          "type": "image/jpeg",
-          "width": 1620,
-          "height": 1080,
-          "size": 215839
-        },
-        {
-          "url": "assets/cases/MS-CA-002/gallery-02.jpg",
-          "filename": "MS-MA-0308-KEKE-image32.jpg",
-          "type": "image/jpeg",
-          "width": 1620,
-          "height": 1080,
-          "size": 309283
-        },
-        {
-          "url": "assets/cases/MS-CA-002/gallery-03.jpg",
-          "filename": "MS-MA-0353-KEKE-image24.jpg",
-          "type": "image/jpeg",
-          "width": 1620,
-          "height": 1080,
-          "size": 196404
-        },
-        {
-          "url": "assets/cases/MS-CA-002/gallery-04.jpg",
-          "filename": "MS-MA-0402-KEKE-image26.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 639482
-        },
-        {
-          "url": "assets/cases/MS-CA-002/gallery-05.jpg",
-          "filename": "MS-MA-0405-KEKE-image27.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 653368
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-037",
-      "title": "德芙｜全 AI 商业广告",
-      "titleEn": "Dove — Fully AI Commercial",
-      "client": "德芙",
-      "industry": "食品／快消",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「德芙｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Dove — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-037/hero-01.jpg",
-          "filename": "MS-MA-0174__BangWei-image110.jpg",
-          "type": "image/jpeg",
-          "width": 1924,
-          "height": 1076,
-          "size": 227287
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-037/gallery-01.jpg",
-          "filename": "BangWei_导演_德芙_06_036.jpg",
-          "type": "image/jpeg",
-          "width": 2560,
-          "height": 1440,
-          "size": 334420
-        },
-        {
-          "url": "assets/cases/MS-CA-037/gallery-02.jpg",
-          "filename": "BangWei_导演_德芙_07_042.jpg",
-          "type": "image/jpeg",
-          "width": 2752,
-          "height": 1536,
-          "size": 289829
-        },
-        {
-          "url": "assets/cases/MS-CA-037/gallery-03.jpg",
-          "filename": "BangWei_导演_德芙_07_040.jpg",
-          "type": "image/jpeg",
-          "width": 1278,
-          "height": 714,
-          "size": 228188
-        },
-        {
-          "url": "assets/cases/MS-CA-037/gallery-04.jpg",
-          "filename": "BangWei_导演_德芙_07_046.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 710,
-          "size": 173643
-        },
-        {
-          "url": "assets/cases/MS-CA-037/gallery-05.jpg",
-          "filename": "BangWei_导演_德芙_07_045.jpg",
-          "type": "image/jpeg",
-          "width": 1278,
-          "height": 715,
-          "size": 160581
-        },
-        {
-          "url": "assets/cases/MS-CA-037/gallery-06.jpg",
-          "filename": "BangWei_导演_德芙_07_043.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 714,
-          "size": 96368
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/E7QOTeMidLrxGhwawm4fLg/PxIqtIqDQiZtVp7BfbhVRD2AMg2zdDlC7YfStHtQqP-aA03fKXwXL5RIs5_4HUuIdVqhVJOjAzxc_Jw33gxp_WU0QMX_7NDVaL-FjxMmNKMi8ph2eOWeXPRFrOnmFIE9wlEwKXP4sNmZZfnJXK0-ZMYTlDz-3TyK50bWC3850lXLoZSGv_dIGGTL19Rsx7fr/p22_XhL6LKt2MVUG9RDe6osXPgkTPdBy2S5YM9Tvz5k",
-          "filename": "MS-CA-037_BangWei_Dove_AI_Ad_Slide18.mp4",
-          "type": "video/mp4",
-          "size": 84533016
-        }
-      ]
-    },
-    {
-      "caseId": "MS-CA-020",
-      "title": "《乘火车看中国》第五／六集《世界屋脊之路》",
-      "titleEn": "Watching China by Train — Episodes 5/6: The Roof of the World",
-      "client": "乘火车看中国第五／六集世界屋脊之路",
-      "industry": "国际传播／纪录片",
-      "services": [
-        "Video",
-        "Field"
-      ],
-      "year": "",
-      "country": "China—France",
-      "city": "",
-      "intro": {
-        "zh": "围绕「《乘火车看中国》第五／六集《世界屋脊之路》」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
-        "en": "A project built around Watching China by Train — Episodes 5/6: The Roof of the World, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
-        "en": "live action, editing and brand film production; field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-020/hero-01.jpg",
-          "filename": "MS-MA-0005__KEKE-image93.jpg",
-          "type": "image/jpeg",
-          "width": 2208,
-          "height": 1242,
-          "size": 322924
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-020/gallery-01.jpg",
-          "filename": "MS-MA-0012__KEKE-image97.jpg",
-          "type": "image/jpeg",
-          "width": 2208,
-          "height": 1242,
-          "size": 152698
-        },
-        {
-          "url": "assets/cases/MS-CA-020/gallery-02.jpg",
-          "filename": "MS-MA-0282__KEKE-image96.jpg",
-          "type": "image/jpeg",
-          "width": 2208,
-          "height": 1242,
-          "size": 82265
-        },
-        {
-          "url": "assets/cases/MS-CA-020/gallery-03.jpg",
-          "filename": "MS-MA-0292__KEKE-image94.jpg",
-          "type": "image/jpeg",
-          "width": 2208,
-          "height": 1242,
-          "size": 165801
-        },
-        {
-          "url": "assets/cases/MS-CA-020/gallery-04.jpg",
-          "filename": "MS-MA-0014__KEKE-image95.jpg",
-          "type": "image/jpeg",
-          "width": 2208,
-          "height": 1242,
-          "size": 118451
-        },
-        {
-          "url": "assets/cases/MS-CA-020/gallery-05.jpg",
-          "filename": "MS-MA-0078__KEKE-image98.jpg",
-          "type": "image/jpeg",
-          "width": 2208,
-          "height": 1242,
-          "size": 309986
-        },
-        {
-          "url": "assets/cases/MS-CA-020/gallery-06.jpg",
-          "filename": "MS-MA-0394__LiaoKuo-image1.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1350,
-          "size": 626858
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-038",
-      "title": "蒙牛｜环境 AI + 人物实拍",
-      "titleEn": "Mengniu — AI Environment + Live Action",
-      "client": "蒙牛",
-      "industry": "乳业／快消",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「蒙牛｜环境 AI + 人物实拍」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Mengniu — AI Environment + Live Action, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-038/hero-01.jpg",
-          "filename": "MS-MA-0110__BangWei-image113.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 720,
-          "size": 64274
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-038/gallery-01.jpg",
-          "filename": "MS-MA-0194__BangWei-image124.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1350,
-          "size": 211832
-        },
-        {
-          "url": "assets/cases/MS-CA-038/gallery-02.jpg",
-          "filename": "BangWei_导演_蒙牛_34_245.jpg",
-          "type": "image/jpeg",
-          "width": 2367,
-          "height": 994,
-          "size": 490873
-        },
-        {
-          "url": "assets/cases/MS-CA-038/gallery-03.jpg",
-          "filename": "BangWei_导演_蒙牛_34_243.jpg",
-          "type": "image/jpeg",
-          "width": 1181,
-          "height": 496,
-          "size": 142747
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/Xm6Cu4BHvW0Be5xKOTbDzA/mKGoZQhIhqAGp_dTMO55LN--_fVdBc1O-Gh24Bi8Rgfh6rVtHjSKkNpZ8ZwJb0ipjdV3WstYS8fBmWhyboS164CGaxaf5K3kBY6aZXCV7jSLGvnrWtOnrLA3pCk66CeaHFFf-sJhgduQiadv92JAcekpr00U-QFQAWPT5GlaDN-LmvDag2lstSzuOetqoE7FeN3U3bvA3abHn7ksaNkG7Q/VY0N3ocmeoGmWWFTRwGwV2Qf98uV2OXtGQYij6cF9RA",
-          "filename": "MS-CA-038_BangWei_Mengniu_AI_Ad_V2_Slide28.mp4",
-          "type": "video/mp4",
-          "size": 214492567
-        },
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/11G3djDHDv--vNENrCBhHw/wrQA5yoFMqg_rUFXyFZY1PwV7Cf-D6IFsrLfKQp9EZGZHntW84pqgC-rIHujqAKuWfVPUIkl60-eC8FfV3X0B_fOibJ9Xkk3fj57YIJ7W2m9Pt0VzWsodce-PmEiVEd1064iCsKfx5WE0kLTSWd2w-QhTIy-QEs0YxQfsMyAdMrPfZA4q8VJzj1_lW_H02x53ZygDWs4d9xN4Atw0M6MiQ/ctrEdhTb865UxOAycxmnfpdFiuGKStNIDpwS3v1YeUY",
-          "filename": "MS-CA-038_BangWei_Mengniu_Hybrid_AI_Slide20.mp4",
-          "type": "video/mp4",
-          "size": 10663064
-        }
-      ]
     },
     {
       "caseId": "MS-CA-079",
@@ -2545,178 +3198,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-043",
-      "title": "海信｜全 AI 商业广告",
-      "titleEn": "Hisense — Fully AI Commercial",
-      "client": "海信",
-      "industry": "消费电子／家电",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「海信｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Hisense — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-043/hero-01.jpg",
-          "filename": "BangWei_导演_海信_31_230.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 340968
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-043/gallery-01.jpg",
-          "filename": "MS-MA-0349__BangWei-image123.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 370944
-        },
-        {
-          "url": "assets/cases/MS-CA-043/gallery-02.jpg",
-          "filename": "BangWei_导演_海信_30_227.jpg",
-          "type": "image/jpeg",
-          "width": 1737,
-          "height": 977,
-          "size": 187526
-        },
-        {
-          "url": "assets/cases/MS-CA-043/gallery-03.jpg",
-          "filename": "BangWei_导演_海信_30_226.jpg",
-          "type": "image/jpeg",
-          "width": 1756,
-          "height": 982,
-          "size": 145618
-        },
-        {
-          "url": "assets/cases/MS-CA-043/gallery-04.jpg",
-          "filename": "BangWei_导演_海信_30_223.jpg",
-          "type": "image/jpeg",
-          "width": 1226,
-          "height": 982,
-          "size": 142052
-        },
-        {
-          "url": "assets/cases/MS-CA-043/gallery-05.jpg",
-          "filename": "BangWei_导演_海信_30_225.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 720,
-          "size": 134186
-        },
-        {
-          "url": "assets/cases/MS-CA-043/gallery-06.jpg",
-          "filename": "BangWei_导演_海信_30_224.jpg",
-          "type": "image/jpeg",
-          "width": 1224,
-          "height": 1080,
-          "size": 92089
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/nHMUpzG9_QYSnXcaM1qw_g/16-e_00NuTnNwQmjuT5oNQ4H14e0Mp-JKwv6LTYqiycs5GeJHowG83PuAHWvJO63TogwN5Iz8hKj3T8AF-kVInFST8oh2qDWtrIyOfQVT1Z-uOYZk_tfPO_O_N3rZ2CTGoJ24dtDaIOnI4gUDLYfpdS13Kboe7EQ1zC4ZtyXEbNC-Bpeu4VuDvkEL8DsyOtJV4eJ0DopdlC3fRZ24h0EQw/U-sHWrKbMg-iHPsxR5z4_QbtjX-vL3K82BEs00B2bZo",
-          "filename": "MS-CA-043_BangWei_Hisense_AI_Ad_Slide27.mp4",
-          "type": "video/mp4",
-          "size": 152637575
-        }
-      ]
-    },
-    {
-      "caseId": "MS-CA-011",
-      "title": "可口可乐｜马年烟花大秀多地互动直播",
-      "titleEn": "Coca-Cola — Lunar New Year Fireworks Multi-City Livestream",
-      "client": "可口可乐",
-      "industry": "饮料／消费品牌",
-      "services": [
-        "Live"
-      ],
-      "year": "2026",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「可口可乐｜马年烟花大秀多地互动直播」展开，聚焦直播信号与多端分发。",
-        "en": "A project built around Coca-Cola — Lunar New Year Fireworks Multi-City Livestream, focused on live signal delivery and multi-platform distribution."
-      },
-      "approach": {
-        "zh": "直播信号与多端分发。",
-        "en": "live signal delivery and multi-platform distribution."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-011/hero-01.jpg",
-          "filename": "MS-MA-0048__KEKE-image55.jpg",
-          "type": "image/jpeg",
-          "width": 1107,
-          "height": 2400,
-          "size": 259188
-        },
-        {
-          "url": "assets/cases/MS-CA-011/hero-02.jpg",
-          "filename": "FW9.jpg",
-          "type": "image/jpeg",
-          "width": 1024,
-          "height": 683,
-          "size": 116086
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-011/gallery-01.jpg",
-          "filename": "MS-MA-0309-KEKE-image54.jpg",
-          "type": "image/jpeg",
-          "width": 1088,
-          "height": 2400,
-          "size": 269284
-        },
-        {
-          "url": "assets/cases/MS-CA-011/gallery-02.jpg",
-          "filename": "MS-MA-0218-KEKE-image51.jpg",
-          "type": "image/jpeg",
-          "width": 1109,
-          "height": 2400,
-          "size": 273406
-        },
-        {
-          "url": "assets/cases/MS-CA-011/gallery-03.jpg",
-          "filename": "MS-MA-0315-KEKE-image52.jpg",
-          "type": "image/jpeg",
-          "width": 1108,
-          "height": 2400,
-          "size": 336086
-        },
-        {
-          "url": "assets/cases/MS-CA-011/gallery-04.jpg",
-          "filename": "MS-MA-0072-KEKE-image53.jpg",
-          "type": "image/jpeg",
-          "width": 1107,
-          "height": 2400,
-          "size": 318304
-        },
-        {
-          "url": "assets/cases/MS-CA-011/gallery-05.jpg",
-          "filename": "MS-MA-0102-KEKE-image56.jpg",
-          "type": "image/jpeg",
-          "width": 1109,
-          "height": 2400,
-          "size": 272950
-        }
-      ],
-      "videos": []
-    },
-    {
       "caseId": "MS-CA-097",
       "title": "2018三亚国际半程马拉松",
       "titleEn": "2018 Sanya International Half Marathon",
@@ -2881,89 +3362,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-004",
-      "title": "瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅",
-      "titleEn": "Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story",
-      "client": "瑞幸咖啡",
-      "industry": "连锁咖啡／消费品牌",
-      "services": [
-        "Field",
-        "Video"
-      ],
-      "year": "2026",
-      "country": "",
-      "city": "",
-      "intro": {
-        "zh": "围绕「瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
-        "en": "A project built around Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story, focused on field production and cross-market collaboration and related production services."
-      },
-      "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
-        "en": "field production and cross-market collaboration; live action, editing and brand film production."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-004/hero-01.jpg",
-          "filename": "MS-MA-0350-KEKE-image47.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 589121
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-004/gallery-01.jpg",
-          "filename": "MS-MA-0219-KEKE-image45.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 553689
-        },
-        {
-          "url": "assets/cases/MS-CA-004/gallery-02.jpg",
-          "filename": "MS-MA-0227-KEKE-image50.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 607233
-        },
-        {
-          "url": "assets/cases/MS-CA-004/gallery-03.jpg",
-          "filename": "MS-MA-0318-KEKE-image44.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 517736
-        },
-        {
-          "url": "assets/cases/MS-CA-004/gallery-04.jpg",
-          "filename": "MS-MA-0359-KEKE-image48.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 251831
-        },
-        {
-          "url": "assets/cases/MS-CA-004/gallery-05.jpg",
-          "filename": "MS-MA-0377-KEKE-image46.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1600,
-          "size": 362815
-        },
-        {
-          "url": "assets/cases/MS-CA-004/gallery-06.jpg",
-          "filename": "BangWei_导演_瑞幸咖啡_19_128.jpg",
-          "type": "image/jpeg",
-          "width": 2636,
-          "height": 1471,
-          "size": 355570
-        }
-      ],
-      "videos": []
-    },
-    {
       "caseId": "MS-CA-044",
       "title": "999 皮炎平｜全 AI 二维卡通动画",
       "titleEn": "999 Pi Yan Ping — Fully AI 2D Cartoon Animation",
@@ -3003,164 +3401,6 @@
           "size": 2111195
         }
       ]
-    },
-    {
-      "caseId": "MS-CA-065",
-      "title": "路虎｜AI／商业影像项目",
-      "titleEn": "Land Rover — AI / Commercial Imaging Project",
-      "client": "路虎",
-      "industry": "汽车",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "",
-      "city": "",
-      "intro": {
-        "zh": "围绕「路虎｜AI／商业影像项目」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Land Rover — AI / Commercial Imaging Project, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-065/hero-01.jpg",
-          "filename": "BangWei_导演_路虎_09_056.jpg",
-          "type": "image/jpeg",
-          "width": 2751,
-          "height": 1536,
-          "size": 523853
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-065/gallery-01.jpg",
-          "filename": "BangWei_导演_路虎_09_058.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 692,
-          "size": 192937
-        },
-        {
-          "url": "assets/cases/MS-CA-065/gallery-02.jpg",
-          "filename": "BangWei_导演_路虎_08_049.jpg",
-          "type": "image/jpeg",
-          "width": 1924,
-          "height": 1076,
-          "size": 190960
-        },
-        {
-          "url": "assets/cases/MS-CA-065/gallery-03.jpg",
-          "filename": "BangWei_导演_路虎_09_053.jpg",
-          "type": "image/jpeg",
-          "width": 1376,
-          "height": 768,
-          "size": 127370
-        },
-        {
-          "url": "assets/cases/MS-CA-065/gallery-04.jpg",
-          "filename": "BangWei_导演_路虎_09_055.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 702,
-          "size": 125305
-        },
-        {
-          "url": "assets/cases/MS-CA-065/gallery-05.jpg",
-          "filename": "BangWei_导演_路虎_09_052.jpg",
-          "type": "image/jpeg",
-          "width": 1270,
-          "height": 721,
-          "size": 102691
-        },
-        {
-          "url": "assets/cases/MS-CA-065/gallery-06.jpg",
-          "filename": "BangWei_导演_路虎_09_057.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 692,
-          "size": 96919
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-009",
-      "title": "极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播",
-      "titleEn": "Jiyue Auto — 24-Hour, 2,000 km Intelligent-Driving Livestream",
-      "client": "极越汽车",
-      "industry": "汽车",
-      "services": [
-        "Live",
-        "Field"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "Chengdu—Xiamen",
-      "intro": {
-        "zh": "围绕「极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播」展开，聚焦直播信号与多端分发、现场摄制与跨地区协作。",
-        "en": "A project built around Jiyue Auto — 24-Hour, 2,000 km Intelligent-Driving Livestream, focused on live signal delivery and multi-platform distribution and related production services."
-      },
-      "approach": {
-        "zh": "直播信号与多端分发；现场摄制与跨地区协作。",
-        "en": "live signal delivery and multi-platform distribution; field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-009/hero-01.jpg",
-          "filename": "MS-MA-0033-KEKE-image58.jpg",
-          "type": "image/jpeg",
-          "width": 1707,
-          "height": 1280,
-          "size": 159639
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-009/gallery-01.jpg",
-          "filename": "MS-MA-0223-KEKE-image61.jpg",
-          "type": "image/jpeg",
-          "width": 1702,
-          "height": 1276,
-          "size": 212009
-        },
-        {
-          "url": "assets/cases/MS-CA-009/gallery-02.jpg",
-          "filename": "MS-MA-0128-KEKE-image60.jpg",
-          "type": "image/jpeg",
-          "width": 1440,
-          "height": 1080,
-          "size": 177476
-        },
-        {
-          "url": "assets/cases/MS-CA-009/gallery-03.jpg",
-          "filename": "MS-MA-0324-KEKE-image59.jpg",
-          "type": "image/jpeg",
-          "width": 1707,
-          "height": 1280,
-          "size": 251414
-        },
-        {
-          "url": "assets/cases/MS-CA-009/gallery-04.jpg",
-          "filename": "MS-MA-0313-KEKE-image57.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 1920,
-          "size": 277334
-        },
-        {
-          "url": "assets/cases/MS-CA-009/gallery-05.jpg",
-          "filename": "MS-MA-0341-KEKE-image64.jpg",
-          "type": "image/jpeg",
-          "width": 1440,
-          "height": 1080,
-          "size": 252304
-        }
-      ],
-      "videos": []
     },
     {
       "caseId": "MS-CA-054",
@@ -3597,89 +3837,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-066",
-      "title": "Sunseeker｜除草机 AI 影像项目",
-      "titleEn": "Sunseeker — AI Commercial Imaging Project",
-      "client": "Sunseeker",
-      "industry": "工业／消费产品",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "",
-      "city": "",
-      "intro": {
-        "zh": "围绕「Sunseeker｜除草机 AI 影像项目」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around Sunseeker — AI Commercial Imaging Project, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-066/hero-01.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_139.jpg",
-          "type": "image/jpeg",
-          "width": 2213,
-          "height": 1235,
-          "size": 436418
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-066/gallery-01.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_141.jpg",
-          "type": "image/jpeg",
-          "width": 1300,
-          "height": 1249,
-          "size": 340051
-        },
-        {
-          "url": "assets/cases/MS-CA-066/gallery-02.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_142.jpg",
-          "type": "image/jpeg",
-          "width": 2003,
-          "height": 1118,
-          "size": 267296
-        },
-        {
-          "url": "assets/cases/MS-CA-066/gallery-03.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_138.jpg",
-          "type": "image/jpeg",
-          "width": 1452,
-          "height": 661,
-          "size": 229839
-        },
-        {
-          "url": "assets/cases/MS-CA-066/gallery-04.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_140.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 1280,
-          "size": 146154
-        },
-        {
-          "url": "assets/cases/MS-CA-066/gallery-05.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_145.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 714,
-          "size": 141611
-        },
-        {
-          "url": "assets/cases/MS-CA-066/gallery-06.jpg",
-          "filename": "BangWei_导演_除草机sunseeker_20_144.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 714,
-          "size": 133837
-        }
-      ],
-      "videos": []
-    },
-    {
       "caseId": "MS-CA-050",
       "title": "2021 天猫双 11｜理想之城",
       "titleEn": "Tmall Double 11 — Ideal City",
@@ -3966,163 +4123,6 @@
           "width": 1080,
           "height": 720,
           "size": 133211
-        }
-      ],
-      "videos": []
-    },
-    {
-      "caseId": "MS-CA-042",
-      "title": "战马｜全 AI 功能饮料广告",
-      "titleEn": "War Horse — Fully AI Functional Beverage Commercial",
-      "client": "战马",
-      "industry": "饮料／快消",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "",
-      "country": "China",
-      "city": "",
-      "intro": {
-        "zh": "围绕「战马｜全 AI 功能饮料广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
-        "en": "A project built around War Horse — Fully AI Functional Beverage Commercial, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-042/hero-01.jpg",
-          "filename": "BangWei_导演_战马_28_210.jpg",
-          "type": "image/jpeg",
-          "width": 1897,
-          "height": 1067,
-          "size": 187917
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-042/gallery-01.jpg",
-          "filename": "MS-MA-0310__BangWei-image118.jpg",
-          "type": "image/jpeg",
-          "width": 921,
-          "height": 518,
-          "size": 55793
-        },
-        {
-          "url": "assets/cases/MS-CA-042/gallery-02.jpg",
-          "filename": "BangWei_导演_战马_28_209.jpg",
-          "type": "image/jpeg",
-          "width": 1890,
-          "height": 1063,
-          "size": 168654
-        },
-        {
-          "url": "assets/cases/MS-CA-042/gallery-03.jpg",
-          "filename": "BangWei_导演_战马_28_217.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 720,
-          "size": 116206
-        },
-        {
-          "url": "assets/cases/MS-CA-042/gallery-04.jpg",
-          "filename": "BangWei_导演_战马_28_213.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 720,
-          "size": 108482
-        },
-        {
-          "url": "assets/cases/MS-CA-042/gallery-05.jpg",
-          "filename": "BangWei_导演_战马_28_215.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 720,
-          "size": 93397
-        },
-        {
-          "url": "assets/cases/MS-CA-042/gallery-06.jpg",
-          "filename": "BangWei_导演_战马_28_214.jpg",
-          "type": "image/jpeg",
-          "width": 1280,
-          "height": 720,
-          "size": 88331
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/GKB5xaNIkcgPEUv36-JFEw/y_nDNczO7gNH2mChbiEpZqJyBLJtjhloT6swK9I4e6Ep7O_pO_vqJz5JtTgHc2tNuykNrIxXlijhyVOoN6r_ZCsF22936E-ywYgeIQXJdvI6HG2hFgwDM6Beo0atfCQboX0fAJMQdHnrUWfjxS7QFSZOiG6MCrFQ4ZVS9U6BXpTRzrXrr8GxGNxeh9Je6E6OKc-uUcNdEOrBVQBYA-ILEA/7fkknW9BTXTj68SWn5USIDnMo2-u-TUYWk5JPxmOHvs",
-          "filename": "MS-CA-042_BangWei_Warhorse_AI_Ad_Slide23.mp4",
-          "type": "video/mp4",
-          "size": 149565591
-        }
-      ]
-    },
-    {
-      "caseId": "MS-CA-017",
-      "title": "《家有恶猫》第二季",
-      "titleEn": "My Cat from Hell — Season 2",
-      "client": "家有恶猫第二季",
-      "industry": "流媒体／真人秀纪录片",
-      "services": [
-        "Video",
-        "Field"
-      ],
-      "year": "2023",
-      "country": "China",
-      "city": "Guangzhou",
-      "intro": {
-        "zh": "围绕「《家有恶猫》第二季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
-        "en": "A project built around My Cat from Hell — Season 2, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
-        "en": "live action, editing and brand film production; field production and cross-market collaboration."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-017/hero-01.jpg",
-          "filename": "MS-MA-0404__KEKE-image83.jpg",
-          "type": "image/jpeg",
-          "width": 2078,
-          "height": 1170,
-          "size": 200388
-        }
-      ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-017/gallery-01.jpg",
-          "filename": "MS-MA-0177-KEKE-image84.jpg",
-          "type": "image/jpeg",
-          "width": 2072,
-          "height": 1170,
-          "size": 162319
-        },
-        {
-          "url": "assets/cases/MS-CA-017/gallery-02.jpg",
-          "filename": "MS-MA-0162-KEKE-image81.jpg",
-          "type": "image/jpeg",
-          "width": 2080,
-          "height": 1170,
-          "size": 246044
-        },
-        {
-          "url": "assets/cases/MS-CA-017/gallery-03.jpg",
-          "filename": "MS-MA-0065-KEKE-image85.jpg",
-          "type": "image/jpeg",
-          "width": 2276,
-          "height": 1280,
-          "size": 514303
-        },
-        {
-          "url": "assets/cases/MS-CA-017/gallery-04.jpg",
-          "filename": "MS-MA-0112-KEKE-image86.jpg",
-          "type": "image/jpeg",
-          "width": 2073,
-          "height": 1170,
-          "size": 188189
         }
       ],
       "videos": []
