@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Match Studio logo</title>
+  <desc id="desc">Two mirrored line-art hands meeting at a fluorescent yellow fingertip, with the Match Studio wordmark.</desc>
+  <rect width="720" height="240" fill="#080807"/>
+  <g transform="translate(34 38)" fill="none" stroke="#F5F4EF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 150c26-8 43-26 54-54l7-18-26-20c-8-6-9-15-3-21s15-4 21 2l24 20-15-38c-4-10 1-18 10-21 9-2 16 4 19 13l13 40V15c0-10 7-17 17-17s17 7 17 17v48c0 31-14 57-42 75l-20 13"/>
+    <path d="M274 150c-26-8-43-26-54-54l-7-18 26-20c8-6 9-15 3-21s-15-4-21 2l-24 20 15-38c4-10-1-18-10-21-9-2-16 4-19 13l-13 40V15c0-10-7-17-17-17s-17 7-17 17v48c0 31 14 57 42 75l20 13"/>
+  </g>
+  <circle cx="175" cy="37" r="8" fill="#E6FF3D" stroke="#F5F4EF" stroke-width="4"/>
+  <text x="350" y="112" fill="#F5F4EF" font-family="Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.2">MATCH STUDIO</text>
+  <path d="M352 130H604" stroke="#F5F4EF" stroke-width="7"/>
+</svg>
