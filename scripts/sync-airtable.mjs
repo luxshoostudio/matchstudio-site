@@ -161,12 +161,18 @@ async function readExisting() {
 }
 
 async function downloadAttachment(attachment, destination) {
-  const response = await fetch(attachment.url, { signal: AbortSignal.timeout(120_000) });
+  const attachmentType = String(attachment.type || '').toLowerCase();
+  const attachmentExtension = path.extname(String(attachment.filename || '')).toLowerCase();
+  const needsPreview = attachmentType === 'image/heic' || attachmentType === 'image/heif' || ['.heic', '.heif'].includes(attachmentExtension);
+  const downloadUrl = needsPreview
+    ? attachment.thumbnails?.full?.url || attachment.thumbnails?.large?.url || attachment.url
+    : attachment.url;
+  const response = await fetch(downloadUrl, { signal: AbortSignal.timeout(120_000) });
   if (!response.ok) throw new Error(`Attachment download ${response.status} for ${attachment.filename || attachment.id || 'unnamed file'}`);
   const contentType = response.headers.get('content-type') || attachment.type || '';
   const extension = getExtension(attachment.filename, contentType) || getExtension(attachment.filename, attachment.type);
   if (!extension) {
-    throw new Error(`Unsupported image format for ${attachment.filename || attachment.id || 'unnamed file'} (${contentType || 'unknown type'}). Convert it to JPG/PNG/WebP in Airtable first.`);
+    throw new Error(`Unsupported image format for ${attachment.filename || attachment.id || 'unnamed file'} (${contentType || 'unknown type'}). Airtable did not provide a browser-readable thumbnail.`);
   }
   const bytes = Buffer.from(await response.arrayBuffer());
   await writeFile(destination, bytes);
