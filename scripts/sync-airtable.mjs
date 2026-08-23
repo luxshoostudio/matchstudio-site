@@ -38,6 +38,24 @@ const FIELDS = {
   clientNamePublic: 'fld2YGERxXgNdtZJr',
 };
 
+const FIELD_NAMES = {
+  assetType: 'Asset Type',
+  industry: 'Industry',
+  services: 'Services',
+  caseId: 'Case ID',
+  clientInstitution: 'Client / Institution',
+  projectYear: 'Project Year',
+  country: 'Country',
+  city: 'City',
+  headlineCn: 'Case Headline CN',
+  introCn: 'Case Intro CN',
+  approach: 'Creative / Production Approach',
+  heroImage: 'Hero Image',
+  gallery: 'Case Gallery',
+  videos: 'Case Videos',
+  clientNamePublic: 'Client Name Public',
+};
+
 const IMAGE_MIME_EXTENSIONS = new Map([
   ['image/jpeg', 'jpg'],
   ['image/jpg', 'jpg'],
@@ -54,7 +72,7 @@ function requireToken() {
 }
 
 function value(fields, key) {
-  return fields[FIELDS[key]];
+  return fields[FIELDS[key]] ?? fields[FIELD_NAMES[key]];
 }
 
 function textValue(fields, key) {
@@ -113,7 +131,7 @@ function attachmentMetadata(attachment, url, extension) {
 async function airtableRecords() {
   const records = [];
   let offset;
-  const fields = [...new Set(Object.values(FIELDS))];
+  const fields = [...new Set(Object.values(FIELD_NAMES))];
   do {
     const params = new URLSearchParams({
       pageSize: '100',
