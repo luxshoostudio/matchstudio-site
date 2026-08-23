@@ -49,7 +49,8 @@ main{padding-top:74px}.hero{min-height:790px;position:relative;display:flex;flex
 .case-front{display:flex;flex-direction:column}
 .case-back{transform:rotateY(180deg);padding:22px;display:flex;flex-direction:column}
 .case-img{height:auto;aspect-ratio:3/4;flex:none}
-.case-img img{object-fit:contain;background:#0e100d}
+.case-img img{object-fit:cover;background:#0e100d}
+.case-card-vertical .case-img img{object-fit:contain}
 .case-body{display:flex;flex-direction:column;flex:1;padding-bottom:34px}
 .case-meta,.case-back-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .case-title{min-height:0;margin-top:12px;color:var(--text);font-size:18px;line-height:1.2}
