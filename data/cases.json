@@ -4110,6 +4110,121 @@
           "size": 364913998
         }
       ]
+    },
+    {
+      "caseId": "MS-CA-007",
+      "title": "华为｜慕尼黑纪录片",
+      "titleEn": "华为｜慕尼黑纪录片",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
+      "industry": "ICT／消费电子",
+      "services": [
+        "Field",
+        "Video"
+      ],
+      "year": "待核",
+      "country": "Germany",
+      "city": "Munich",
+      "intro": {
+        "zh": "华为｜慕尼黑纪录片：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
+        "en": ""
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
+        "en": ""
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-007/hero-01-attFCCnCEFxTNN30l.jpg",
+          "filename": "2efdcf5704921e20a921d2372ef9a7.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 960,
+          "size": 325756
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-007/gallery-01-attbdVTUmBtR6LL61.jpg",
+          "filename": "50e9f849c752bb61766525140f2b41.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 960,
+          "size": 238494
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-02-attjfEzgnaQ2bMxjt.jpg",
+          "filename": "88f7a256bd8d656d0c873db4756127.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1080,
+          "size": 398113
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-03-att1p8GNMiNyyrPZz.jpg",
+          "filename": "125afb8aabed4e8eb815e6cb84b88f.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 2160,
+          "size": 650229
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-04-attSepoCpEN6WMFTw.jpg",
+          "filename": "0591bb15d440267f09f3f9f0096131.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1080,
+          "size": 339263
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-05-attLvzm6meSkOn7k0.jpg",
+          "filename": "0708e7850626055e7d266e4e10c7df.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1080,
+          "size": 370205
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-06-attYi8zkvDvDW4LaF.jpg",
+          "filename": "727bd7b2003be7885fe52814cb0486.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1920,
+          "size": 670108
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-07-attc9UIXlHCLlHa0u.jpg",
+          "filename": "747bd08d08f4ea25ba7f8622ae91c0.JPG",
+          "type": "image/jpeg",
+          "width": 2560,
+          "height": 1920,
+          "size": 1410862
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-08-att2kO7pTHgT0tcqF.jpg",
+          "filename": "4197401d7c03d4946a31e377540358.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 960,
+          "size": 241476
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-09-attnfJa7K5DWZrJwW.jpg",
+          "filename": "c290039cba56cc7618790cb0d4a1f2.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 1920,
+          "size": 407342
+        },
+        {
+          "url": "assets/cases/MS-CA-007/gallery-10-attL8z2zVkqJMeQrT.jpg",
+          "filename": "fb64b060f3a6f01f038bdc8ea065bc.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 960,
+          "size": 202597
+        }
+      ],
+      "videos": []
     }
   ]
 }
