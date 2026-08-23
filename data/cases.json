@@ -4,7 +4,7 @@
       "caseId": "MS-CA-015",
       "title": "《探索新境·寻找王一博》",
       "titleEn": "Exploration New Ground — Finding Wang Yibo",
-      "client": "探索新境·寻找王一博",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "流媒体／纪录片",
       "services": [
         "Video",
@@ -14,26 +14,26 @@
       "country": "China",
       "city": "海南、珠海、桂林、青海、内蒙古",
       "intro": {
-        "zh": "围绕「《探索新境·寻找王一博》」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "zh": "《探索新境·寻找王一博》：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Exploration New Ground — Finding Wang Yibo, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-015/hero-01.jpg",
-          "filename": "MS-MA-0010-KEKE-image80.jpg",
+          "url": "assets/cases/MS-CA-015/hero-01-attpRknflYmzVfyH5.jpg",
+          "filename": "MS-MA-0299__KEKE-image8.jpg",
           "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 208032
+          "width": 1080,
+          "height": 1440,
+          "size": 197914
         }
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-015/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-015/gallery-01-att6Uov7n1sWv9vWH.jpg",
           "filename": "MS-MA-0258-KEKE-image79.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -41,7 +41,7 @@
           "size": 151373
         },
         {
-          "url": "assets/cases/MS-CA-015/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-015/gallery-02-att3m50mjbfp67vMy.jpg",
           "filename": "MS-MA-0234-KEKE-image77.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -49,28 +49,12 @@
           "size": 284708
         },
         {
-          "url": "assets/cases/MS-CA-015/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-015/gallery-03-atttXmK3jESnT4QuC.jpg",
           "filename": "MS-MA-0372-KEKE-image78.jpg",
           "type": "image/jpeg",
           "width": 1920,
           "height": 1080,
           "size": 177145
-        },
-        {
-          "url": "assets/cases/MS-CA-015/gallery-04.jpg",
-          "filename": "MS-MA-0111-LiaoKuo-image17.jpg",
-          "type": "image/jpeg",
-          "width": 1920,
-          "height": 1080,
-          "size": 233248
-        },
-        {
-          "url": "assets/cases/MS-CA-015/gallery-05.jpg",
-          "filename": "MS-MA-0213-KEKE-image6.jpg",
-          "type": "image/jpeg",
-          "width": 1080,
-          "height": 1919,
-          "size": 256444
         }
       ],
       "videos": []
@@ -79,7 +63,7 @@
       "caseId": "MS-CA-003",
       "title": "ESMO｜Berlin 欧洲医学会现场",
       "titleEn": "ESMO — Berlin Medical Congress Field Production",
-      "client": "ESMO",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "医疗／医学会议",
       "services": [
         "Field",
@@ -89,16 +73,16 @@
       "country": "Germany",
       "city": "Berlin",
       "intro": {
-        "zh": "围绕「ESMO｜Berlin 欧洲医学会现场」展开，聚焦现场摄制与跨地区协作、直播信号与多端分发。",
+        "zh": "ESMO｜Berlin 欧洲医学会现场：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around ESMO — Berlin Medical Congress Field Production, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；直播信号与多端分发。",
+        "zh": "现场摄制与跨地区协作；直播信号与多端分发。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live signal delivery and multi-platform distribution."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-003/hero-01.jpg",
+          "url": "assets/cases/MS-CA-003/hero-01-attuSsPXgkk00ryzb.jpg",
           "filename": "MS-MA-0333-KEKE-image35.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -108,7 +92,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-003/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-003/gallery-01-attqQOmYSwToYXDl3.jpg",
           "filename": "MS-MA-0024-KEKE-image34.jpg",
           "type": "image/jpeg",
           "width": 1603,
@@ -116,7 +100,7 @@
           "size": 270062
         },
         {
-          "url": "assets/cases/MS-CA-003/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-003/gallery-02-att30n79cjh3vMzKH.jpg",
           "filename": "MS-MA-0057-KEKE-image38.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -124,7 +108,7 @@
           "size": 433301
         },
         {
-          "url": "assets/cases/MS-CA-003/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-003/gallery-03-att0mykCpxPgyyAgu.jpg",
           "filename": "MS-MA-0070-KEKE-image37.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -132,7 +116,7 @@
           "size": 783155
         },
         {
-          "url": "assets/cases/MS-CA-003/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-003/gallery-04-attp56SWkqaIxivRl.jpg",
           "filename": "MS-MA-0125-KEKE-image39.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -140,7 +124,7 @@
           "size": 239618
         },
         {
-          "url": "assets/cases/MS-CA-003/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-003/gallery-05-atthD57fuLfbvTmc4.jpg",
           "filename": "MS-MA-0386-KEKE-image36.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -154,26 +138,26 @@
       "caseId": "MS-CA-016",
       "title": "《家有恶猫》第一季",
       "titleEn": "My Cat from Hell — Season 1",
-      "client": "家有恶猫第一季",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "流媒体／真人秀纪录片",
       "services": [
         "Video",
         "Field"
       ],
-      "year": "",
+      "year": "2022-2023",
       "country": "China",
       "city": "Beijing",
       "intro": {
-        "zh": "围绕「《家有恶猫》第一季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "zh": "《家有恶猫》第一季：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around My Cat from Hell — Season 1, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-016/hero-01.jpg",
+          "url": "assets/cases/MS-CA-016/hero-01-attRjyK2mJJRhk4YP.jpg",
           "filename": "MS-MA-0013-KEKE-image91.jpg",
           "type": "image/jpeg",
           "width": 960,
@@ -183,7 +167,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-016/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-016/gallery-01-attVNaVzsOZzOopwl.jpg",
           "filename": "MS-MA-0093-KEKE-image87.jpg",
           "type": "image/jpeg",
           "width": 2083,
@@ -191,7 +175,7 @@
           "size": 122014
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-016/gallery-02-attZxI1gb8jaPX5s9.jpg",
           "filename": "MS-MA-0092-KEKE-image92.jpg",
           "type": "image/jpeg",
           "width": 2080,
@@ -199,7 +183,7 @@
           "size": 228095
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-016/gallery-03-attR3fZ9HVtMf1t8t.jpg",
           "filename": "MS-MA-0369-KEKE-image89.jpg",
           "type": "image/jpeg",
           "width": 2075,
@@ -207,7 +191,7 @@
           "size": 209245
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-016/gallery-04-attQLgRSHDLn0QsjZ.jpg",
           "filename": "MS-MA-0021-KEKE-image90.jpg",
           "type": "image/jpeg",
           "width": 2071,
@@ -215,7 +199,7 @@
           "size": 204922
         },
         {
-          "url": "assets/cases/MS-CA-016/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-016/gallery-05-attL9qKGPfr2L3uLK.jpg",
           "filename": "MS-MA-0041-KEKE-image88.jpg",
           "type": "image/jpeg",
           "width": 1200,
@@ -229,7 +213,7 @@
       "caseId": "MS-CA-001",
       "title": "追觅 DREAME｜旧金山发布会",
       "titleEn": "Dreame — San Francisco Launch Event",
-      "client": "追觅 DREAME",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "智能家居／清洁电器",
       "services": [
         "Field",
@@ -239,16 +223,16 @@
       "country": "US",
       "city": "San Francisco",
       "intro": {
-        "zh": "围绕「追觅 DREAME｜旧金山发布会」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "zh": "追觅 DREAME｜旧金山发布会：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Dreame — San Francisco Launch Event, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-001/hero-01.jpg",
+          "url": "assets/cases/MS-CA-001/hero-01-attA5IdAEYDidzCZW.jpg",
           "filename": "MS-MA-0185__KEKE-image18.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -258,7 +242,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-001/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-001/gallery-01-attYsWpoXK971kAsF.jpg",
           "filename": "MS-MA-0107__KEKE-image17.jpg",
           "type": "image/jpeg",
           "width": 1919,
@@ -266,7 +250,7 @@
           "size": 161174
         },
         {
-          "url": "assets/cases/MS-CA-001/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-001/gallery-02-att26oqdO4xEbuSxy.jpg",
           "filename": "g2.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -274,7 +258,7 @@
           "size": 192764
         },
         {
-          "url": "assets/cases/MS-CA-001/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-001/gallery-03-attNhlvrwvqaHAO69.jpg",
           "filename": "g3.jpg",
           "type": "image/jpeg",
           "width": 1440,
@@ -282,7 +266,7 @@
           "size": 99790
         },
         {
-          "url": "assets/cases/MS-CA-001/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-001/gallery-04-att5JaabwOvWaT4aW.jpg",
           "filename": "g4.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -290,7 +274,7 @@
           "size": 215578
         },
         {
-          "url": "assets/cases/MS-CA-001/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-001/gallery-05-att2ylKD2PBzZVzOO.jpg",
           "filename": "g5.jpg",
           "type": "image/jpeg",
           "width": 1919,
@@ -304,26 +288,26 @@
       "caseId": "MS-CA-008",
       "title": "巴西总统卢拉｜政要拍摄",
       "titleEn": "President Lula — Executive Portrait / Field Shoot",
-      "client": "巴西总统卢拉",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "政要／机构传播",
       "services": [
         "Field",
         "Video"
       ],
-      "year": "",
+      "year": "待核",
       "country": "Brazil",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「巴西总统卢拉｜政要拍摄」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "zh": "巴西总统卢拉｜政要拍摄：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around President Lula — Executive Portrait / Field Shoot, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-008/hero-01.jpg",
+          "url": "assets/cases/MS-CA-008/hero-01-attRXLJwqLv2AOLpj.jpg",
           "filename": "MS-MA-0152__KEKE-image10.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -333,7 +317,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-008/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-008/gallery-01-attFfDxr6NCPPluvb.jpg",
           "filename": "MS-MA-0166-KEKE-image14.jpg",
           "type": "image/jpeg",
           "width": 1107,
@@ -341,7 +325,7 @@
           "size": 147247
         },
         {
-          "url": "assets/cases/MS-CA-008/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-008/gallery-02-attMYGyr4xyNrm2O3.jpg",
           "filename": "MS-MA-0152-KEKE-image10.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -349,7 +333,7 @@
           "size": 356258
         },
         {
-          "url": "assets/cases/MS-CA-008/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-008/gallery-03-attnUO3SeWzx2xYGx.jpg",
           "filename": "MS-MA-0365-KEKE-image11.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -357,7 +341,7 @@
           "size": 295836
         },
         {
-          "url": "assets/cases/MS-CA-008/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-008/gallery-04-attOwHtCi5vzHvQ8p.jpg",
           "filename": "MS-MA-0201-KEKE-image12.jpg",
           "type": "image/jpeg",
           "width": 1919,
@@ -365,7 +349,7 @@
           "size": 199382
         },
         {
-          "url": "assets/cases/MS-CA-008/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-008/gallery-05-att59prRqQtRG9AFD.jpg",
           "filename": "MS-MA-0118__KEKE-image13.jpg",
           "type": "image/jpeg",
           "width": 1107,
@@ -379,26 +363,26 @@
       "caseId": "MS-CA-018",
       "title": "CNC／新华社《四季中国》第二季",
       "titleEn": "CNC / Xinhua — Seasons of China, Season 2",
-      "client": "CNC／新华社四季中国第二季",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "国际传播／纪录片",
       "services": [
         "Video",
         "Field"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "多地／待核",
       "intro": {
-        "zh": "围绕「CNC／新华社《四季中国》第二季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "zh": "CNC／新华社《四季中国》第二季：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around CNC / Xinhua — Seasons of China, Season 2, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-018/hero-01.jpg",
+          "url": "assets/cases/MS-CA-018/hero-01-attqp061O1bVQg4HW.jpg",
           "filename": "MS-MA-0095-LiaoKuo-image46.jpg",
           "type": "image/jpeg",
           "width": 2078,
@@ -408,7 +392,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-018/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-01-attMpubjOVHyHVkg2.jpg",
           "filename": "MS-MA-0178-LiaoKuo-image45.jpg",
           "type": "image/jpeg",
           "width": 2073,
@@ -416,7 +400,7 @@
           "size": 216630
         },
         {
-          "url": "assets/cases/MS-CA-018/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-02-attff3T0kmQq6qTPE.jpg",
           "filename": "MS-MA-0190-LiaoKuo-image44.jpg",
           "type": "image/jpeg",
           "width": 2080,
@@ -424,7 +408,7 @@
           "size": 192030
         },
         {
-          "url": "assets/cases/MS-CA-018/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-03-attP6UvflOgydYuJe.jpg",
           "filename": "MS-MA-0416-LiaoKuo-image47.jpg",
           "type": "image/jpeg",
           "width": 2073,
@@ -432,7 +416,7 @@
           "size": 182738
         },
         {
-          "url": "assets/cases/MS-CA-018/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-04-attZg0cyhRmaGFNEW.jpg",
           "filename": "MS-MA-0224-KEKE-image128.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -440,7 +424,7 @@
           "size": 662170
         },
         {
-          "url": "assets/cases/MS-CA-018/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-05-att7Z1DX47OoiG05b.jpg",
           "filename": "MS-MA-0320__LiaoKuo-image49.jpg",
           "type": "image/jpeg",
           "width": 2080,
@@ -448,7 +432,7 @@
           "size": 144381
         },
         {
-          "url": "assets/cases/MS-CA-018/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-06-attqvUY51Znd53gnn.jpg",
           "filename": "MS-MA-0320-LiaoKuo-image49.jpg",
           "type": "image/jpeg",
           "width": 2080,
@@ -456,7 +440,7 @@
           "size": 144381
         },
         {
-          "url": "assets/cases/MS-CA-018/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-018/gallery-07-attiRdRrH0diSdOj2.jpg",
           "filename": "MS-MA-0178-LiaoKuo-image45.jpg",
           "type": "image/jpeg",
           "width": 2073,
@@ -470,7 +454,7 @@
       "caseId": "MS-CA-002",
       "title": "追觅 DREAME｜Las Vegas CES 展会现场",
       "titleEn": "Dreame — Las Vegas CES Field Production",
-      "client": "追觅 DREAME",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "智能家居／清洁电器",
       "services": [
         "Field"
@@ -479,16 +463,16 @@
       "country": "US",
       "city": "Las Vegas",
       "intro": {
-        "zh": "围绕「追觅 DREAME｜Las Vegas CES 展会现场」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "追觅 DREAME｜Las Vegas CES 展会现场：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Dreame — Las Vegas CES Field Production, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-002/hero-01.jpg",
+          "url": "assets/cases/MS-CA-002/hero-01-attaCiSmYpBHHDOAb.jpg",
           "filename": "MS-MA-0175-KEKE-image29.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -498,7 +482,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-002/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-002/gallery-01-attyX9pw2WrUKR8U2.jpg",
           "filename": "MS-MA-0188-KEKE-image31.jpg",
           "type": "image/jpeg",
           "width": 1620,
@@ -506,7 +490,7 @@
           "size": 215839
         },
         {
-          "url": "assets/cases/MS-CA-002/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-002/gallery-02-attWhh8zVdNEMmj2L.jpg",
           "filename": "MS-MA-0308-KEKE-image32.jpg",
           "type": "image/jpeg",
           "width": 1620,
@@ -514,7 +498,7 @@
           "size": 309283
         },
         {
-          "url": "assets/cases/MS-CA-002/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-002/gallery-03-attQBx84dxxR3RIYB.jpg",
           "filename": "MS-MA-0353-KEKE-image24.jpg",
           "type": "image/jpeg",
           "width": 1620,
@@ -522,7 +506,7 @@
           "size": 196404
         },
         {
-          "url": "assets/cases/MS-CA-002/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-002/gallery-04-attypi4B1H8iJMw9f.jpg",
           "filename": "MS-MA-0402-KEKE-image26.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -530,7 +514,7 @@
           "size": 639482
         },
         {
-          "url": "assets/cases/MS-CA-002/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-002/gallery-05-attV1I91FNQaerU5e.jpg",
           "filename": "MS-MA-0405-KEKE-image27.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -544,26 +528,26 @@
       "caseId": "MS-CA-020",
       "title": "《乘火车看中国》第五／六集《世界屋脊之路》",
       "titleEn": "Watching China by Train — Episodes 5/6: The Roof of the World",
-      "client": "乘火车看中国第五／六集世界屋脊之路",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "国际传播／纪录片",
       "services": [
         "Video",
         "Field"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China—France",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「《乘火车看中国》第五／六集《世界屋脊之路》」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "zh": "《乘火车看中国》第五／六集《世界屋脊之路》：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Watching China by Train — Episodes 5/6: The Roof of the World, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-020/hero-01.jpg",
+          "url": "assets/cases/MS-CA-020/hero-01-attvpJR4NKNSUmILq.jpg",
           "filename": "MS-MA-0005__KEKE-image93.jpg",
           "type": "image/jpeg",
           "width": 2208,
@@ -573,7 +557,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-020/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-020/gallery-01-attAjHfvllEcnYNm7.jpg",
           "filename": "MS-MA-0012__KEKE-image97.jpg",
           "type": "image/jpeg",
           "width": 2208,
@@ -581,7 +565,7 @@
           "size": 152698
         },
         {
-          "url": "assets/cases/MS-CA-020/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-020/gallery-02-attxA9Eo0sqbsbeQO.jpg",
           "filename": "MS-MA-0282__KEKE-image96.jpg",
           "type": "image/jpeg",
           "width": 2208,
@@ -589,7 +573,7 @@
           "size": 82265
         },
         {
-          "url": "assets/cases/MS-CA-020/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-020/gallery-03-attBwh4BscPlzaQp4.jpg",
           "filename": "MS-MA-0292__KEKE-image94.jpg",
           "type": "image/jpeg",
           "width": 2208,
@@ -597,7 +581,7 @@
           "size": 165801
         },
         {
-          "url": "assets/cases/MS-CA-020/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-020/gallery-04-attS8LXikTe0EAaXx.jpg",
           "filename": "MS-MA-0014__KEKE-image95.jpg",
           "type": "image/jpeg",
           "width": 2208,
@@ -605,7 +589,7 @@
           "size": 118451
         },
         {
-          "url": "assets/cases/MS-CA-020/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-020/gallery-05-attx77GOztb0mDANI.jpg",
           "filename": "MS-MA-0078__KEKE-image98.jpg",
           "type": "image/jpeg",
           "width": 2208,
@@ -613,7 +597,7 @@
           "size": 309986
         },
         {
-          "url": "assets/cases/MS-CA-020/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-020/gallery-06-attCBQxTCGkXEZTxB.jpg",
           "filename": "MS-MA-0394__LiaoKuo-image1.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -627,33 +611,25 @@
       "caseId": "MS-CA-011",
       "title": "可口可乐｜马年烟花大秀多地互动直播",
       "titleEn": "Coca-Cola — Lunar New Year Fireworks Multi-City Livestream",
-      "client": "可口可乐",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "饮料／消费品牌",
       "services": [
         "Live"
       ],
       "year": "2026",
       "country": "China",
-      "city": "",
+      "city": "多地／待核",
       "intro": {
-        "zh": "围绕「可口可乐｜马年烟花大秀多地互动直播」展开，聚焦直播信号与多端分发。",
+        "zh": "可口可乐｜马年烟花大秀多地互动直播是围绕可口可乐在多地／待核、China展开的直播案例。现有资料确认核心团队参与直播执行，用于证明 Match Studio 的直播信号与多端分发能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Coca-Cola — Lunar New Year Fireworks Multi-City Livestream, focused on live signal delivery and multi-platform distribution."
       },
       "approach": {
-        "zh": "直播信号与多端分发。",
+        "zh": "直播信号与多端分发。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live signal delivery and multi-platform distribution."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-011/hero-01.jpg",
-          "filename": "MS-MA-0048__KEKE-image55.jpg",
-          "type": "image/jpeg",
-          "width": 1107,
-          "height": 2400,
-          "size": 259188
-        },
-        {
-          "url": "assets/cases/MS-CA-011/hero-02.jpg",
+          "url": "assets/cases/MS-CA-011/hero-01-attXpWXgfgzWjnNiu.jpg",
           "filename": "FW9.jpg",
           "type": "image/jpeg",
           "width": 1024,
@@ -663,7 +639,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-011/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-011/gallery-01-att1uX10PoOAFeK9S.jpg",
           "filename": "MS-MA-0309-KEKE-image54.jpg",
           "type": "image/jpeg",
           "width": 1088,
@@ -671,7 +647,7 @@
           "size": 269284
         },
         {
-          "url": "assets/cases/MS-CA-011/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-011/gallery-02-att9ymVzIL86rII54.jpg",
           "filename": "MS-MA-0218-KEKE-image51.jpg",
           "type": "image/jpeg",
           "width": 1109,
@@ -679,7 +655,7 @@
           "size": 273406
         },
         {
-          "url": "assets/cases/MS-CA-011/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-011/gallery-03-attlPEMfqKVTxzm9z.jpg",
           "filename": "MS-MA-0315-KEKE-image52.jpg",
           "type": "image/jpeg",
           "width": 1108,
@@ -687,7 +663,7 @@
           "size": 336086
         },
         {
-          "url": "assets/cases/MS-CA-011/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-011/gallery-04-attAgb9P1xu1B8d5W.jpg",
           "filename": "MS-MA-0072-KEKE-image53.jpg",
           "type": "image/jpeg",
           "width": 1107,
@@ -695,7 +671,7 @@
           "size": 318304
         },
         {
-          "url": "assets/cases/MS-CA-011/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-011/gallery-05-attlEgxBIumvV2gid.jpg",
           "filename": "MS-MA-0102-KEKE-image56.jpg",
           "type": "image/jpeg",
           "width": 1109,
@@ -709,26 +685,26 @@
       "caseId": "MS-CA-004",
       "title": "瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅",
       "titleEn": "Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story",
-      "client": "瑞幸咖啡",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "连锁咖啡／消费品牌",
       "services": [
         "Field",
         "Video"
       ],
       "year": "2026",
-      "country": "",
-      "city": "",
+      "country": "待核",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "zh": "瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-004/hero-01.jpg",
+          "url": "assets/cases/MS-CA-004/hero-01-attypvNS4ko7UnVnQ.jpg",
           "filename": "MS-MA-0350-KEKE-image47.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -738,7 +714,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-004/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-004/gallery-01-attiwFxgT8GLPVdkR.jpg",
           "filename": "MS-MA-0219-KEKE-image45.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -746,7 +722,7 @@
           "size": 553689
         },
         {
-          "url": "assets/cases/MS-CA-004/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-004/gallery-02-attKWvHWPXxz6InRw.jpg",
           "filename": "MS-MA-0227-KEKE-image50.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -754,7 +730,7 @@
           "size": 607233
         },
         {
-          "url": "assets/cases/MS-CA-004/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-004/gallery-03-attr2Q8qTarrz4Pip.jpg",
           "filename": "MS-MA-0318-KEKE-image44.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -762,7 +738,7 @@
           "size": 517736
         },
         {
-          "url": "assets/cases/MS-CA-004/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-004/gallery-04-att07NI4c421VOGan.jpg",
           "filename": "MS-MA-0359-KEKE-image48.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -770,7 +746,7 @@
           "size": 251831
         },
         {
-          "url": "assets/cases/MS-CA-004/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-004/gallery-05-attb6RFOSlcWwZM3k.jpg",
           "filename": "MS-MA-0377-KEKE-image46.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -778,7 +754,7 @@
           "size": 362815
         },
         {
-          "url": "assets/cases/MS-CA-004/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-004/gallery-06-att8A4bfNKoEu6yYp.jpg",
           "filename": "BangWei_导演_瑞幸咖啡_19_128.jpg",
           "type": "image/jpeg",
           "width": 2636,
@@ -792,26 +768,26 @@
       "caseId": "MS-CA-009",
       "title": "极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播",
       "titleEn": "Jiyue Auto — 24-Hour, 2,000 km Intelligent-Driving Livestream",
-      "client": "极越汽车",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "汽车",
       "services": [
         "Live",
         "Field"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
       "city": "Chengdu—Xiamen",
       "intro": {
-        "zh": "围绕「极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播」展开，聚焦直播信号与多端分发、现场摄制与跨地区协作。",
+        "zh": "极越汽车｜成都—厦门 24 小时智驾 2000KM 网络直播：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Jiyue Auto — 24-Hour, 2,000 km Intelligent-Driving Livestream, focused on live signal delivery and multi-platform distribution and related production services."
       },
       "approach": {
-        "zh": "直播信号与多端分发；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；直播信号与多端分发。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live signal delivery and multi-platform distribution; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-009/hero-01.jpg",
+          "url": "assets/cases/MS-CA-009/hero-01-attDSv3jsJGRkwvqO.jpg",
           "filename": "MS-MA-0033-KEKE-image58.jpg",
           "type": "image/jpeg",
           "width": 1707,
@@ -821,7 +797,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-009/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-009/gallery-01-attk9HvgBPL4mSBTm.jpg",
           "filename": "MS-MA-0223-KEKE-image61.jpg",
           "type": "image/jpeg",
           "width": 1702,
@@ -829,7 +805,7 @@
           "size": 212009
         },
         {
-          "url": "assets/cases/MS-CA-009/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-009/gallery-02-attX37c51jaKL2Daz.jpg",
           "filename": "MS-MA-0128-KEKE-image60.jpg",
           "type": "image/jpeg",
           "width": 1440,
@@ -837,7 +813,7 @@
           "size": 177476
         },
         {
-          "url": "assets/cases/MS-CA-009/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-009/gallery-03-attEBD9yFARXSQADP.jpg",
           "filename": "MS-MA-0324-KEKE-image59.jpg",
           "type": "image/jpeg",
           "width": 1707,
@@ -845,7 +821,7 @@
           "size": 251414
         },
         {
-          "url": "assets/cases/MS-CA-009/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-009/gallery-04-att7nf3zbQLdU91sD.jpg",
           "filename": "MS-MA-0313-KEKE-image57.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -853,7 +829,7 @@
           "size": 277334
         },
         {
-          "url": "assets/cases/MS-CA-009/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-009/gallery-05-att6AVzfyILaibd2u.jpg",
           "filename": "MS-MA-0341-KEKE-image64.jpg",
           "type": "image/jpeg",
           "width": 1440,
@@ -867,7 +843,7 @@
       "caseId": "MS-CA-017",
       "title": "《家有恶猫》第二季",
       "titleEn": "My Cat from Hell — Season 2",
-      "client": "家有恶猫第二季",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "流媒体／真人秀纪录片",
       "services": [
         "Video",
@@ -877,16 +853,16 @@
       "country": "China",
       "city": "Guangzhou",
       "intro": {
-        "zh": "围绕「《家有恶猫》第二季」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "zh": "《家有恶猫》第二季：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around My Cat from Hell — Season 2, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-017/hero-01.jpg",
+          "url": "assets/cases/MS-CA-017/hero-01-attyWzNkCHhl33dSz.jpg",
           "filename": "MS-MA-0404__KEKE-image83.jpg",
           "type": "image/jpeg",
           "width": 2078,
@@ -896,7 +872,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-017/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-017/gallery-01-attQ1aLRzvNW6UaYh.jpg",
           "filename": "MS-MA-0177-KEKE-image84.jpg",
           "type": "image/jpeg",
           "width": 2072,
@@ -904,7 +880,7 @@
           "size": 162319
         },
         {
-          "url": "assets/cases/MS-CA-017/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-017/gallery-02-attyIXmFuppMLao5w.jpg",
           "filename": "MS-MA-0162-KEKE-image81.jpg",
           "type": "image/jpeg",
           "width": 2080,
@@ -912,7 +888,7 @@
           "size": 246044
         },
         {
-          "url": "assets/cases/MS-CA-017/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-017/gallery-03-attVAqe3JZULyPCJA.jpg",
           "filename": "MS-MA-0065-KEKE-image85.jpg",
           "type": "image/jpeg",
           "width": 2276,
@@ -920,7 +896,7 @@
           "size": 514303
         },
         {
-          "url": "assets/cases/MS-CA-017/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-017/gallery-04-attG7z9Hn8bJ5EYZw.jpg",
           "filename": "MS-MA-0112-KEKE-image86.jpg",
           "type": "image/jpeg",
           "width": 2073,
@@ -934,26 +910,26 @@
       "caseId": "MS-CA-064",
       "title": "网易｜《七日世界》游戏 Trailer",
       "titleEn": "NetEase — Once Human Game Trailer",
-      "client": "网易",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "游戏／数字内容",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
-      "country": "",
-      "city": "",
+      "year": "待核",
+      "country": "待核",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「网易｜《七日世界》游戏 Trailer」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "网易｜《七日世界》游戏 Trailer：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around NetEase — Once Human Game Trailer, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；AI 与实拍/后期混合制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-064/hero-01.jpg",
+          "url": "assets/cases/MS-CA-064/hero-01-attjakSNK1c3krajX.jpg",
           "filename": "BangWei_导演_网易七日世界_13_084.jpg",
           "type": "image/jpeg",
           "width": 2752,
@@ -963,7 +939,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-064/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-064/gallery-01-attPPXbMfhqvaIzSB.jpg",
           "filename": "BangWei_导演_网易七日世界_13_083.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -971,7 +947,7 @@
           "size": 124662
         },
         {
-          "url": "assets/cases/MS-CA-064/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-064/gallery-02-attLqh5V3RmLfSsYX.jpg",
           "filename": "BangWei_导演_网易七日世界_13_086.jpg",
           "type": "image/jpeg",
           "width": 1456,
@@ -979,7 +955,7 @@
           "size": 102050
         },
         {
-          "url": "assets/cases/MS-CA-064/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-064/gallery-03-attpKaJLuQcTWhXhZ.jpg",
           "filename": "BangWei_导演_网易七日世界_13_081.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -987,7 +963,7 @@
           "size": 92077
         },
         {
-          "url": "assets/cases/MS-CA-064/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-064/gallery-04-attzY5QYitrslpMIc.jpg",
           "filename": "BangWei_导演_网易七日世界_13_088.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -995,7 +971,7 @@
           "size": 79073
         },
         {
-          "url": "assets/cases/MS-CA-064/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-064/gallery-05-attapkHplXmsOm7rn.jpg",
           "filename": "BangWei_导演_网易七日世界_13_087.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1003,7 +979,7 @@
           "size": 73263
         },
         {
-          "url": "assets/cases/MS-CA-064/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-064/gallery-06-attGfRDb3sqhNvjNs.jpg",
           "filename": "BangWei_导演_网易七日世界_13_089.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1017,26 +993,26 @@
       "caseId": "MS-CA-041",
       "title": "小鸟转｜客户人物素材 AI 训练",
       "titleEn": "Xiaoniaozhuan — AI Training with Client Character Assets",
-      "client": "小鸟转",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "美妆",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「小鸟转｜客户人物素材 AI 训练」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "小鸟转｜客户人物素材 AI 训练是围绕小鸟转在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与全 AI。该条目用于证明 Match Studio 的实拍、剪辑与品牌视频制作；全 AI 生成能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Xiaoniaozhuan — AI Training with Client Character Assets, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-041/hero-01.jpg",
+          "url": "assets/cases/MS-CA-041/hero-01-att8X8xqc7ENoUTOB.jpg",
           "filename": "BangWei_导演_小鸟传_16_108.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -1046,7 +1022,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-041/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-041/gallery-01-attX5MmIdadJWxY0v.jpg",
           "filename": "MS-MA-0307__BangWei-image117.jpg",
           "type": "image/jpeg",
           "width": 369,
@@ -1054,7 +1030,7 @@
           "size": 37260
         },
         {
-          "url": "assets/cases/MS-CA-041/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-041/gallery-02-attcQFg7X9C4z3Avn.jpg",
           "filename": "MS-MA-0149__BangWei-image116.jpg",
           "type": "image/jpeg",
           "width": 1076,
@@ -1062,7 +1038,7 @@
           "size": 116826
         },
         {
-          "url": "assets/cases/MS-CA-041/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-041/gallery-03-attRMkM4bUUe1nNoc.jpg",
           "filename": "BangWei_导演_小鸟传_17_114.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -1070,7 +1046,7 @@
           "size": 138039
         },
         {
-          "url": "assets/cases/MS-CA-041/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-041/gallery-04-atttvnr6cdLNQpt13.jpg",
           "filename": "BangWei_导演_小鸟传_17_118.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -1078,7 +1054,7 @@
           "size": 127113
         },
         {
-          "url": "assets/cases/MS-CA-041/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-041/gallery-05-attwj6qCkpEJ6N0dc.jpg",
           "filename": "BangWei_导演_小鸟传_17_119.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -1086,7 +1062,7 @@
           "size": 106183
         },
         {
-          "url": "assets/cases/MS-CA-041/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-041/gallery-06-attvBa4sPaLFdgkkH.jpg",
           "filename": "BangWei_导演_小鸟传_17_113.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -1113,26 +1089,26 @@
       "caseId": "MS-CA-033",
       "title": "奥迪｜AI 商业广告",
       "titleEn": "Audi — AI Commercial",
-      "client": "奥迪",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "汽车",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「奥迪｜AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "奥迪｜AI 商业广告是围绕Audi在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与全 AI 商业片。该条目用于证明 Match Studio 的实拍、剪辑与品牌视频制作；全 AI 生成能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Audi — AI Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-033/hero-01.jpg",
+          "url": "assets/cases/MS-CA-033/hero-01-attR0iUIS8vAOlqoB.jpg",
           "filename": "BangWei_导演_奥迪_10_062.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -1142,7 +1118,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-033/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-01-atttK8PQm4ZU4OtNS.jpg",
           "filename": "MS-MA-0358__BangWei-image122.jpg",
           "type": "image/jpeg",
           "width": 920,
@@ -1150,7 +1126,7 @@
           "size": 34413
         },
         {
-          "url": "assets/cases/MS-CA-033/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-02-attVnCnVOqv1VxTUf.jpg",
           "filename": "BangWei_导演_奥迪_11_065.jpg",
           "type": "image/jpeg",
           "width": 960,
@@ -1158,7 +1134,7 @@
           "size": 75873
         },
         {
-          "url": "assets/cases/MS-CA-033/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-03-att2ybVT7y4Se6k7Q.jpg",
           "filename": "BangWei_导演_奥迪_11_069.jpg",
           "type": "image/jpeg",
           "width": 960,
@@ -1166,7 +1142,7 @@
           "size": 67034
         },
         {
-          "url": "assets/cases/MS-CA-033/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-04-attlzCDFUAYqDAkZg.jpg",
           "filename": "BangWei_导演_奥迪_11_067.jpg",
           "type": "image/jpeg",
           "width": 960,
@@ -1174,7 +1150,7 @@
           "size": 60251
         },
         {
-          "url": "assets/cases/MS-CA-033/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-05-attXWSPQ6IjriB41e.jpg",
           "filename": "BangWei_导演_奥迪_11_073.jpg",
           "type": "image/jpeg",
           "width": 960,
@@ -1182,7 +1158,7 @@
           "size": 55066
         },
         {
-          "url": "assets/cases/MS-CA-033/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-033/gallery-06-attoPul5vFWFIQuE8.jpg",
           "filename": "BangWei_导演_奥迪_11_071.jpg",
           "type": "image/jpeg",
           "width": 960,
@@ -1203,26 +1179,26 @@
       "caseId": "MS-CA-036",
       "title": "LOVIPEER｜全 AI 广告",
       "titleEn": "LOVIPEER — Fully AI Commercial",
-      "client": "LOVIPEER",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "消费品牌／美容",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核（2025 获奖记录）",
       "country": "Global",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「LOVIPEER｜全 AI 广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "LOVIPEER｜全 AI 广告：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around LOVIPEER — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-036/hero-01.jpg",
+          "url": "assets/cases/MS-CA-036/hero-01-attVjXE6BNfkIMTHW.jpg",
           "filename": "BangWei_导演_Lovipeer_24_176.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1232,7 +1208,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-036/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-036/gallery-01-attzrTPgJEXzcTIoA.jpg",
           "filename": "MS-MA-0314__BangWei-image111.jpg",
           "type": "image/jpeg",
           "width": 831,
@@ -1240,7 +1216,7 @@
           "size": 35238
         },
         {
-          "url": "assets/cases/MS-CA-036/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-036/gallery-02-attJZdHcsqUZBh2x3.jpg",
           "filename": "BangWei_导演_Lovipeer_24_183.jpg",
           "type": "image/jpeg",
           "width": 1664,
@@ -1248,7 +1224,7 @@
           "size": 136678
         },
         {
-          "url": "assets/cases/MS-CA-036/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-036/gallery-03-attOkrARTSy3fIxIM.jpg",
           "filename": "BangWei_导演_Lovipeer_24_179.jpg",
           "type": "image/jpeg",
           "width": 1663,
@@ -1256,7 +1232,7 @@
           "size": 127330
         },
         {
-          "url": "assets/cases/MS-CA-036/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-036/gallery-04-attkedZRMazOBxbA2.jpg",
           "filename": "BangWei_导演_Lovipeer_24_180.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1264,7 +1240,7 @@
           "size": 118060
         },
         {
-          "url": "assets/cases/MS-CA-036/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-036/gallery-05-attt9j8EzbDCPVLxf.jpg",
           "filename": "BangWei_导演_Lovipeer_24_181.jpg",
           "type": "image/jpeg",
           "width": 1215,
@@ -1272,7 +1248,7 @@
           "size": 117819
         },
         {
-          "url": "assets/cases/MS-CA-036/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-036/gallery-06-attXtI9E76YYB2kKv.jpg",
           "filename": "BangWei_导演_Lovipeer_25_187.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -1293,26 +1269,26 @@
       "caseId": "MS-CA-037",
       "title": "德芙｜全 AI 商业广告",
       "titleEn": "Dove — Fully AI Commercial",
-      "client": "德芙",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "食品／快消",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「德芙｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "德芙｜全 AI 商业广告是围绕德芙在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与全 AI。该条目用于证明 Match Studio 的实拍、剪辑与品牌视频制作；全 AI 生成能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Dove — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-037/hero-01.jpg",
+          "url": "assets/cases/MS-CA-037/hero-01-attllxADvBBCtqmsy.jpg",
           "filename": "MS-MA-0174__BangWei-image110.jpg",
           "type": "image/jpeg",
           "width": 1924,
@@ -1322,7 +1298,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-037/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-037/gallery-01-attQnBrnXDl82l9Fs.jpg",
           "filename": "BangWei_导演_德芙_06_036.jpg",
           "type": "image/jpeg",
           "width": 2560,
@@ -1330,7 +1306,7 @@
           "size": 334420
         },
         {
-          "url": "assets/cases/MS-CA-037/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-037/gallery-02-attivIodddflOw3EU.jpg",
           "filename": "BangWei_导演_德芙_07_042.jpg",
           "type": "image/jpeg",
           "width": 2752,
@@ -1338,7 +1314,7 @@
           "size": 289829
         },
         {
-          "url": "assets/cases/MS-CA-037/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-037/gallery-03-attCj4g2sYzpnGGFT.jpg",
           "filename": "BangWei_导演_德芙_07_040.jpg",
           "type": "image/jpeg",
           "width": 1278,
@@ -1346,7 +1322,7 @@
           "size": 228188
         },
         {
-          "url": "assets/cases/MS-CA-037/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-037/gallery-04-attePku1ye3ISFXA9.jpg",
           "filename": "BangWei_导演_德芙_07_046.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1354,7 +1330,7 @@
           "size": 173643
         },
         {
-          "url": "assets/cases/MS-CA-037/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-037/gallery-05-attazPc4dnddFxRfw.jpg",
           "filename": "BangWei_导演_德芙_07_045.jpg",
           "type": "image/jpeg",
           "width": 1278,
@@ -1362,7 +1338,7 @@
           "size": 160581
         },
         {
-          "url": "assets/cases/MS-CA-037/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-037/gallery-06-att9wq3qw78PXrXSY.jpg",
           "filename": "BangWei_导演_德芙_07_043.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1383,26 +1359,26 @@
       "caseId": "MS-CA-038",
       "title": "蒙牛｜环境 AI + 人物实拍",
       "titleEn": "Mengniu — AI Environment + Live Action",
-      "client": "蒙牛",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "乳业／快消",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「蒙牛｜环境 AI + 人物实拍」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "蒙牛｜环境 AI + 人物实拍：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Mengniu — AI Environment + Live Action, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-038/hero-01.jpg",
+          "url": "assets/cases/MS-CA-038/hero-01-attjcpg1Vpy5spCuk.jpg",
           "filename": "MS-MA-0110__BangWei-image113.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1412,7 +1388,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-038/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-038/gallery-01-attVn3zvEWp6lpZ3X.jpg",
           "filename": "MS-MA-0194__BangWei-image124.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -1420,7 +1396,7 @@
           "size": 211832
         },
         {
-          "url": "assets/cases/MS-CA-038/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-038/gallery-02-attSgoXW82VdQRSPP.jpg",
           "filename": "BangWei_导演_蒙牛_34_245.jpg",
           "type": "image/jpeg",
           "width": 2367,
@@ -1428,7 +1404,7 @@
           "size": 490873
         },
         {
-          "url": "assets/cases/MS-CA-038/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-038/gallery-03-att6VN5QI7kGYKwGa.jpg",
           "filename": "BangWei_导演_蒙牛_34_243.jpg",
           "type": "image/jpeg",
           "width": 1181,
@@ -1455,26 +1431,26 @@
       "caseId": "MS-CA-043",
       "title": "海信｜全 AI 商业广告",
       "titleEn": "Hisense — Fully AI Commercial",
-      "client": "海信",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "消费电子／家电",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「海信｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "海信｜全 AI 商业广告是围绕海信在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与全 AI。该条目用于证明 Match Studio 的实拍、剪辑与品牌视频制作；全 AI 生成能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Hisense — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-043/hero-01.jpg",
+          "url": "assets/cases/MS-CA-043/hero-01-attl1ZcuTxjJaS1uJ.jpg",
           "filename": "BangWei_导演_海信_31_230.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -1484,7 +1460,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-043/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-043/gallery-01-attOcvYb0Y6cgW5Hp.jpg",
           "filename": "MS-MA-0349__BangWei-image123.jpg",
           "type": "image/jpeg",
           "width": 1920,
@@ -1492,7 +1468,7 @@
           "size": 370944
         },
         {
-          "url": "assets/cases/MS-CA-043/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-043/gallery-02-attdPGgrf2xN0LIA3.jpg",
           "filename": "BangWei_导演_海信_30_227.jpg",
           "type": "image/jpeg",
           "width": 1737,
@@ -1500,7 +1476,7 @@
           "size": 187526
         },
         {
-          "url": "assets/cases/MS-CA-043/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-043/gallery-03-attFs3KMayujA1dC8.jpg",
           "filename": "BangWei_导演_海信_30_226.jpg",
           "type": "image/jpeg",
           "width": 1756,
@@ -1508,7 +1484,7 @@
           "size": 145618
         },
         {
-          "url": "assets/cases/MS-CA-043/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-043/gallery-04-attbSblAVNrCwer0y.jpg",
           "filename": "BangWei_导演_海信_30_223.jpg",
           "type": "image/jpeg",
           "width": 1226,
@@ -1516,7 +1492,7 @@
           "size": 142052
         },
         {
-          "url": "assets/cases/MS-CA-043/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-043/gallery-05-attbGb42qu24c2WzM.jpg",
           "filename": "BangWei_导演_海信_30_225.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1524,7 +1500,7 @@
           "size": 134186
         },
         {
-          "url": "assets/cases/MS-CA-043/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-043/gallery-06-attFgyy6E6O1qctjH.jpg",
           "filename": "BangWei_导演_海信_30_224.jpg",
           "type": "image/jpeg",
           "width": 1224,
@@ -1545,26 +1521,26 @@
       "caseId": "MS-CA-065",
       "title": "路虎｜AI／商业影像项目",
       "titleEn": "Land Rover — AI / Commercial Imaging Project",
-      "client": "路虎",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "汽车",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
-      "country": "",
-      "city": "",
+      "year": "待核",
+      "country": "待核",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「路虎｜AI／商业影像项目」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "路虎｜AI／商业影像项目：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Land Rover — AI / Commercial Imaging Project, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；AI 与实拍/后期混合制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-065/hero-01.jpg",
+          "url": "assets/cases/MS-CA-065/hero-01-attecVgOP47Q6thHl.jpg",
           "filename": "BangWei_导演_路虎_09_056.jpg",
           "type": "image/jpeg",
           "width": 2751,
@@ -1574,7 +1550,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-065/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-065/gallery-01-att7VIdLZJYwX6BA6.jpg",
           "filename": "BangWei_导演_路虎_09_058.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1582,7 +1558,7 @@
           "size": 192937
         },
         {
-          "url": "assets/cases/MS-CA-065/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-065/gallery-02-att7CmJEy0tUXRBWZ.jpg",
           "filename": "BangWei_导演_路虎_08_049.jpg",
           "type": "image/jpeg",
           "width": 1924,
@@ -1590,7 +1566,7 @@
           "size": 190960
         },
         {
-          "url": "assets/cases/MS-CA-065/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-065/gallery-03-atta7sBIyK3S8mTBh.jpg",
           "filename": "BangWei_导演_路虎_09_053.jpg",
           "type": "image/jpeg",
           "width": 1376,
@@ -1598,7 +1574,7 @@
           "size": 127370
         },
         {
-          "url": "assets/cases/MS-CA-065/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-065/gallery-04-attVoO6vgp3uDJCci.jpg",
           "filename": "BangWei_导演_路虎_09_055.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1606,7 +1582,7 @@
           "size": 125305
         },
         {
-          "url": "assets/cases/MS-CA-065/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-065/gallery-05-att1DECjj746tZEJ2.jpg",
           "filename": "BangWei_导演_路虎_09_052.jpg",
           "type": "image/jpeg",
           "width": 1270,
@@ -1614,7 +1590,7 @@
           "size": 102691
         },
         {
-          "url": "assets/cases/MS-CA-065/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-065/gallery-06-attE4QTBXNKbM3iK7.jpg",
           "filename": "BangWei_导演_路虎_09_057.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1628,26 +1604,26 @@
       "caseId": "MS-CA-066",
       "title": "Sunseeker｜除草机 AI 影像项目",
       "titleEn": "Sunseeker — AI Commercial Imaging Project",
-      "client": "Sunseeker",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "工业／消费产品",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
-      "country": "",
-      "city": "",
+      "year": "待核",
+      "country": "待核",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「Sunseeker｜除草机 AI 影像项目」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "Sunseeker｜除草机 AI 影像项目：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Sunseeker — AI Commercial Imaging Project, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；AI 与实拍/后期混合制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-066/hero-01.jpg",
+          "url": "assets/cases/MS-CA-066/hero-01-attTyYO24MUt4WBoS.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_139.jpg",
           "type": "image/jpeg",
           "width": 2213,
@@ -1657,7 +1633,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-066/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-066/gallery-01-attuEm68nDfSUMzzX.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_141.jpg",
           "type": "image/jpeg",
           "width": 1300,
@@ -1665,7 +1641,7 @@
           "size": 340051
         },
         {
-          "url": "assets/cases/MS-CA-066/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-066/gallery-02-attSdHUW93R9VyeZs.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_142.jpg",
           "type": "image/jpeg",
           "width": 2003,
@@ -1673,7 +1649,7 @@
           "size": 267296
         },
         {
-          "url": "assets/cases/MS-CA-066/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-066/gallery-03-attBqJ3lPgi7iJ126.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_138.jpg",
           "type": "image/jpeg",
           "width": 1452,
@@ -1681,7 +1657,7 @@
           "size": 229839
         },
         {
-          "url": "assets/cases/MS-CA-066/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-066/gallery-04-attLnbZU6Y8eODISt.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_140.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1689,7 +1665,7 @@
           "size": 146154
         },
         {
-          "url": "assets/cases/MS-CA-066/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-066/gallery-05-attCBV1QD8t8qMnI7.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_145.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1697,7 +1673,7 @@
           "size": 141611
         },
         {
-          "url": "assets/cases/MS-CA-066/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-066/gallery-06-attHPLjfXCambf48F.jpg",
           "filename": "BangWei_导演_除草机sunseeker_20_144.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1711,26 +1687,26 @@
       "caseId": "MS-CA-042",
       "title": "战马｜全 AI 功能饮料广告",
       "titleEn": "War Horse — Fully AI Functional Beverage Commercial",
-      "client": "战马",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "饮料／快消",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「战马｜全 AI 功能饮料广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "战马｜全 AI 功能饮料广告是围绕战马在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与全 AI。该条目用于证明 Match Studio 的实拍、剪辑与品牌视频制作；全 AI 生成能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around War Horse — Fully AI Functional Beverage Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-042/hero-01.jpg",
+          "url": "assets/cases/MS-CA-042/hero-01-attsO5MocQR5oeiKi.jpg",
           "filename": "BangWei_导演_战马_28_210.jpg",
           "type": "image/jpeg",
           "width": 1897,
@@ -1740,7 +1716,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-042/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-042/gallery-01-attvlL5TsIZoftCMi.jpg",
           "filename": "MS-MA-0310__BangWei-image118.jpg",
           "type": "image/jpeg",
           "width": 921,
@@ -1748,7 +1724,7 @@
           "size": 55793
         },
         {
-          "url": "assets/cases/MS-CA-042/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-042/gallery-02-attUu9grQLkBjSz3m.jpg",
           "filename": "BangWei_导演_战马_28_209.jpg",
           "type": "image/jpeg",
           "width": 1890,
@@ -1756,7 +1732,7 @@
           "size": 168654
         },
         {
-          "url": "assets/cases/MS-CA-042/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-042/gallery-03-attkV9kb02Xqwr4zK.jpg",
           "filename": "BangWei_导演_战马_28_217.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1764,7 +1740,7 @@
           "size": 116206
         },
         {
-          "url": "assets/cases/MS-CA-042/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-042/gallery-04-attPqs3VGCV1lQzLq.jpg",
           "filename": "BangWei_导演_战马_28_213.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1772,7 +1748,7 @@
           "size": 108482
         },
         {
-          "url": "assets/cases/MS-CA-042/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-042/gallery-05-attqZV7im7R2myXah.jpg",
           "filename": "BangWei_导演_战马_28_215.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1780,7 +1756,7 @@
           "size": 93397
         },
         {
-          "url": "assets/cases/MS-CA-042/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-042/gallery-06-attAHRKIKdoHfoXOF.jpg",
           "filename": "BangWei_导演_战马_28_214.jpg",
           "type": "image/jpeg",
           "width": 1280,
@@ -1801,25 +1777,25 @@
       "caseId": "MS-CA-077",
       "title": "2020腾讯TGC",
       "titleEn": "2020 Tencent TGC",
-      "client": "2020腾讯TGC",
+      "client": "腾讯",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2020",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2020腾讯TGC」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2020腾讯TGC：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2020 Tencent TGC, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-077/hero-01.jpg",
+          "url": "assets/cases/MS-CA-077/hero-01-att6mMARXZV5oSESf.jpg",
           "filename": "hero_91508661.jpg",
           "type": "image/jpeg",
           "width": 2004,
@@ -1829,7 +1805,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-077/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-077/gallery-01-attplUVlxkdJw75zp.jpg",
           "filename": "gal_91508661_0.jpg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1837,7 +1813,7 @@
           "size": 171691
         },
         {
-          "url": "assets/cases/MS-CA-077/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-077/gallery-02-attztkfqhL8B0pXY5.jpg",
           "filename": "gal_91508661_1.jpg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1845,7 +1821,7 @@
           "size": 175619
         },
         {
-          "url": "assets/cases/MS-CA-077/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-077/gallery-03-attlZ72KrdPUznlpC.jpg",
           "filename": "gal_91508661_2.jpg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1853,7 +1829,7 @@
           "size": 166435
         },
         {
-          "url": "assets/cases/MS-CA-077/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-077/gallery-04-attRfn13EMsLa8xo4.jpg",
           "filename": "gal_91508661_3.jpg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1867,25 +1843,25 @@
       "caseId": "MS-CA-096",
       "title": "2018 Play嘉年华",
       "titleEn": "2018 Play Carnival",
-      "client": "2018 Play嘉年华",
+      "client": "Play",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2018",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2018 Play嘉年华」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2018 Play嘉年华：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2018 Play Carnival, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-096/hero-01.jpg",
+          "url": "assets/cases/MS-CA-096/hero-01-att1XRpXQH1aBqwxY.jpg",
           "filename": "70C15329-B8F6-4F20-B48D-D9922654E75C.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1895,7 +1871,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-096/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-096/gallery-01-attxGlsiRlV9HAGYt.jpg",
           "filename": "1E363ECF-F43B-4A48-83AC-4A87D9317219_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -1903,7 +1879,7 @@
           "size": 233682
         },
         {
-          "url": "assets/cases/MS-CA-096/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-096/gallery-02-attqbDymxBhJOd5QI.jpg",
           "filename": "3B7A6C03-044D-4EF3-A800-53E6C2EE8B0E.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1911,7 +1887,7 @@
           "size": 305027
         },
         {
-          "url": "assets/cases/MS-CA-096/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-096/gallery-03-attB9DBBOZ3CBVVhf.jpg",
           "filename": "3B669068-684B-4113-9FF7-EC6F6AFF3A2B.jpeg",
           "type": "image/jpeg",
           "width": 1620,
@@ -1919,7 +1895,7 @@
           "size": 402360
         },
         {
-          "url": "assets/cases/MS-CA-096/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-096/gallery-04-attIX5Qs2pIt6I4wZ.jpg",
           "filename": "70C15329-B8F6-4F20-B48D-D9922654E75C.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1927,7 +1903,7 @@
           "size": 315333
         },
         {
-          "url": "assets/cases/MS-CA-096/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-096/gallery-05-attmKvuzHckOQgTy0.jpg",
           "filename": "5309D2A0-F68B-4C96-A950-09B925012591.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -1941,26 +1917,26 @@
       "caseId": "MS-CA-063",
       "title": "华为｜MATE 80 TVC",
       "titleEn": "Huawei — MATE 80 TVC",
-      "client": "华为",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "科技／消费电子",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
-      "country": "",
-      "city": "",
+      "year": "待核",
+      "country": "待核",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「华为｜MATE 80 TVC」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "华为｜MATE 80 TVC：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Huawei — MATE 80 TVC, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；AI 与实拍/后期混合制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-063/hero-01.jpg",
+          "url": "assets/cases/MS-CA-063/hero-01-attr59O1iskwLSPC8.jpg",
           "filename": "mate80_0.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -1970,7 +1946,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-063/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-01-attTzA0v1GcnJHni2.jpg",
           "filename": "mate80_1.jpg",
           "type": "image/jpeg",
           "width": 1697,
@@ -1978,7 +1954,7 @@
           "size": 574718
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-02-att6rnMooEJUJXqX0.jpg",
           "filename": "mate80_2.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -1986,7 +1962,7 @@
           "size": 925831
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-03-attPVCyYZsC0JIURG.jpg",
           "filename": "mate80_3.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -1994,7 +1970,7 @@
           "size": 95157
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-04-attekZGiVAfTwEhIf.jpg",
           "filename": "mate80_4.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2002,7 +1978,7 @@
           "size": 113619
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-05-attI2rdWQ7LqpaUj4.jpg",
           "filename": "mate80_5.jpg",
           "type": "image/jpeg",
           "width": 1574,
@@ -2010,7 +1986,7 @@
           "size": 276257
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-06-att19NIv3TnkjT5an.jpg",
           "filename": "mate80_6.jpg",
           "type": "image/jpeg",
           "width": 2346,
@@ -2018,7 +1994,7 @@
           "size": 166484
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-07-att2aWg9gV7rwXC1T.jpg",
           "filename": "mate80_7.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2026,7 +2002,7 @@
           "size": 533239
         },
         {
-          "url": "assets/cases/MS-CA-063/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-063/gallery-08-attzG0ICfpi5VAeCR.jpg",
           "filename": "mate80_8.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2040,26 +2016,26 @@
       "caseId": "MS-CA-019",
       "title": "《闪耀的平凡》第四集｜熊猫繁育员",
       "titleEn": "Ordinary Brilliance — Episode 4: Panda Keeper",
-      "client": "闪耀的平凡第四集",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "国际纪录片",
       "services": [
         "Video",
         "Field"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China—Singapore",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「《闪耀的平凡》第四集｜熊猫繁育员」展开，聚焦实拍、剪辑与品牌视频制作、现场摄制与跨地区协作。",
+        "zh": "《闪耀的平凡》第四集｜熊猫繁育员：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Ordinary Brilliance — Episode 4: Panda Keeper, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；现场摄制与跨地区协作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-019/hero-01.jpg",
+          "url": "assets/cases/MS-CA-019/hero-01-attel5dnNGVEYonAA.jpg",
           "filename": "MS-MA-0015__LiaoKuo-image54.jpg",
           "type": "image/jpeg",
           "width": 1527,
@@ -2069,7 +2045,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-019/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-019/gallery-01-attrIhAeG3PQhsIX2.jpg",
           "filename": "MS-MA-0028__LiaoKuo-image52.jpg",
           "type": "image/jpeg",
           "width": 1539,
@@ -2077,7 +2053,7 @@
           "size": 80209
         },
         {
-          "url": "assets/cases/MS-CA-019/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-019/gallery-02-attQYutKCWtd059tc.jpg",
           "filename": "MS-MA-0384__LiaoKuo-image55.jpg",
           "type": "image/jpeg",
           "width": 1538,
@@ -2085,7 +2061,7 @@
           "size": 86670
         },
         {
-          "url": "assets/cases/MS-CA-019/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-019/gallery-03-atthUfeM511GnmuMK.jpg",
           "filename": "MS-MA-0270__LiaoKuo-image51.jpg",
           "type": "image/jpeg",
           "width": 1534,
@@ -2093,7 +2069,7 @@
           "size": 56285
         },
         {
-          "url": "assets/cases/MS-CA-019/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-019/gallery-04-attAdJUwyfF56w239.jpg",
           "filename": "MS-MA-0029__LiaoKuo-image50.jpg",
           "type": "image/jpeg",
           "width": 1539,
@@ -2101,7 +2077,7 @@
           "size": 65940
         },
         {
-          "url": "assets/cases/MS-CA-019/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-019/gallery-05-attt2ynmlv5emsClV.jpg",
           "filename": "MS-MA-0130__LiaoKuo-image53.jpg",
           "type": "image/jpeg",
           "width": 1536,
@@ -2109,7 +2085,7 @@
           "size": 124126
         },
         {
-          "url": "assets/cases/MS-CA-019/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-019/gallery-06-attpLcmgjl1RAFOlX.jpg",
           "filename": "MS-MA-0394__LiaoKuo-image1.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2123,25 +2099,25 @@
       "caseId": "MS-CA-094",
       "title": "2018惠普合作伙伴大会",
       "titleEn": "2018 HP Partner Summit",
-      "client": "2018惠普合作伙伴大会",
+      "client": "惠普",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2018",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2018惠普合作伙伴大会」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2018惠普合作伙伴大会：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2018 HP Partner Summit, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-094/hero-01.jpg",
+          "url": "assets/cases/MS-CA-094/hero-01-attM1b14titSRnog6.jpg",
           "filename": "惠普合作424.JPG",
           "type": "image/jpeg",
           "width": 3968,
@@ -2151,7 +2127,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-094/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-094/gallery-01-attGJpNlG9uFjqIcI.jpg",
           "filename": "gal_70294435_0.jpg",
           "type": "image/jpeg",
           "width": 2048,
@@ -2159,7 +2135,7 @@
           "size": 397114
         },
         {
-          "url": "assets/cases/MS-CA-094/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-094/gallery-02-attPBlLQgZelEvzPs.jpg",
           "filename": "gal_70294435_1.jpg",
           "type": "image/jpeg",
           "width": 1706,
@@ -2167,7 +2143,7 @@
           "size": 254980
         },
         {
-          "url": "assets/cases/MS-CA-094/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-094/gallery-03-attwxn4F4DHluerRX.jpg",
           "filename": "gal_70294435_2.jpg",
           "type": "image/jpeg",
           "width": 1604,
@@ -2175,7 +2151,7 @@
           "size": 235375
         },
         {
-          "url": "assets/cases/MS-CA-094/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-094/gallery-04-att6rW6yfHDQGbobz.jpg",
           "filename": "gal_70294435_3.jpg",
           "type": "image/jpeg",
           "width": 1620,
@@ -2183,7 +2159,7 @@
           "size": 237190
         },
         {
-          "url": "assets/cases/MS-CA-094/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-094/gallery-05-attrc92f4L1j1wbXN.jpg",
           "filename": "gal_70294435_4.jpg",
           "type": "image/jpeg",
           "width": 2048,
@@ -2197,7 +2173,7 @@
       "caseId": "MS-CA-049",
       "title": "OPPO Find X3 全球发布会",
       "titleEn": "OPPO Find X3 Global Launch",
-      "client": "OPPO Find X3 全球发布会",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "消费电子",
       "services": [
         "Field",
@@ -2205,18 +2181,18 @@
       ],
       "year": "2021",
       "country": "Global",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「OPPO Find X3 全球发布会」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "zh": "OPPO Find X3 全球发布会：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around OPPO Find X3 Global Launch, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-049/hero-01.jpg",
+          "url": "assets/cases/MS-CA-049/hero-01-attCGWdEJChjFNilU.jpg",
           "filename": "6E6DA7FE-0702-4754-9A2E-5CBEA7D3DD6C_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1182,
@@ -2226,7 +2202,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-049/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-049/gallery-01-attyg1rIdjPIUsFua.jpg",
           "filename": "gal_94982459_0.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -2234,7 +2210,7 @@
           "size": 369027
         },
         {
-          "url": "assets/cases/MS-CA-049/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-049/gallery-02-attBBSFXzZ7tdB1QV.jpg",
           "filename": "gal_94982459_1.jpg",
           "type": "image/jpeg",
           "width": 1024,
@@ -2242,7 +2218,7 @@
           "size": 200672
         },
         {
-          "url": "assets/cases/MS-CA-049/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-049/gallery-03-attM89Xtfc5xCVH4M.jpg",
           "filename": "gal_94982459_2.jpg",
           "type": "image/jpeg",
           "width": 794,
@@ -2250,7 +2226,7 @@
           "size": 194999
         },
         {
-          "url": "assets/cases/MS-CA-049/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-049/gallery-04-attgT6TTyAZWS7Blg.jpg",
           "filename": "gal_94982459_4.jpg",
           "type": "image/jpeg",
           "width": 1024,
@@ -2305,25 +2281,25 @@
       "caseId": "MS-CA-072",
       "title": "Vivo 2019万人团年晚宴",
       "titleEn": "Vivo 2019 All-Hands Event",
-      "client": "Vivo 2019万人团年晚宴",
+      "client": "Vivo",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2020",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「Vivo 2019万人团年晚宴」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "Vivo 2019万人团年晚宴：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around Vivo 2019 All-Hands Event, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-072/hero-01.jpg",
+          "url": "assets/cases/MS-CA-072/hero-01-atthCZmqt97JoDs5r.jpg",
           "filename": "IMG_1571.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2333,7 +2309,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-072/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-01-att0bhfTd7E5XpKj0.jpg",
           "filename": "IMG_1562.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2341,7 +2317,7 @@
           "size": 619919
         },
         {
-          "url": "assets/cases/MS-CA-072/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-02-attSh9Y18AcFnwvXP.jpg",
           "filename": "IMG_1563.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2349,7 +2325,7 @@
           "size": 563070
         },
         {
-          "url": "assets/cases/MS-CA-072/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-03-attj3RX8dgseAr8l0.jpg",
           "filename": "IMG_1564.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2357,7 +2333,7 @@
           "size": 559538
         },
         {
-          "url": "assets/cases/MS-CA-072/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-04-attsYE1J8xz2s58XZ.jpg",
           "filename": "IMG_1567.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2365,7 +2341,7 @@
           "size": 679896
         },
         {
-          "url": "assets/cases/MS-CA-072/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-05-attfhOodmVypHdQrP.jpg",
           "filename": "IMG_1568.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2373,7 +2349,7 @@
           "size": 730061
         },
         {
-          "url": "assets/cases/MS-CA-072/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-06-att7mTBBZ5QcltLKI.jpg",
           "filename": "IMG_1569.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2381,7 +2357,7 @@
           "size": 473612
         },
         {
-          "url": "assets/cases/MS-CA-072/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-072/gallery-07-attkDAoWCaDNIaewi.jpg",
           "filename": "IMG_1570.JPG",
           "type": "image/jpeg",
           "width": 1280,
@@ -2395,7 +2371,7 @@
       "caseId": "MS-CA-053",
       "title": "淘宝造物节",
       "titleEn": "2021 Taobao Maker Festival",
-      "client": "淘宝造物节",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "电商／体验营销",
       "services": [
         "Field",
@@ -2403,18 +2379,18 @@
       ],
       "year": "2021",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「淘宝造物节」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "zh": "淘宝造物节是围绕淘宝在China展开的现场摄制、视频制作案例。现有资料确认核心团队参与材料确认：Lux 担任项目经理。该条目用于证明 Match Studio 的现场摄制与跨地区协作；实拍、剪辑与品牌视频制作能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around 2021 Taobao Maker Festival, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-053/hero-01.jpg",
+          "url": "assets/cases/MS-CA-053/hero-01-att0ScquEWYQ01dyX.jpg",
           "filename": "E2AFC781-FF7F-482D-B532-396EE6D7366A_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 640,
@@ -2424,7 +2400,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-053/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-01-attvhhXhdVX6NeF9k.jpg",
           "filename": "gal_76520932_3.jpg",
           "type": "image/jpeg",
           "width": 668,
@@ -2432,7 +2408,7 @@
           "size": 92821
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-02-attWzq2JVK5vZv8zX.jpg",
           "filename": "E2AFC781-FF7F-482D-B532-396EE6D7366A_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 640,
@@ -2440,7 +2416,7 @@
           "size": 110665
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-03-att37VCIYDvtEURz2.jpg",
           "filename": "8CF7915A-648F-4B2F-A1FE-CAE6625E8DE5.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2448,7 +2424,7 @@
           "size": 453932
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-04-attQOqktafXuh7KAS.jpg",
           "filename": "14EBC861-FB4C-42BC-BF86-3B4A318304C0.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2456,7 +2432,7 @@
           "size": 431267
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-05-attpC6DikXzCxzgvK.jpg",
           "filename": "32E6A0FA-7632-422F-BA09-8464B22B5F7C.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2464,7 +2440,7 @@
           "size": 523765
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-06-attj3P7LDrJO0VvgK.jpg",
           "filename": "67E675B6-FECD-4B15-A5AC-76E78701AC46.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2472,7 +2448,7 @@
           "size": 644743
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-07-attb6bIcFlHWbbSRS.jpg",
           "filename": "89FE79B6-289D-42FB-8D03-04A4551D1119.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -2480,7 +2456,7 @@
           "size": 338778
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-08-att1EGytK02iI5IAo.jpg",
           "filename": "195E4933-A393-4501-B51C-A9A191192124_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 600,
@@ -2488,7 +2464,7 @@
           "size": 99712
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-09.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-09-att7CAk6OQYZQ4Mfx.jpg",
           "filename": "204E3660-CA70-4281-9A58-26A51CE67098_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 540,
@@ -2496,7 +2472,7 @@
           "size": 84515
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-10.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-10-attXJRVQ2l8hWLztO.jpg",
           "filename": "527E5400-FC07-439A-A493-9E91031DD1FA_1_102_o.jpeg",
           "type": "image/jpeg",
           "width": 2173,
@@ -2504,7 +2480,7 @@
           "size": 962320
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-11.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-11-attjKDCcnhT7ZdsJw.jpg",
           "filename": "2908F75F-FA40-44E6-B843-4D835AAA0280.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2512,7 +2488,7 @@
           "size": 416286
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-12.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-12-attexz5U3ump6G8Qs.jpg",
           "filename": "3644A55E-F448-4A7D-9385-5AB4613909C5.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -2520,7 +2496,7 @@
           "size": 299916
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-13.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-13-attz5T9M0uBm0ZsBG.jpg",
           "filename": "16359A10-46E2-4962-A1A3-9EC17D0FE629.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2528,7 +2504,7 @@
           "size": 387166
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-14.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-14-attk4Mosn287zazk0.jpg",
           "filename": "79228FBD-F4D3-4AFB-8250-359A17EF8F7E_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -2536,7 +2512,7 @@
           "size": 268247
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-15.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-15-attD2xQcUepLUlMpE.jpg",
           "filename": "100180BB-9942-4399-8D9D-DFDF609AB458.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2544,7 +2520,7 @@
           "size": 478636
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-16.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-16-attjpn03YghEAO0tS.jpg",
           "filename": "A9A657C9-7A63-4D87-9FAD-6EC027D8A2FE_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 600,
@@ -2552,7 +2528,7 @@
           "size": 125498
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-17.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-17-attt0YMKADoQewj37.jpg",
           "filename": "A090C71E-57F4-43F0-8CA8-F2F78744BC33.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2560,7 +2536,7 @@
           "size": 482341
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-18.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-18-attVPjLYciviH2Qyg.jpg",
           "filename": "AA671FEF-9E9F-4EF9-A137-C5517847F780.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2568,7 +2544,7 @@
           "size": 624842
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-19.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-19-attQxoEBTbvqkhWeI.jpg",
           "filename": "C4F84AF6-FF5E-40A0-AED2-F1522A9DD5FD.jpeg",
           "type": "image/jpeg",
           "width": 1200,
@@ -2576,7 +2552,7 @@
           "size": 404083
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-20.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-20-attKR0LdpgcklruUS.jpg",
           "filename": "DB54ADC9-4294-40CC-8CC4-2C7279632F9F.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -2584,7 +2560,7 @@
           "size": 497210
         },
         {
-          "url": "assets/cases/MS-CA-053/gallery-21.jpg",
+          "url": "assets/cases/MS-CA-053/gallery-21-attmZIxyjj2sKHfOV.jpg",
           "filename": "DBCC1845-9C9C-403E-9746-9BF988DAF452_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -2598,25 +2574,25 @@
       "caseId": "MS-CA-101",
       "title": "2017 H3C领航者峰会",
       "titleEn": "2017 H3C Navigator Summit",
-      "client": "2017 H3C领航者峰会",
+      "client": "H3C",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2017",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2017 H3C领航者峰会」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2017 H3C领航者峰会：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2017 H3C Navigator Summit, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-101/hero-01.jpg",
+          "url": "assets/cases/MS-CA-101/hero-01-attAVCmqUKcQMxHgg.jpg",
           "filename": "hero_44328580.jpg",
           "type": "image/jpeg",
           "width": 291,
@@ -2631,7 +2607,7 @@
       "caseId": "MS-CA-048",
       "title": "INTEL｜第十一代酷睿全球线上发布会",
       "titleEn": "Intel — 11th Gen Core Global Online Launch",
-      "client": "INTEL",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "半导体／科技",
       "services": [
         "Field",
@@ -2640,18 +2616,18 @@
       ],
       "year": "2020",
       "country": "Global",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「INTEL｜第十一代酷睿全球线上发布会」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作、直播信号与多端分发。",
+        "zh": "INTEL｜第十一代酷睿全球线上发布会：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Intel — 11th Gen Core Global Online Launch, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作；直播信号与多端分发。",
+        "zh": "现场摄制与跨地区协作；直播信号与多端分发；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production; live signal delivery and multi-platform distribution."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-048/hero-01.jpg",
+          "url": "assets/cases/MS-CA-048/hero-01-att9czC518r8Smul5.jpg",
           "filename": "hero_23905194.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2661,7 +2637,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-048/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-048/gallery-01-attjLH37QOmeSM3Zr.jpg",
           "filename": "gal_23905194_0.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2669,7 +2645,7 @@
           "size": 275798
         },
         {
-          "url": "assets/cases/MS-CA-048/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-048/gallery-02-attAhQ2o9dHTT9eR2.jpg",
           "filename": "gal_23905194_1.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2677,7 +2653,7 @@
           "size": 231858
         },
         {
-          "url": "assets/cases/MS-CA-048/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-048/gallery-03-attnXBWKBjZpJxyiS.jpg",
           "filename": "gal_23905194_2.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2685,7 +2661,7 @@
           "size": 250941
         },
         {
-          "url": "assets/cases/MS-CA-048/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-048/gallery-04-attiGpK8SWuroL28v.jpg",
           "filename": "gal_23905194_3.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2693,7 +2669,7 @@
           "size": 185512
         },
         {
-          "url": "assets/cases/MS-CA-048/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-048/gallery-05-attZW0W1fNL9maEzq.jpg",
           "filename": "gal_23905194_4.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -2707,25 +2683,25 @@
       "caseId": "MS-CA-079",
       "title": "2019 H3C领航者峰会",
       "titleEn": "2019 H3C Navigator Summit",
-      "client": "2019 H3C领航者峰会",
+      "client": "H3C",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2019",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2019 H3C领航者峰会」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2019 H3C领航者峰会：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2019 H3C Navigator Summit, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-079/hero-01.jpg",
+          "url": "assets/cases/MS-CA-079/hero-01-attWcc7ytaclTjaFG.jpg",
           "filename": "IMG_3412.JPG",
           "type": "image/jpeg",
           "width": 800,
@@ -2735,7 +2711,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-079/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-01-attlRaMeWFW1E06rh.jpg",
           "filename": "IMG_3371.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -2743,7 +2719,7 @@
           "size": 704304
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-02-att4sSTcZxGFXXRcp.jpg",
           "filename": "IMG_3388.JPG",
           "type": "image/jpeg",
           "width": 1618,
@@ -2751,7 +2727,7 @@
           "size": 543062
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-03-attvcw1HlV7uZF7Is.jpg",
           "filename": "IMG_3375.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -2759,7 +2735,7 @@
           "size": 474161
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-04-attnhLV2ztGKCC1gB.jpg",
           "filename": "IMG_3383.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -2767,7 +2743,7 @@
           "size": 429816
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-05-attPUhcaOW41fKDQf.jpg",
           "filename": "IMG_3441.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2775,7 +2751,7 @@
           "size": 431625
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-06-attJlX17UO0dcN2Wz.jpg",
           "filename": "IMG_3372.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -2783,7 +2759,7 @@
           "size": 452965
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-07-att5u47xpOC3AXidb.jpg",
           "filename": "IMG_3373.JPG",
           "type": "image/jpeg",
           "width": 1922,
@@ -2791,7 +2767,7 @@
           "size": 510055
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-08-attB84rxK4kdel3qj.jpg",
           "filename": "IMG_3374.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -2799,7 +2775,7 @@
           "size": 456292
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-09.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-09-atteV78c2W5sX2Lnv.jpg",
           "filename": "IMG_3384.JPG",
           "type": "image/jpeg",
           "width": 1364,
@@ -2807,7 +2783,7 @@
           "size": 340033
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-10.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-10-atthUagcAJBTsJ2Fr.jpg",
           "filename": "IMG_3440.JPG",
           "type": "image/jpeg",
           "width": 3840,
@@ -2815,7 +2791,7 @@
           "size": 1657856
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-11.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-11-attkXzuA5KB6gQznB.jpg",
           "filename": "IMG_3442.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2823,7 +2799,7 @@
           "size": 421548
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-12.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-12-attkZfqN7Q6YEonwH.jpg",
           "filename": "IMG_3443.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2831,7 +2807,7 @@
           "size": 338490
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-13.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-13-attXmKIuG49RWrPYH.jpg",
           "filename": "IMG_3444.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2839,7 +2815,7 @@
           "size": 418922
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-14.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-14-attSw9VYvaqf1OJLN.jpg",
           "filename": "IMG_3445.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2847,7 +2823,7 @@
           "size": 405353
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-15.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-15-attmeQtoexur6RRvn.jpg",
           "filename": "IMG_3446.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2855,7 +2831,7 @@
           "size": 496225
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-16.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-16-attyobNiZUhnEz0bm.jpg",
           "filename": "IMG_3447.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2863,7 +2839,7 @@
           "size": 381303
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-17.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-17-attifmi1jMOHPflAS.jpg",
           "filename": "IMG_3448.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2871,7 +2847,7 @@
           "size": 440458
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-18.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-18-atta1pxoU3k5oHURR.jpg",
           "filename": "IMG_3450.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2879,7 +2855,7 @@
           "size": 348731
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-19.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-19-att2ynM83gxw30qDf.jpg",
           "filename": "IMG_3451.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2887,7 +2863,7 @@
           "size": 356471
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-20.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-20-att6zzFd3ZHMko8Ob.jpg",
           "filename": "IMG_3452.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2895,7 +2871,7 @@
           "size": 257344
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-21.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-21-atth1oETvABcKcGA0.jpg",
           "filename": "IMG_3453.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2903,7 +2879,7 @@
           "size": 323782
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-22.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-22-attOzmBaAYwrisXxi.jpg",
           "filename": "IMG_3456.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2911,7 +2887,7 @@
           "size": 308481
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-23.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-23-attWJm9EuPNm42ZNy.jpg",
           "filename": "IMG_3457.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2919,7 +2895,7 @@
           "size": 325148
         },
         {
-          "url": "assets/cases/MS-CA-079/gallery-24.jpg",
+          "url": "assets/cases/MS-CA-079/gallery-24-att6eSEMztdu3sCId.jpg",
           "filename": "IMG_3458.JPG",
           "type": "image/jpeg",
           "width": 1365,
@@ -2933,25 +2909,25 @@
       "caseId": "MS-CA-097",
       "title": "2018三亚国际半程马拉松",
       "titleEn": "2018 Sanya International Half Marathon",
-      "client": "2018三亚国际半程马拉松",
+      "client": "三亚国际半程马拉松",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2018",
       "country": "三亚",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2018三亚国际半程马拉松」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2018三亚国际半程马拉松：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2018 Sanya International Half Marathon, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-097/hero-01.jpg",
+          "url": "assets/cases/MS-CA-097/hero-01-att40yOOPL8Vo6hZG.jpg",
           "filename": "hero_67401428.jpg",
           "type": "image/jpeg",
           "width": 634,
@@ -2961,7 +2937,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-097/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-097/gallery-01-attdGoWsHDuPoMaTw.jpg",
           "filename": "IMG_1898.JPG",
           "type": "image/jpeg",
           "width": 1440,
@@ -2969,15 +2945,15 @@
           "size": 462356
         },
         {
-          "url": "assets/cases/MS-CA-097/gallery-02.png",
+          "url": "assets/cases/MS-CA-097/gallery-02-att5CHOGBKDqcUlhj.jpg",
           "filename": "IMG_1914.HEIC",
-          "type": "image/heic",
+          "type": "image/png",
           "width": 4032,
           "height": 3024,
-          "size": 1350398
+          "size": 8684065
         },
         {
-          "url": "assets/cases/MS-CA-097/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-097/gallery-03-attosmFnL5tOO9c7M.jpg",
           "filename": "IMG_1933.JPG",
           "type": "image/jpeg",
           "width": 1440,
@@ -2985,7 +2961,7 @@
           "size": 356226
         },
         {
-          "url": "assets/cases/MS-CA-097/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-097/gallery-04-attSzs78EbbXjfGu8.jpg",
           "filename": "IMG_1935.JPG",
           "type": "image/jpeg",
           "width": 1440,
@@ -2993,7 +2969,7 @@
           "size": 439788
         },
         {
-          "url": "assets/cases/MS-CA-097/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-097/gallery-05-attpZTiF1e7q0D6cO.jpg",
           "filename": "IMG_1936.JPG",
           "type": "image/jpeg",
           "width": 800,
@@ -3001,7 +2977,7 @@
           "size": 141256
         },
         {
-          "url": "assets/cases/MS-CA-097/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-097/gallery-06-attadrXrGqtSvRS0K.jpg",
           "filename": "IMG_1937.JPG",
           "type": "image/jpeg",
           "width": 1386,
@@ -3009,7 +2985,7 @@
           "size": 371364
         },
         {
-          "url": "assets/cases/MS-CA-097/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-097/gallery-07-attSK4AInNPEVKAKT.jpg",
           "filename": "IMG_1938.JPG",
           "type": "image/jpeg",
           "width": 800,
@@ -3023,25 +2999,25 @@
       "caseId": "MS-CA-078",
       "title": "2020 INCLUSION·外滩大会",
       "titleEn": "2020 INCLUSION · Bund Summit",
-      "client": "2020 INCLUSION·外滩大会",
+      "client": "蚂蚁集团",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2020",
       "country": "上海",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2020 INCLUSION·外滩大会」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2020 INCLUSION·外滩大会：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2020 INCLUSION · Bund Summit, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-078/hero-01.jpg",
+          "url": "assets/cases/MS-CA-078/hero-01-attjP0WpH1kIOUCyB.jpg",
           "filename": "hero_26239917.jpg",
           "type": "image/jpeg",
           "width": 1620,
@@ -3051,7 +3027,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-078/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-078/gallery-01-attxZclcRCwJTzO79.jpg",
           "filename": "gal_26239917_0.jpg",
           "type": "image/jpeg",
           "width": 1618,
@@ -3059,7 +3035,7 @@
           "size": 357136
         },
         {
-          "url": "assets/cases/MS-CA-078/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-078/gallery-02-attmsdYEWCNUBDh92.jpg",
           "filename": "gal_26239917_1.jpg",
           "type": "image/jpeg",
           "width": 1810,
@@ -3067,7 +3043,7 @@
           "size": 306319
         },
         {
-          "url": "assets/cases/MS-CA-078/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-078/gallery-03-att3lRQZ3YDYcqM2B.jpg",
           "filename": "gal_26239917_2.jpg",
           "type": "image/jpeg",
           "width": 1366,
@@ -3075,7 +3051,7 @@
           "size": 186008
         },
         {
-          "url": "assets/cases/MS-CA-078/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-078/gallery-04-attta7soDLDrkssEm.jpg",
           "filename": "gal_26239917_3.jpg",
           "type": "image/jpeg",
           "width": 1618,
@@ -3083,7 +3059,7 @@
           "size": 181492
         },
         {
-          "url": "assets/cases/MS-CA-078/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-078/gallery-05-att0XRrItVodDRZ8M.jpg",
           "filename": "gal_26239917_4.jpg",
           "type": "image/jpeg",
           "width": 1440,
@@ -3097,26 +3073,26 @@
       "caseId": "MS-CA-044",
       "title": "999 皮炎平｜全 AI 二维卡通动画",
       "titleEn": "999 Pi Yan Ping — Fully AI 2D Cartoon Animation",
-      "client": "999 皮炎平",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "医药／大健康",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「999 皮炎平｜全 AI 二维卡通动画」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "999 皮炎平｜全 AI 二维卡通动画：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around 999 Pi Yan Ping — Fully AI 2D Cartoon Animation, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-044/hero-01.jpg",
+          "url": "assets/cases/MS-CA-044/hero-01-attNd8FgeRFBCNvnO.jpg",
           "filename": "MS-MA-0089__BangWei-image132.jpg",
           "type": "image/jpeg",
           "width": 640,
@@ -3138,7 +3114,7 @@
       "caseId": "MS-CA-054",
       "title": "快手跨年盛典",
       "titleEn": "Kuaishou New Year’s Eve Gala",
-      "client": "快手跨年盛典",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "内容平台／大型活动",
       "services": [
         "Field",
@@ -3147,28 +3123,28 @@
       ],
       "year": "2022",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「快手跨年盛典」展开，聚焦现场摄制与跨地区协作、直播信号与多端分发、实拍、剪辑与品牌视频制作。",
+        "zh": "快手跨年盛典：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Kuaishou New Year’s Eve Gala, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；直播信号与多端分发；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；直播信号与多端分发；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live signal delivery and multi-platform distribution; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-054/hero-01.jpg",
-          "filename": "EB9AE702-71CA-4739-801A-67FBDBA1A90B_1_105_c.jpeg",
+          "url": "assets/cases/MS-CA-054/hero-01-attzEvC4Yg1t26eRu.jpg",
+          "filename": "29512C18-B1BA-40EF-989D-E2AB6A865CC9.jpeg",
           "type": "image/jpeg",
-          "width": 724,
-          "height": 1086,
-          "size": 123127
+          "width": 1620,
+          "height": 1080,
+          "size": 455621
         }
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-054/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-01-attFiSi9UPwWGzxXJ.jpg",
           "filename": "01E60822-44B6-438C-B313-DE6E8A39C27E.jpeg",
           "type": "image/jpeg",
           "width": 1618,
@@ -3176,7 +3152,7 @@
           "size": 448442
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-02-attEN1FwVFXRaRH2v.jpg",
           "filename": "5F08736F-B76C-4E36-93F4-2CEB2D43E15E.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -3184,7 +3160,7 @@
           "size": 402577
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-03-attnLgz31DCgiIyGX.jpg",
           "filename": "55AF0242-50CC-4D9E-BDC6-530D4AFB2F86.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -3192,7 +3168,7 @@
           "size": 188910
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-04-attTlCUOoUWm9hUmb.jpg",
           "filename": "851DC66D-7999-4B9E-A0BD-772E5EC122D1.jpeg",
           "type": "image/jpeg",
           "width": 1600,
@@ -3200,7 +3176,7 @@
           "size": 363675
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-05-attRpvGx9KhBPGZQt.jpg",
           "filename": "29512C18-B1BA-40EF-989D-E2AB6A865CC9.jpeg",
           "type": "image/jpeg",
           "width": 1620,
@@ -3208,7 +3184,7 @@
           "size": 455621
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-06-attkSHufRI3bJ0KqY.jpg",
           "filename": "C18DC85E-370C-4F6E-BA72-3CFE1EB4F1CB_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 640,
@@ -3216,7 +3192,7 @@
           "size": 76395
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-07-attMxm5M9S536jzXy.jpg",
           "filename": "7DF20441-5768-4181-920B-5E4E73B85970_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1024,
@@ -3224,7 +3200,7 @@
           "size": 259337
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-08-attLHuHy56YwhhzXT.jpg",
           "filename": "00DDDF3B-B431-410B-8DD8-C17F00169C48_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 768,
@@ -3232,7 +3208,7 @@
           "size": 229622
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-09.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-09-attXW4vUr20oMQPqa.jpg",
           "filename": "87AE8820-9E85-47C2-B9ED-D8DEC86BDD3E_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 768,
@@ -3240,12 +3216,20 @@
           "size": 228983
         },
         {
-          "url": "assets/cases/MS-CA-054/gallery-10.jpg",
+          "url": "assets/cases/MS-CA-054/gallery-10-attlVamnHGL4AIdjt.jpg",
           "filename": "F0EFB540-33DE-4835-8332-51BC1C0C5E08_4_5005_c.jpeg",
           "type": "image/jpeg",
           "width": 602,
           "height": 360,
           "size": 74053
+        },
+        {
+          "url": "assets/cases/MS-CA-054/gallery-11-attLVVWPxD1WaKqf4.jpg",
+          "filename": "EB9AE702-71CA-4739-801A-67FBDBA1A90B_1_105_c.jpeg",
+          "type": "image/jpeg",
+          "width": 724,
+          "height": 1086,
+          "size": 123127
         }
       ],
       "videos": []
@@ -3254,25 +3238,25 @@
       "caseId": "MS-CA-076",
       "title": "2020优酷《琉璃》收官云庆会",
       "titleEn": "2020 Youku Love and Redemption Finale Cloud Celebration",
-      "client": "2020优酷琉璃收官云庆会",
+      "client": "优酷",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2020",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2020优酷《琉璃》收官云庆会」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2020优酷《琉璃》收官云庆会：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2020 Youku Love and Redemption Finale Cloud Celebration, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-076/hero-01.jpg",
+          "url": "assets/cases/MS-CA-076/hero-01-att4VkOeSz2XK6rOn.jpg",
           "filename": "12871608644396_.pic_hd.jpg",
           "type": "image/jpeg",
           "width": 1620,
@@ -3282,7 +3266,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-076/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-076/gallery-01-attmpyUAJOL6wkMIT.jpg",
           "filename": "12891608644418_.pic_hd.jpg",
           "type": "image/jpeg",
           "width": 5472,
@@ -3290,7 +3274,7 @@
           "size": 4261466
         },
         {
-          "url": "assets/cases/MS-CA-076/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-076/gallery-02-attygFYHUv3hpZunc.jpg",
           "filename": "10X10 logo拼图模版.001.jpeg",
           "type": "image/jpeg",
           "width": 1920,
@@ -3304,25 +3288,25 @@
       "caseId": "MS-CA-095",
       "title": "2018淘宝造物节",
       "titleEn": "2018 Taobao Maker Festival",
-      "client": "2018淘宝造物节",
+      "client": "淘宝",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2018",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2018淘宝造物节」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2018淘宝造物节：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2018 Taobao Maker Festival, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-095/hero-01.jpg",
+          "url": "assets/cases/MS-CA-095/hero-01-attOqDqy6IqhrHUZP.jpg",
           "filename": "IMG_0850.JPG",
           "type": "image/jpeg",
           "width": 3360,
@@ -3332,7 +3316,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-095/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-01-attE8sFnRWl7lMOhf.jpg",
           "filename": "gal_53021233_1.jpg",
           "type": "image/jpeg",
           "width": 1726,
@@ -3340,7 +3324,7 @@
           "size": 283548
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-02-attPvuw30TuB12xbO.jpg",
           "filename": "gal_53021233_0.jpg",
           "type": "image/jpeg",
           "width": 1078,
@@ -3348,7 +3332,7 @@
           "size": 231980
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-03-att7ryJjl3kSSPnF9.jpg",
           "filename": "gal_53021233_4.jpg",
           "type": "image/jpeg",
           "width": 720,
@@ -3356,7 +3340,7 @@
           "size": 135999
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-04-attXm851QbArZCNeC.jpg",
           "filename": "IMG_0851.JPG",
           "type": "image/jpeg",
           "width": 3748,
@@ -3364,7 +3348,7 @@
           "size": 1549529
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-05-att1zArLcAcX4K7fn.jpg",
           "filename": "IMG_0852.JPG",
           "type": "image/jpeg",
           "width": 2880,
@@ -3372,7 +3356,7 @@
           "size": 1813969
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-06-att1dm3YAnhuJ8TYe.jpg",
           "filename": "IMG_0853.JPG",
           "type": "image/jpeg",
           "width": 2880,
@@ -3380,7 +3364,7 @@
           "size": 1417643
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-07-attHS6RJOK0KI5Pg2.jpg",
           "filename": "IMG_0854.JPG",
           "type": "image/jpeg",
           "width": 2016,
@@ -3388,7 +3372,7 @@
           "size": 792667
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-08-attvyLLLj8Cn83Xuc.jpg",
           "filename": "IMG_0855.JPG",
           "type": "image/jpeg",
           "width": 2240,
@@ -3396,7 +3380,7 @@
           "size": 1229655
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-09.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-09-attz5AbSK9mMi0bBR.jpg",
           "filename": "IMG_0856.JPG",
           "type": "image/jpeg",
           "width": 3360,
@@ -3404,7 +3388,7 @@
           "size": 2875184
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-10.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-10-attlxYETl4utjmudM.jpg",
           "filename": "IMG_0857.JPG",
           "type": "image/jpeg",
           "width": 1200,
@@ -3412,7 +3396,7 @@
           "size": 303737
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-11.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-11-attMAeYh3sZDZ7Odc.jpg",
           "filename": "IMG_0955.JPG",
           "type": "image/jpeg",
           "width": 762,
@@ -3420,7 +3404,7 @@
           "size": 2198989
         },
         {
-          "url": "assets/cases/MS-CA-095/gallery-12.jpg",
+          "url": "assets/cases/MS-CA-095/gallery-12-attNpqEBH6NQyQRSb.jpg",
           "filename": "IMG_0961.JPG",
           "type": "image/jpeg",
           "width": 468,
@@ -3434,25 +3418,25 @@
       "caseId": "MS-CA-075",
       "title": "2020抖音创作者盛典",
       "titleEn": "2020 Douyin Creator Awards",
-      "client": "2020抖音创作者盛典",
+      "client": "抖音",
       "industry": "活动／展会／现场运营",
       "services": [
         "Field"
       ],
       "year": "2020",
       "country": "中国",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「2020抖音创作者盛典」展开，聚焦现场摄制与跨地区协作。",
+        "zh": "2020抖音创作者盛典：10X10 Keynote 记载的活动与现场执行案例。已知由 10X10 团队以项目团队形式承接，现阶段用于证明 Match Studio 的活动运营、现场执行与协作能力；客户确认、准确交付边界及公开授权仍待核。",
         "en": "A project built around 2020 Douyin Creator Awards, focused on field production and cross-market collaboration."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作。",
+        "zh": "活动运营、展区运营、现场执行与团队协作；具体制作方法待核。",
         "en": "field production and cross-market collaboration."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-075/hero-01.jpg",
+          "url": "assets/cases/MS-CA-075/hero-01-att4iNK9MTzCqcyMn.jpg",
           "filename": "IMG_5211.JPG",
           "type": "image/jpeg",
           "width": 1080,
@@ -3462,7 +3446,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-075/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-01-attzwXPe3ajYxZHX5.jpg",
           "filename": "gal_3528247_3.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3470,7 +3454,7 @@
           "size": 416970
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-02-attV8AmCcg0cXOv1W.jpg",
           "filename": "gal_3528247_4.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3478,7 +3462,7 @@
           "size": 421662
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-03-attsUo2t8OIwoRARl.jpg",
           "filename": "IMG_5208.JPG",
           "type": "image/jpeg",
           "width": 1080,
@@ -3486,7 +3470,7 @@
           "size": 218205
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-04-attNLyBmjxJOm2Fs9.jpg",
           "filename": "IMG_5209.JPG",
           "type": "image/jpeg",
           "width": 1080,
@@ -3494,7 +3478,7 @@
           "size": 225320
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-05-attJBPyph5IWIR9Gi.jpg",
           "filename": "IMG_5210.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -3502,7 +3486,7 @@
           "size": 333402
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-06-attz5HCYZXYM07Ek5.jpg",
           "filename": "IMG_5212.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -3510,7 +3494,7 @@
           "size": 486886
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-07-attysaTO7UPiacQEv.jpg",
           "filename": "IMG_5213.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -3518,7 +3502,7 @@
           "size": 163230
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-08-attv53vvgokEf1jQZ.jpg",
           "filename": "IMG_5214.JPG",
           "type": "image/jpeg",
           "width": 1080,
@@ -3526,7 +3510,7 @@
           "size": 230745
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-09.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-09-attN0rGJUD9DTNiPo.jpg",
           "filename": "IMG_5215.JPG",
           "type": "image/jpeg",
           "width": 1080,
@@ -3534,7 +3518,7 @@
           "size": 144859
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-10.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-10-attRikjyz7rVj3J11.jpg",
           "filename": "IMG_5216.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -3542,7 +3526,7 @@
           "size": 312780
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-11.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-11-attctLRL7JyO9d87l.jpg",
           "filename": "IMG_5217.JPG",
           "type": "image/jpeg",
           "width": 1080,
@@ -3550,7 +3534,7 @@
           "size": 288720
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-12.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-12-attdschTXWrmA6awN.jpg",
           "filename": "IMG_5227.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -3558,7 +3542,7 @@
           "size": 190415
         },
         {
-          "url": "assets/cases/MS-CA-075/gallery-13.jpg",
+          "url": "assets/cases/MS-CA-075/gallery-13-attlOAP63pAbymMsA.jpg",
           "filename": "IMG_5228.JPG",
           "type": "image/jpeg",
           "width": 1620,
@@ -3572,7 +3556,7 @@
       "caseId": "MS-CA-050",
       "title": "2021 天猫双 11｜理想之城",
       "titleEn": "Tmall Double 11 — Ideal City",
-      "client": "2021 天猫双 11",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "电商／体验营销",
       "services": [
         "Field",
@@ -3582,16 +3566,16 @@
       "country": "China",
       "city": "武汉／深圳",
       "intro": {
-        "zh": "围绕「2021 天猫双 11｜理想之城」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。",
+        "zh": "天猫双 11｜理想之城：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Tmall Double 11 — Ideal City, focused on field production and cross-market collaboration and related production services."
       },
       "approach": {
-        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。",
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "field production and cross-market collaboration; live action, editing and brand film production."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-050/hero-01.jpg",
+          "url": "assets/cases/MS-CA-050/hero-01-attwOQhxhnZKHXTh0.jpg",
           "filename": "09440CB8-D88A-4278-A757-6F7721813BC3.jpeg",
           "type": "image/jpeg",
           "width": 1620,
@@ -3601,7 +3585,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-050/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-01-attiR5mDj9rNQfdOI.jpg",
           "filename": "gal_68805918_4.jpg",
           "type": "image/jpeg",
           "width": 2400,
@@ -3609,7 +3593,7 @@
           "size": 508280
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-02-atttAFOGuIDHJ3DWd.jpg",
           "filename": "00CE523B-4E99-48BB-A4D2-9A9FDE95EDD8_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -3617,7 +3601,7 @@
           "size": 164475
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-03-attNXXioeuJzZnjZ7.jpg",
           "filename": "0FF79A4D-2D44-457C-8BCD-F9CA0EA0A35F.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3625,7 +3609,7 @@
           "size": 220881
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-04-att8BTrzpiTlDM6mG.jpg",
           "filename": "2A079466-ADBE-4068-931E-903D9EA51B5B_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1180,
@@ -3633,7 +3617,7 @@
           "size": 260059
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-05-att03sXeiRgzMe0yy.jpg",
           "filename": "2D19CBA3-E739-45F9-A3C6-B52E686D980F_1_102_o.jpeg",
           "type": "image/jpeg",
           "width": 2172,
@@ -3641,7 +3625,7 @@
           "size": 755298
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-06-attpwBHLWhzPqfu4F.jpg",
           "filename": "2F6CC26E-5083-4ABD-99AD-B423DBB36685.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3649,7 +3633,7 @@
           "size": 338204
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-07.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-07-att9STmqG32S0jTRV.jpg",
           "filename": "2FAAC8A0-65AE-4F23-8470-8013D773D16E.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3657,7 +3641,7 @@
           "size": 195794
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-08.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-08-attkdz6TFGLdiIwtv.jpg",
           "filename": "3BA31C92-8BA9-4E4E-9C1A-CD62DF1FC2C1.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3665,7 +3649,7 @@
           "size": 223880
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-09.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-09-attQt50tpA3yJCTYL.jpg",
           "filename": "3BD48209-D69F-4ECB-9A9B-D14C6D0CC9A7.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3673,7 +3657,7 @@
           "size": 262772
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-10.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-10-attiFJn7W9dmgXuqv.jpg",
           "filename": "4D18B53F-5725-483A-B41D-2E6E693D2643_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1182,
@@ -3681,7 +3665,7 @@
           "size": 180152
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-11.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-11-attZJFs2H8PpXt0Zc.jpg",
           "filename": "5D27CB6E-D532-491E-972B-B586FA32BDBE.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3689,7 +3673,7 @@
           "size": 183286
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-12.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-12-attnBf5hkvOHpJnJM.jpg",
           "filename": "7B91C3D7-D5C7-42EF-A63E-7D1B5945F959_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -3697,7 +3681,7 @@
           "size": 184294
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-13.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-13-attRGyOmGbzBDCfPQ.jpg",
           "filename": "10D88352-0D2A-4DA8-B609-CFA21AF01A1D.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3705,7 +3689,7 @@
           "size": 233606
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-14.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-14-attE3gcZiCRkEbl2Q.jpg",
           "filename": "11F0424F-AEC2-43A1-98E0-570F01B6B26C.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3713,7 +3697,7 @@
           "size": 392774
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-15.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-15-attGbDYJcdNjRLybZ.jpg",
           "filename": "49E1E12D-900C-47A7-B438-6110B55426CF_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -3721,7 +3705,7 @@
           "size": 379439
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-16.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-16-attXqcIB0EOs678uM.jpg",
           "filename": "50F61198-B2C7-43F6-AF0A-83990AC87B42.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3729,7 +3713,7 @@
           "size": 313191
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-17.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-17-attxNy4M3Ns4wNkVR.jpg",
           "filename": "67CC0B7A-3757-408C-80A7-4D2A8D5BFAF1.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3737,7 +3721,7 @@
           "size": 145104
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-18.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-18-attRPOLk683MWTxCQ.jpg",
           "filename": "77F463C4-AAD7-46E3-9EFF-7BD09D291B37.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3745,7 +3729,7 @@
           "size": 157430
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-19.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-19-att8u2cJG7dK6YTpE.jpg",
           "filename": "86C5A73C-F3A7-4BCD-8FBD-93CC58D3D344.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3753,7 +3737,7 @@
           "size": 365336
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-20.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-20-atttoDnS31fpVpkfv.jpg",
           "filename": "899F824D-6997-4F0A-8F19-F28D0873512A.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3761,7 +3745,7 @@
           "size": 161052
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-21.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-21-attVqyab2eR8dbilf.jpg",
           "filename": "1477BED7-1461-4958-B1F1-3089669E4EB1.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3769,7 +3753,7 @@
           "size": 231696
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-22.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-22-attyG1ZpAJwPLcegm.jpg",
           "filename": "7917BF18-515E-4F50-B24E-F4498D9C1216.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3777,7 +3761,7 @@
           "size": 341266
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-23.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-23-attmDowQjjfF76vxJ.jpg",
           "filename": "09440CB8-D88A-4278-A757-6F7721813BC3.jpeg",
           "type": "image/jpeg",
           "width": 1620,
@@ -3785,7 +3769,7 @@
           "size": 341825
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-24.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-24-attJHgDgdtssOJ5Dy.jpg",
           "filename": "3392725F-E826-4B13-8AFB-7496C09D2101.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3793,7 +3777,7 @@
           "size": 346794
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-25.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-25-attY4yvpKIGTwGWe4.jpg",
           "filename": "23344576-D012-477D-9075-831B671B1AF6.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3801,7 +3785,7 @@
           "size": 184653
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-26.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-26-attghB1kiC4bZwFPD.jpg",
           "filename": "B29D54A7-5FF2-4DD2-AEEA-D9B8C0E49DF0.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3809,7 +3793,7 @@
           "size": 165103
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-27.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-27-att0TSVOMMWsle5U4.jpg",
           "filename": "B56E012B-A8D7-4C87-B294-2EB1BA9E6FE4.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3817,7 +3801,7 @@
           "size": 144958
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-28.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-28-attQKM6wwNLxQWJNk.jpg",
           "filename": "CD46B57A-92C1-469E-B441-3A5F474A8E2A.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3825,7 +3809,7 @@
           "size": 234347
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-29.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-29-attVXV6CmbP0I6qo0.jpg",
           "filename": "E5BC9C55-9A76-43FC-9337-622AF35CB266_1_105_c.jpeg",
           "type": "image/jpeg",
           "width": 1086,
@@ -3833,7 +3817,7 @@
           "size": 276425
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-30.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-30-attLkxW1U1nVjsOmv.jpg",
           "filename": "EDAE87F0-E063-42F7-8E9B-558EAE0CA0B7.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3841,7 +3825,7 @@
           "size": 348009
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-31.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-31-attnGt8xQC8Vs6fjf.jpg",
           "filename": "F520F54C-CD5A-4A58-AC85-B2A74CD6A0DB.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3849,7 +3833,7 @@
           "size": 329833
         },
         {
-          "url": "assets/cases/MS-CA-050/gallery-32.jpg",
+          "url": "assets/cases/MS-CA-050/gallery-32-attJnoxfvHEUppOmO.jpg",
           "filename": "FE4419D9-238D-4D8F-8692-BC404696C6F6.jpeg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3863,26 +3847,26 @@
       "caseId": "MS-CA-040",
       "title": "京东｜姜妍篇",
       "titleEn": "JD.com — Jiang Yan",
-      "client": "京东",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "电商／零售",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「京东｜姜妍篇」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "京东｜姜妍篇是围绕京东在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与视频制作、AI 混合制作执行，用于证明 Match Studio 的实拍、剪辑与品牌视频制作；AI 与实拍/后期混合制作能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around JD.com — Jiang Yan, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；AI 与实拍/后期混合制作。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-040/hero-01.jpg",
+          "url": "assets/cases/MS-CA-040/hero-01-attZ3aMEse3byZ3ye.jpg",
           "filename": "BangWei_导演_京东姜妍_32_234.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3892,7 +3876,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-040/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-040/gallery-01-attU867QgsxxHhyRi.jpg",
           "filename": "MS-MA-0272__BangWei-image120.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3900,7 +3884,7 @@
           "size": 261878
         },
         {
-          "url": "assets/cases/MS-CA-040/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-040/gallery-02-att0q6D6ofvdutjZd.jpg",
           "filename": "BangWei_导演_京东姜妍_33_240.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3908,7 +3892,7 @@
           "size": 264493
         },
         {
-          "url": "assets/cases/MS-CA-040/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-040/gallery-03-attQI3f2mbnVidXEM.jpg",
           "filename": "BangWei_导演_京东姜妍_32_235.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3916,7 +3900,7 @@
           "size": 243684
         },
         {
-          "url": "assets/cases/MS-CA-040/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-040/gallery-04-attKCDP30v5gH7oJl.jpg",
           "filename": "BangWei_导演_京东姜妍_32_237.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3924,7 +3908,7 @@
           "size": 218860
         },
         {
-          "url": "assets/cases/MS-CA-040/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-040/gallery-05-attEIeS4A1W91vvIX.jpg",
           "filename": "BangWei_导演_京东姜妍_32_233.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3932,7 +3916,7 @@
           "size": 218860
         },
         {
-          "url": "assets/cases/MS-CA-040/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-040/gallery-06-atto4zi4d2bniNWkl.jpg",
           "filename": "BangWei_导演_京东姜妍_32_236.jpg",
           "type": "image/jpeg",
           "width": 720,
@@ -3953,26 +3937,26 @@
       "caseId": "MS-CA-034",
       "title": "长安汽车｜全 AI 商业广告",
       "titleEn": "Changan Automobile — Fully AI Commercial",
-      "client": "长安汽车",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "汽车",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「长安汽车｜全 AI 商业广告」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "长安汽车｜全 AI 商业广告是围绕长安汽车在China展开的视频制作、AI 混合制作案例。现有资料确认核心团队参与全 AI。该条目用于证明 Match Studio 的实拍、剪辑与品牌视频制作；全 AI 生成能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Changan Automobile — Fully AI Commercial, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-034/hero-01.jpg",
+          "url": "assets/cases/MS-CA-034/hero-01-att84TJhCiWd3Tzgi.jpg",
           "filename": "MS-MA-0003__BangWei-image115.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3982,7 +3966,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-034/gallery-01.jpg",
+          "url": "assets/cases/MS-CA-034/gallery-01-attDXpORBWJVzmPm6.jpg",
           "filename": "MS-MA-0206__BangWei-image114.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -3990,7 +3974,7 @@
           "size": 92774
         },
         {
-          "url": "assets/cases/MS-CA-034/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-034/gallery-02-attAg2wZCjM9ix6E3.jpg",
           "filename": "BangWei_导演_长安汽车_22_165.jpg",
           "type": "image/jpeg",
           "width": 1319,
@@ -3998,7 +3982,7 @@
           "size": 258240
         },
         {
-          "url": "assets/cases/MS-CA-034/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-034/gallery-03-attDMJTMgVChYdPEd.jpg",
           "filename": "BangWei_导演_长安汽车_23_173.jpg",
           "type": "image/jpeg",
           "width": 1080,
@@ -4006,7 +3990,7 @@
           "size": 150097
         },
         {
-          "url": "assets/cases/MS-CA-034/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-034/gallery-04-attW8xp73XSzA4jR9.jpg",
           "filename": "BangWei_导演_长安汽车_22_163.jpg",
           "type": "image/jpeg",
           "width": 768,
@@ -4014,7 +3998,7 @@
           "size": 97504
         },
         {
-          "url": "assets/cases/MS-CA-034/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-034/gallery-05-attQMjfyfArfNypMx.jpg",
           "filename": "BangWei_导演_长安汽车_22_164.jpg",
           "type": "image/jpeg",
           "width": 714,
@@ -4022,7 +4006,7 @@
           "size": 87777
         },
         {
-          "url": "assets/cases/MS-CA-034/gallery-06.jpg",
+          "url": "assets/cases/MS-CA-034/gallery-06-att3o9lyhRWS2SbgJ.jpg",
           "filename": "BangWei_导演_长安汽车_22_167.jpg",
           "type": "image/jpeg",
           "width": 714,
@@ -4049,26 +4033,26 @@
       "caseId": "MS-CA-046",
       "title": "番茄小说｜9.2 分 IP AI 漫剧",
       "titleEn": "Tomato Novel — 9.2-rated IP AI Microdrama",
-      "client": "番茄小说",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
       "industry": "数字内容／网文 IP",
       "services": [
         "Video",
         "AI"
       ],
-      "year": "",
+      "year": "待核",
       "country": "China",
-      "city": "",
+      "city": "待核",
       "intro": {
-        "zh": "围绕「番茄小说｜9.2 分 IP AI 漫剧」展开，聚焦实拍、剪辑与品牌视频制作、AI 辅助创作与版本化。",
+        "zh": "番茄小说｜9.2 分 IP AI 漫剧：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
         "en": "A project built around Tomato Novel — 9.2-rated IP AI Microdrama, focused on live action, editing and brand film production and related production services."
       },
       "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；AI 辅助创作与版本化。",
+        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。未经证据支持，不扩写为全案、投放或效果优化。",
         "en": "live action, editing and brand film production; AI-assisted creation and versioning."
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-046/hero-01.jpg",
+          "url": "assets/cases/MS-CA-046/hero-01-attxjTysw8ertuqDB.jpg",
           "filename": "BangWei_导演_斩妖Trailer_43_320.jpg",
           "type": "image/jpeg",
           "width": 1076,
@@ -4078,15 +4062,7 @@
       ],
       "gallery": [
         {
-          "url": "assets/cases/MS-CA-046/gallery-01.jpg",
-          "filename": "MS-MA-0285__BangWei-image109.jpg",
-          "type": "image/jpeg",
-          "width": 355,
-          "height": 635,
-          "size": 57527
-        },
-        {
-          "url": "assets/cases/MS-CA-046/gallery-02.jpg",
+          "url": "assets/cases/MS-CA-046/gallery-01-attOwbTFd2QDuZcT7.jpg",
           "filename": "BangWei_导演_番茄小说_41_307.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -4094,7 +4070,7 @@
           "size": 271775
         },
         {
-          "url": "assets/cases/MS-CA-046/gallery-03.jpg",
+          "url": "assets/cases/MS-CA-046/gallery-02-attNwPBSlAaP2uK0E.jpg",
           "filename": "BangWei_导演_番茄小说_41_306.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -4102,7 +4078,7 @@
           "size": 226255
         },
         {
-          "url": "assets/cases/MS-CA-046/gallery-04.jpg",
+          "url": "assets/cases/MS-CA-046/gallery-03-att5YaIBvPc25UA1z.jpg",
           "filename": "BangWei_导演_番茄小说_41_304.jpg",
           "type": "image/jpeg",
           "width": 816,
@@ -4110,12 +4086,20 @@
           "size": 223654
         },
         {
-          "url": "assets/cases/MS-CA-046/gallery-05.jpg",
+          "url": "assets/cases/MS-CA-046/gallery-04-atteQ88OlzkQJYDJH.jpg",
           "filename": "BangWei_导演_番茄小说_41_305.jpg",
           "type": "image/jpeg",
           "width": 816,
           "height": 1456,
           "size": 201555
+        },
+        {
+          "url": "assets/cases/MS-CA-046/gallery-05-att7WgECwBDEelKB0.jpg",
+          "filename": "BangWei_导演_番茄小说_41_301.jpg",
+          "type": "image/jpeg",
+          "width": 816,
+          "height": 1452,
+          "size": 197650
         }
       ],
       "videos": [
