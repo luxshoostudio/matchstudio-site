@@ -53,12 +53,12 @@ Token 只需要读取这个 Base 的记录和附件，不要写入代码、Airta
 - 条件：`Public Level is P2`，并建议加上 `Asset Type is Case`
 - Action：`Run a script`
 
-给脚本增加一个输入变量 `githubToken`。这个 Token 应是只对当前仓库有权限的 GitHub Fine-grained PAT，至少允许该仓库的 `Contents: Read and write`；不要把 Token 写入脚本正文。GitHub 的 `repository_dispatch` 接口使用这个权限触发自定义事件。
+在 Run a script 右侧的 Variables 面板中选择 `Add secret`，创建密钥名 `githubToken`，值填 GitHub Fine-grained PAT。这个 Token 应只对当前仓库有权限，至少允许该仓库的 `Contents: Read and write`；不要把 Token 写入脚本正文。GitHub 的 `repository_dispatch` 接口使用这个权限触发自定义事件。Airtable 的 Secret 会被隐藏并自动从执行日志中脱敏。
 
 脚本内容：
 
 ```js
-const { githubToken } = input.config();
+const githubToken = input.secret.githubToken;
 
 const response = await fetch(
   'https://api.github.com/repos/luxshoostudio/matchstudio-site/dispatches',
