@@ -268,8 +268,8 @@ async function main() {
     builtById.set(item.caseId, item);
   }
 
-  if (!CONFIG.limit && builtById.size !== 44) {
-    throw new Error(`Expected 44 P2 Case records, received ${builtById.size}; sync stopped.`);
+  if (!CONFIG.limit && builtById.size < 1) {
+    throw new Error('No P2 Case records were built; sync stopped.');
   }
 
   const ordered = [];

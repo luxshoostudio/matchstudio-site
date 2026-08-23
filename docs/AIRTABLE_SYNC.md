@@ -7,7 +7,7 @@
 ```text
 Airtable Cases & Capabilities
         ↓
-Airtable Automation / GitHub Actions 定时兜底
+Airtable Automation / GitHub Actions 手动运行
         ↓
 scripts/sync-airtable.mjs
         ↓
@@ -18,7 +18,7 @@ scripts/sync-airtable.mjs
 GitHub Pages 自动部署
 ```
 
-同步只读取 `Public Level = P2` 且 `Asset Type = Case` 的 44 条记录。案例顺序优先沿用当前 `cases.json` 的顺序，新记录追加到末尾；Airtable 记录排序变化不会打乱官网的案例分页。
+同步只读取 `Public Level = P2` 且 `Asset Type = Case` 的记录。当前为 44 条，后续新增的 P2 Case 会自动纳入；案例顺序优先沿用当前 `cases.json` 的顺序，新记录追加到末尾；Airtable 记录排序变化不会打乱官网的案例分页。
 
 ## 第一次配置
 
@@ -82,7 +82,7 @@ if (!response.ok) {
 output.set('status', 'GitHub Actions sync dispatched');
 ```
 
-先用 Test action，再开启 Automation。之后修改符合条件的案例记录（尤其是 Hero Image）会触发同步；每 15 分钟的 GitHub Actions 定时任务是漏触发时的兜底。
+先用 Test action，再开启 Automation。之后修改符合条件的案例记录（尤其是 Hero Image）会触发同步。当前已取消定时轮询，避免没有内容变化时重复产生失败通知；如果需要补跑，可以在 GitHub Actions 中手动运行 `Sync Airtable cases`。
 
 ## 图片与视频边界
 

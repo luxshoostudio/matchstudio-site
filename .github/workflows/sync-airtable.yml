@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [airtable_sync]
-  schedule:
-    # Safety net for missed Airtable Automation events; GitHub may delay scheduled jobs.
-    - cron: '*/15 * * * *'
 
 permissions:
   contents: write
