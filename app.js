@@ -16,7 +16,7 @@
   const I18N = {
     zh: {
       'nav.services': '服务', 'nav.cases': '案例', 'nav.team': '团队', 'nav.capabilities': '能力', 'nav.cta': '预约咨询',
-      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan.1': '让品牌在全球开机，', 'hero.slogan.2': '让 AI 在业务里落地。', 'hero.sub': '中国企业出海的全球内容制作伙伴', 'hero.cta': '预约咨询', 'hero.secondary': '浏览案例 ', 'hero.railLabel': '合作品牌',
+      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan': '中国企业出海的全球内容制作伙伴', 'hero.cta': '预约咨询', 'hero.secondary': '浏览案例 ', 'hero.railLabel': '合作品牌',
       'cases.eyebrow': '真实项目库', 'cases.title': '案例精选', 'cases.sub': '从内容制作到现场交付，浏览 Match Studio 的项目案例。',
       'services.eyebrow': '出海服务', 'services.title': '全球现场与跨洲直播', 'services.sub': '从拍摄记录到跨洲直播，现场执行、制作协作和交付链路都在同一张网络上。', 'services.field.title': '海外拍摄', 'services.live.title': '跨洲直播', 'services.countriesLabel': '拍摄记录国家', 'services.citiesLabel': '协作网络城市', 'services.flip': '查看网络', 'services.flipBack': '返回服务',
       'team.eyebrow': '关于我们', 'team.title': '创始人 & 核心团队', 'team.sub': '一支有审美、懂叙事、能落地的出海内容与 AI 团队。',
@@ -29,7 +29,7 @@
     },
     en: {
       'nav.services': 'Services', 'nav.cases': 'Cases', 'nav.team': 'Team', 'nav.capabilities': 'Capabilities', 'nav.cta': 'Book a consult',
-      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan.1': 'Put your brand on air globally.', 'hero.slogan.2': 'Put AI to work in the business.', 'hero.sub': 'The global content partner for outbound Chinese brands', 'hero.cta': 'Book a consult', 'hero.secondary': 'Browse cases ', 'hero.railLabel': 'Partner Brands',
+      'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan': 'The global content partner for outbound Chinese brands', 'hero.cta': 'Book a consult', 'hero.secondary': 'Browse cases ', 'hero.railLabel': 'Partner Brands',
       'cases.eyebrow': 'Project library', 'cases.title': 'Selected cases', 'cases.sub': 'Explore Match Studio projects across content production and field delivery.',
       'services.eyebrow': 'Global services', 'services.title': 'Field production and cross-continental live', 'services.sub': 'One network for field production, distributed crews, live delivery and post-production.', 'services.field.title': 'Field production', 'services.live.title': 'Cross-continental live', 'services.countriesLabel': 'Countries with shoot records', 'services.citiesLabel': 'Collaboration network cities', 'services.flip': 'View network', 'services.flipBack': 'Back to service',
       'team.eyebrow': 'About us', 'team.title': 'Founder & core team', 'team.sub': 'A small team with taste, narrative judgment and the ability to deliver overseas.',
