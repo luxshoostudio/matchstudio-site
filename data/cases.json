@@ -1952,7 +1952,168 @@
           "size": 73256
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-063/gallery-01-attXGSuDs5g8vLQnv.jpg",
+          "filename": "MS-063_华为_02_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1061,
+          "height": 714,
+          "size": 123628
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-02-attNH4bxxFLMoE3yY.jpg",
+          "filename": "MS-063_华为_03_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 2752,
+          "height": 1536,
+          "size": 355629
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-03-attHnTzit5Ewz8Srl.jpg",
+          "filename": "MS-063_华为_04_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 73256
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-04-attVujcIkCJ6MrlK8.jpg",
+          "filename": "MS-063_华为_05_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 715,
+          "size": 60295
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-05-attSNXy4cG5RD4t2g.jpg",
+          "filename": "MS-063_华为_06_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1660,
+          "height": 550,
+          "size": 152109
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-06-attSYZYLPArErClnS.jpg",
+          "filename": "MS-063_华为_07_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 75463
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-07-attSosdl546oMzqCh.jpg",
+          "filename": "MS-063_华为_08_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1279,
+          "height": 714,
+          "size": 95027
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-08-attcd1FlaXzefnRHA.jpg",
+          "filename": "MS-063_华为_09_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 81216
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-09-att1BSBNO8x0h3K7Z.jpg",
+          "filename": "MS-063_华为_10_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 90715
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-10-attL4dKkTG9xBipyn.jpg",
+          "filename": "MS-063_华为_11_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1280,
+          "height": 714,
+          "size": 102417
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-11-attfU0vJwlDzF3YBh.jpg",
+          "filename": "MS-063_华为_12_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1279,
+          "height": 714,
+          "size": 110646
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-12-attEDkZoIiskMFgPJ.jpg",
+          "filename": "MS-063_华为_13_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 2634,
+          "height": 1072,
+          "size": 903635
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-13-attEZ26wd1loIXWF0.jpg",
+          "filename": "MS-063_华为_14_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1488,
+          "height": 544,
+          "size": 54480
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-14-attPmuHFbHb7wTRjH.jpg",
+          "filename": "MS-063_华为_15_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1159,
+          "height": 544,
+          "size": 107450
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-15-attA4EitxfXx4Gx70.jpg",
+          "filename": "MS-063_华为_16_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1756,
+          "height": 544,
+          "size": 118796
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-16-attVmnnwidZZbL7RV.jpg",
+          "filename": "MS-063_华为_17_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1921,
+          "height": 480,
+          "size": 91693
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-17-attmZNMTrqmYK5tA6.jpg",
+          "filename": "MS-063_华为_18_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 2176,
+          "height": 544,
+          "size": 222287
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-18-att9dYMnxSs3TUSgY.jpg",
+          "filename": "MS-063_华为_19_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 1364,
+          "height": 429,
+          "size": 129341
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-19-attiYflKKgLpRLkC3.jpg",
+          "filename": "MS-063_华为_20_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 2176,
+          "height": 544,
+          "size": 267932
+        },
+        {
+          "url": "assets/cases/MS-CA-063/gallery-20-attmF4pcGnDZePNL0.jpg",
+          "filename": "MS-063_华为_21_BangWei.jpg",
+          "type": "image/jpeg",
+          "width": 2176,
+          "height": 544,
+          "size": 68618
+        }
+      ],
       "videos": []
     },
     {
