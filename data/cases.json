@@ -237,6 +237,14 @@
           "width": 1200,
           "height": 741,
           "size": 103672
+        },
+        {
+          "url": "assets/cases/MS-CA-016/gallery-05-attDIgDBaMcDZoKbS.jpg",
+          "filename": "MS-016_《家有恶猫》第一季_01_KEKE.jpg",
+          "type": "image/jpeg",
+          "width": 960,
+          "height": 540,
+          "size": 94674
         }
       ],
       "videos": []
@@ -2155,12 +2163,12 @@
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-019/hero-01-attel5dnNGVEYonAA.jpg",
-          "filename": "MS-MA-0015__LiaoKuo-image54.jpg",
+          "url": "assets/cases/MS-CA-019/hero-01-attONPK7ENVlVaAF6.jpg",
+          "filename": "MS-019_《闪耀的平凡》第四集_06_LiaoKuo.jpg",
           "type": "image/jpeg",
-          "width": 1527,
-          "height": 862,
-          "size": 125852
+          "width": 1538,
+          "height": 861,
+          "size": 86670
         }
       ],
       "gallery": [
