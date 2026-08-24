@@ -1944,80 +1944,15 @@
       },
       "hero": [
         {
-          "url": "assets/cases/MS-CA-063/hero-01-attr59O1iskwLSPC8.jpg",
-          "filename": "mate80_0.jpg",
+          "url": "assets/cases/MS-CA-063/hero-01-attvrB7YLdhoiBT0M.jpg",
+          "filename": "MS-063_华为_04_BangWei.jpg",
           "type": "image/jpeg",
-          "width": 2400,
-          "height": 1349,
-          "size": 540204
+          "width": 1280,
+          "height": 714,
+          "size": 73256
         }
       ],
-      "gallery": [
-        {
-          "url": "assets/cases/MS-CA-063/gallery-01-attTzA0v1GcnJHni2.jpg",
-          "filename": "mate80_1.jpg",
-          "type": "image/jpeg",
-          "width": 1697,
-          "height": 1629,
-          "size": 574718
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-02-att6rnMooEJUJXqX0.jpg",
-          "filename": "mate80_2.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 2305,
-          "size": 925831
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-03-attPVCyYZsC0JIURG.jpg",
-          "filename": "mate80_3.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1293,
-          "size": 95157
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-04-attekZGiVAfTwEhIf.jpg",
-          "filename": "mate80_4.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1349,
-          "size": 113619
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-05-attI2rdWQ7LqpaUj4.jpg",
-          "filename": "mate80_5.jpg",
-          "type": "image/jpeg",
-          "width": 1574,
-          "height": 1514,
-          "size": 276257
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-06-att19NIv3TnkjT5an.jpg",
-          "filename": "mate80_6.jpg",
-          "type": "image/jpeg",
-          "width": 2346,
-          "height": 1450,
-          "size": 166484
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-07-att2aWg9gV7rwXC1T.jpg",
-          "filename": "mate80_7.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1463,
-          "size": 533239
-        },
-        {
-          "url": "assets/cases/MS-CA-063/gallery-08-attzG0ICfpi5VAeCR.jpg",
-          "filename": "mate80_8.jpg",
-          "type": "image/jpeg",
-          "width": 2400,
-          "height": 1428,
-          "size": 528471
-        }
-      ],
+      "gallery": [],
       "videos": []
     },
     {
@@ -4435,6 +4370,97 @@
           "width": 1440,
           "height": 961,
           "size": 254676
+        }
+      ],
+      "videos": []
+    },
+    {
+      "caseId": "MS-CA-031",
+      "title": "《凌探未来》张凌赫｜零碳生态与绿色发展",
+      "titleEn": "《凌探未来》张凌赫｜零碳生态与绿色发展",
+      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
+      "industry": "绿色发展／纪录内容",
+      "services": [
+        "Video",
+        "Field"
+      ],
+      "year": "待核",
+      "country": "China",
+      "city": "待核",
+      "intro": {
+        "zh": "《凌探未来》张凌赫｜零碳生态与绿色发展：现有资料确认核心团队参与相关内容与制作执行，用于证明 Match Studio 的项目交付能力。完整 Brief、正式交付与业务结果仍待核；对外仅使用“核心团队服务经验”口径。",
+        "en": ""
+      },
+      "approach": {
+        "zh": "现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。未经证据支持，不扩写为全案、投放或效果优化。",
+        "en": ""
+      },
+      "hero": [
+        {
+          "url": "assets/cases/MS-CA-031/hero-01-attGvlzQ58J5GIexy.jpg",
+          "filename": "0e81f4258f43c389b82fd4c578ce65.JPG",
+          "type": "image/jpeg",
+          "width": 1290,
+          "height": 1690,
+          "size": 279365
+        }
+      ],
+      "gallery": [
+        {
+          "url": "assets/cases/MS-CA-031/gallery-01-attGW66ijlFNSnZFH.jpg",
+          "filename": "1ad811bd077763c4b0105ce015b1fc.JPG",
+          "type": "image/jpeg",
+          "width": 1080,
+          "height": 1920,
+          "size": 357639
+        },
+        {
+          "url": "assets/cases/MS-CA-031/gallery-02-attouvPxjCFeJdW4A.jpg",
+          "filename": "2ed2e423a4259ac0f355868f7c9c21.JPG",
+          "type": "image/jpeg",
+          "width": 1290,
+          "height": 1698,
+          "size": 535186
+        },
+        {
+          "url": "assets/cases/MS-CA-031/gallery-03-attvZ2FyHHFvGBZyv.jpg",
+          "filename": "28dc6373739ad7490e646f92acd270.JPG",
+          "type": "image/jpeg",
+          "width": 1440,
+          "height": 960,
+          "size": 188659
+        },
+        {
+          "url": "assets/cases/MS-CA-031/gallery-04-attCaKfesr76ukoVh.jpg",
+          "filename": "58eac92af1b1448e7564a969da2bab.JPG",
+          "type": "image/jpeg",
+          "width": 1290,
+          "height": 1860,
+          "size": 384842
+        },
+        {
+          "url": "assets/cases/MS-CA-031/gallery-05-att4rRoZi8jXhf478.jpg",
+          "filename": "92dbd0dce12bc2958e13e9d7c4af37.JPG",
+          "type": "image/jpeg",
+          "width": 1290,
+          "height": 2292,
+          "size": 545906
+        },
+        {
+          "url": "assets/cases/MS-CA-031/gallery-06-attbXH6mgMl7MvJQB.jpg",
+          "filename": "511e86314d2e2006f5f84fc0c77de7.JPG",
+          "type": "image/jpeg",
+          "width": 1290,
+          "height": 2796,
+          "size": 494669
+        },
+        {
+          "url": "assets/cases/MS-CA-031/gallery-07-attzXV0Zz4h4wI0wR.jpg",
+          "filename": "db65b524c084061c5735a9567ee5d2.JPG",
+          "type": "image/jpeg",
+          "width": 1290,
+          "height": 2796,
+          "size": 582337
         }
       ],
       "videos": []
