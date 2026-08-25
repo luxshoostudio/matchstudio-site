@@ -11,7 +11,7 @@ Airtable Automation / GitHub Actions 手动运行
         ↓
 scripts/sync-airtable.mjs
         ↓
-更新 data/cases.json + 下载 Hero / Gallery 图片
+更新 data/cases.json、data/founder-media.json + 下载 Hero / Gallery 图片
         ↓
 提交 main
         ↓
@@ -19,6 +19,8 @@ GitHub Pages 自动部署
 ```
 
 同步只读取 `Public Level = P2` 且 `Asset Type = Case` 的记录。当前为 44 条，后续新增的 P2 Case 会自动纳入；案例顺序优先沿用当前 `cases.json` 的顺序，新记录追加到末尾；Airtable 记录排序变化不会打乱官网的案例分页。
+
+创始人子页面使用额外的 `data/founder-media.json`。同步时会读取 `data/founder-cases.json` 中的关联 Case ID，并额外拉取这些记录的 Hero / Gallery 图片，即使其 Public Level 不是 P2，或 Asset Type 是 Capability。这样不会把内部能力资料混入“全部案例”页，但创始人履历页仍能显示有证据支持的关联素材。Airtable 中没有图片附件的记录会保留为 `media snapshot pending`，不会用占位图冒充真实项目素材。
 
 ## 第一次配置
 

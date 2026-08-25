@@ -7,6 +7,8 @@ import process from 'node:process';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_FILE = path.join(ROOT, 'data', 'cases.json');
+const FOUNDER_DATA_FILE = path.join(ROOT, 'data', 'founder-cases.json');
+const FOUNDER_MEDIA_FILE = path.join(ROOT, 'data', 'founder-media.json');
 const ASSETS_DIR = path.join(ROOT, 'assets', 'cases');
 const TEMP_DIR = path.join(ROOT, '.airtable-sync-tmp');
 
@@ -22,6 +24,7 @@ const CONFIG = {
 
 const FIELDS = {
   assetType: 'fldIRYJRlhrikwFSO',
+  publicLevel: 'fldbMFQGavxM4bbxr',
   industry: 'fldPLyge031EjRslC',
   services: 'fldt3dlsS2KHygSru',
   caseId: 'fldURChK0jMvwwElt',
@@ -40,6 +43,7 @@ const FIELDS = {
 
 const FIELD_NAMES = {
   assetType: 'Asset Type',
+  publicLevel: 'Public Level',
   industry: 'Industry',
   services: 'Services',
   caseId: 'Case ID',
@@ -129,13 +133,20 @@ function attachmentMetadata(attachment, url, extension) {
 }
 
 async function airtableRecords() {
+  const founderLinks = await readFounderLinks();
+  const founderIds = [...new Set(founderLinks.map(item => normalizeAirtableCaseId(item.caseId)).filter(Boolean))];
   const records = [];
   let offset;
   const fields = [...new Set(Object.values(FIELD_NAMES))];
   do {
+    const founderClauses = founderIds.map(caseId => `{Case ID}="${formulaQuote(caseId)}"`);
+    const publicCasesClause = `AND({Public Level}="${formulaQuote(CONFIG.publicLevel)}",{Asset Type}="Case")`;
+    const filterByFormula = founderClauses.length
+      ? `OR(${publicCasesClause},${founderClauses.join(',')})`
+      : publicCasesClause;
     const params = new URLSearchParams({
       pageSize: '100',
-      filterByFormula: `AND({Public Level}="${formulaQuote(CONFIG.publicLevel)}",{Asset Type}="Case")`,
+      filterByFormula,
     });
     for (const field of fields) params.append('fields[]', field);
     if (offset) params.set('offset', offset);
@@ -151,13 +162,35 @@ async function airtableRecords() {
   return records;
 }
 
-async function readExisting() {
+async function readFounderLinks() {
   try {
-    return JSON.parse(await readFile(DATA_FILE, 'utf8'));
+    const json = JSON.parse(await readFile(FOUNDER_DATA_FILE, 'utf8'));
+    return Object.values(json || {}).flat().filter(item => item && item.caseId);
   } catch (error) {
-    if (error.code === 'ENOENT') return { cases: [] };
+    if (error.code === 'ENOENT') return [];
     throw error;
   }
+}
+
+function normalizeAirtableCaseId(raw) {
+  const id = String(raw || '').trim();
+  return id.replace(/^MS-CA-/i, 'MS-');
+}
+
+async function readExisting() {
+  let cases = [];
+  let founderCases = [];
+  try {
+    cases = JSON.parse(await readFile(DATA_FILE, 'utf8')).cases || [];
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
+  try {
+    founderCases = JSON.parse(await readFile(FOUNDER_MEDIA_FILE, 'utf8')).cases || [];
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
+  return { cases, founderCases };
 }
 
 async function downloadAttachment(attachment, destination) {
@@ -179,21 +212,24 @@ async function downloadAttachment(attachment, destination) {
   return { contentType, extension, size: bytes.length };
 }
 
-async function buildCase(record, existing, tempCasesDir) {
+async function buildCase(record, existing, tempCasesDir, founderLinksById) {
   const fields = record.fields || {};
   const caseId = normalizeCaseId(textValue(fields, 'caseId'));
-  if (!caseId) throw new Error(`A P2 Case record is missing Case ID (${record.id})`);
+  if (!caseId) throw new Error(`An Airtable record is missing Case ID (${record.id})`);
 
   const old = existing.byId.get(caseId);
+  const founderLink = founderLinksById.get(caseId) || {};
   const hero = attachmentValues(fields, 'heroImage');
-  if (!hero.length) throw new Error(`${caseId} has no Hero Image; sync stopped before publishing an empty case card.`);
+  const gallery = attachmentValues(fields, 'gallery');
+  const isPublicCase = textValue(fields, 'assetType') === 'Case' && textValue(fields, 'publicLevel') === CONFIG.publicLevel;
+  if (!hero.length && isPublicCase) throw new Error(`${caseId} has no Hero Image; sync stopped before publishing an empty case card.`);
 
   const caseDir = path.join(tempCasesDir, safePathPart(caseId));
   await mkdir(caseDir, { recursive: true });
   const media = { hero: [], gallery: [] };
   const imageFields = [
     ['hero', hero],
-    ['gallery', attachmentValues(fields, 'gallery')],
+    ['gallery', gallery],
   ];
 
   for (const [role, attachments] of imageFields) {
@@ -216,8 +252,8 @@ async function buildCase(record, existing, tempCasesDir) {
   const next = {
     caseId,
     title: textValue(fields, 'headlineCn') || old?.title || '',
-    titleEn: old?.titleEn || textValue(fields, 'headlineCn'),
-    client: textValue(fields, 'clientNamePublic') || textValue(fields, 'clientInstitution') || old?.client || '',
+    titleEn: old?.titleEn || founderLink.titleEn || textValue(fields, 'headlineCn'),
+    client: textValue(fields, 'clientNamePublic') || textValue(fields, 'clientInstitution') || founderLink.client || old?.client || '',
     industry: textValue(fields, 'industry') || old?.industry || '',
     services: selectValues(fields, 'services'),
     year: textValue(fields, 'projectYear') || old?.year || '',
@@ -225,15 +261,17 @@ async function buildCase(record, existing, tempCasesDir) {
     city: textValue(fields, 'city') || old?.city || '',
     intro: {
       zh: textValue(fields, 'introCn') || old?.intro?.zh || '',
-      en: old?.intro?.en || '',
+      en: old?.intro?.en || founderLink.titleEn || textValue(fields, 'headlineCn'),
     },
     approach: {
       zh: textValue(fields, 'approach') || old?.approach?.zh || '',
-      en: old?.approach?.en || '',
+      en: old?.approach?.en || 'Field production, editing and cross-market collaboration; final scope remains subject to verified project records.',
     },
     hero: media.hero.length ? media.hero : old?.hero || [],
     gallery: media.gallery,
     videos: old?.videos || [],
+    assetType: textValue(fields, 'assetType'),
+    publicLevel: textValue(fields, 'publicLevel'),
   };
 
   if (attachmentValues(fields, 'videos').length) {
@@ -246,14 +284,21 @@ async function main() {
   requireToken();
   if (CONFIG.syncMedia !== 'images') throw new Error('Only SYNC_MEDIA=images is supported in Phase 1. Videos need permanent object storage before being committed to Git.');
   const existingJson = await readExisting();
+  const founderLinks = await readFounderLinks();
+  const founderLinksById = new Map(founderLinks.map(item => [normalizeCaseId(item.caseId), item]));
+  const founderIds = new Set(founderLinksById.keys());
   const existing = {
     cases: existingJson.cases || [],
-    byId: new Map((existingJson.cases || []).map(item => [normalizeCaseId(item.caseId), item])),
+    byId: new Map([...(existingJson.cases || []), ...(existingJson.founderCases || [])].map(item => [normalizeCaseId(item.caseId), item])),
   };
   const records = await airtableRecords();
-  if (!records.length) throw new Error('Airtable returned no P2 Case records; sync stopped to protect the current site snapshot.');
+  if (!records.length) throw new Error('Airtable returned no P2 Case or founder-linked records; sync stopped to protect the current site snapshot.');
   const selected = CONFIG.limit ? records.slice(0, CONFIG.limit) : records;
-  console.log(`Found ${records.length} P2 Case records${CONFIG.limit ? `; processing ${selected.length} due to SYNC_LIMIT` : ''}.`);
+  const publicRecordIds = new Set(records.filter(record => {
+    const fields = record.fields || {};
+    return textValue(fields, 'assetType') === 'Case' && textValue(fields, 'publicLevel') === CONFIG.publicLevel;
+  }).map(record => normalizeCaseId(textValue(record.fields || {}, 'caseId'))));
+  console.log(`Found ${records.length} Airtable records (${publicRecordIds.size} public P2 cases and ${records.length - publicRecordIds.size} founder-linked records)${CONFIG.limit ? `; processing ${selected.length} due to SYNC_LIMIT` : ''}.`);
   if (CONFIG.dryRun) {
     console.log('Dry run complete; no files were downloaded or changed.');
     return;
@@ -264,7 +309,7 @@ async function main() {
   await mkdir(tempCasesDir, { recursive: true });
   const builtById = new Map();
   for (const record of selected) {
-    const item = await buildCase(record, existing, tempCasesDir);
+    const item = await buildCase(record, existing, tempCasesDir, founderLinksById);
     builtById.set(item.caseId, item);
   }
 
@@ -275,18 +320,20 @@ async function main() {
   const ordered = [];
   for (const item of existing.cases) {
     const id = normalizeCaseId(item.caseId);
-    if (builtById.has(id)) ordered.push(builtById.get(id));
+    if (publicRecordIds.has(id) && builtById.has(id)) ordered.push(builtById.get(id));
   }
   for (const item of builtById.values()) {
-    if (!ordered.some(existingItem => existingItem.caseId === item.caseId)) ordered.push(item);
+    if (publicRecordIds.has(item.caseId) && !ordered.some(existingItem => existingItem.caseId === item.caseId)) ordered.push(item);
   }
+  const founderCases = [...founderIds].map(id => builtById.get(id)).filter(Boolean);
 
   if (!CONFIG.limit) {
     await rm(ASSETS_DIR, { recursive: true, force: true });
     await rename(tempCasesDir, ASSETS_DIR);
     await writeFile(DATA_FILE, `${JSON.stringify({ cases: ordered }, null, 2)}\n`, 'utf8');
+    await writeFile(FOUNDER_MEDIA_FILE, `${JSON.stringify({ cases: founderCases }, null, 2)}\n`, 'utf8');
     await rm(TEMP_DIR, { recursive: true, force: true });
-    console.log(`Synced ${ordered.length} cases and ${ordered.reduce((sum, item) => sum + item.hero.length + item.gallery.length, 0)} images.`);
+    console.log(`Synced ${ordered.length} public cases, ${founderCases.length} founder-linked records and ${[...builtById.values()].reduce((sum, item) => sum + item.hero.length + item.gallery.length, 0)} images.`);
   } else {
     await rm(TEMP_DIR, { recursive: true, force: true });
     console.log('Limited run completed without writing the repository snapshot.');

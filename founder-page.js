@@ -150,8 +150,8 @@
     document.addEventListener('keydown', function (event) { if (event.key === 'Escape') closeCaseDetail(); });
   }
   function load() {
-    Promise.all([fetch('../data/cases.json?v=20260825-founders', { cache: 'no-store' }).then(function (r) { return r.json(); }), fetch('../data/founder-cases.json?v=20260825-founders', { cache: 'no-store' }).then(function (r) { return r.json(); })]).then(function (result) {
-      data = result[0] || data; links = (result[1] && result[1][slug]) || []; localCases = data.cases || []; applyPageData();
+    Promise.all([fetch('../data/cases.json?v=20260825-founders', { cache: 'no-store' }).then(function (r) { return r.json(); }), fetch('../data/founder-cases.json?v=20260825-founders', { cache: 'no-store' }).then(function (r) { return r.json(); }), fetch('../data/founder-media.json?v=20260825-founder-media', { cache: 'no-store' }).then(function (r) { return r.json(); })]).then(function (result) {
+      data = result[0] || data; links = (result[1] && result[1][slug]) || []; var merged = (data.cases || []).concat((result[2] && result[2].cases) || []); var byId = {}; merged.forEach(function (item) { byId[item.caseId] = item; }); localCases = Object.keys(byId).map(function (key) { return byId[key]; }); applyPageData();
     }).catch(function (error) { console.warn('Founder data unavailable:', error.message); applyPageData(); });
   }
   bind(); applyPageData(); load();
