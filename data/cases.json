@@ -3238,47 +3238,6 @@
       "videos": []
     },
     {
-      "caseId": "MS-CA-044",
-      "title": "999 皮炎平｜全 AI 二维卡通动画",
-      "titleEn": "999 Pi Yan Ping — Fully AI 2D Cartoon Animation",
-      "client": "Open — Lux confirmed 2026-08-08; P0–P3 still follows evidence and attribution.",
-      "industry": "医药／大健康",
-      "services": [
-        "Video",
-        "AI"
-      ],
-      "year": "待核",
-      "country": "China",
-      "city": "待核",
-      "intro": {
-        "zh": "999 皮炎平｜全 AI 二维卡通动画",
-        "en": "A project built around 999 Pi Yan Ping — Fully AI 2D Cartoon Animation, focused on live action, editing and brand film production and related production services."
-      },
-      "approach": {
-        "zh": "实拍、剪辑与品牌视频制作；全 AI 生成。",
-        "en": "live action, editing and brand film production; AI-assisted creation and versioning."
-      },
-      "hero": [
-        {
-          "url": "assets/cases/MS-CA-044/hero-01-attNd8FgeRFBCNvnO.jpg",
-          "filename": "MS-MA-0089__BangWei-image132.jpg",
-          "type": "image/jpeg",
-          "width": 640,
-          "height": 272,
-          "size": 18097
-        }
-      ],
-      "gallery": [],
-      "videos": [
-        {
-          "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787392800000/husT9fvqtxB0JLC-KSuIXw/p3BA9NP4cbiit9C_XQMK7ME8l0KE6N_vFjK9Gh4QTeWrJjFTJT404d9JgSFewzudRTcUv-HIEdbcVtIezdl-4HkL7Y2hZWvCwxx9wG_apcu291-gCt_XFcdhmTgN_Da2F5bfpDlaFRXyrz48mWayryudxe2N17z34IB9MCN3AHwd42hj6btmHu8HAZtI6JIcKFdbPKo-CABSMpuw-5nW1ECuvucjzQVT45jnF9WMHvA/5k-Flqqj78vBXCkQn1hzh35FE09LZQPmVER-h6W46-Y",
-          "filename": "MS-CA-044_BangWei_999_Piyanping_2D_AI_Animation_Slide35.mp4",
-          "type": "video/mp4",
-          "size": 2111195
-        }
-      ]
-    },
-    {
       "caseId": "MS-CA-054",
       "title": "快手跨年盛典",
       "titleEn": "Kuaishou New Year’s Eve Gala",
