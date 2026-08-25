@@ -5,6 +5,24 @@
   const IMAGE_ROOT = 'assets/capabilities/';
   const CASE_PAGE_SIZE = 4;
   const BRANDS = ['Tencent', 'Kuaishou', 'ByteDance', 'JD', 'Huawei', 'Discovery', 'Dreame', 'OPPO', 'Vivo', 'Alibaba', 'CCTV', 'DJI', 'CATL', 'Luckin Coffee', 'BMW', 'Audi'];
+  const PARTNER_LOGOS = {
+    Tencent: 'assets/partner-logos/tencent-logo-white-on-black.png',
+    Kuaishou: 'assets/partner-logos/kuaishou-logo-white-on-black.png',
+    ByteDance: 'assets/partner-logos/bytedance-logo-white-on-black.png',
+    JD: 'assets/partner-logos/jd-logo-white-on-black.png',
+    Huawei: 'assets/partner-logos/huawei-logo-white-on-black.png',
+    Discovery: 'assets/partner-logos/discovery-logo-white-on-black.png',
+    Dreame: 'assets/partner-logos/dreame-logo-white-on-black.png',
+    OPPO: 'assets/partner-logos/oppo-logo-white-on-black.png',
+    Vivo: 'assets/partner-logos/vivo-logo-white-on-black.png',
+    Alibaba: 'assets/partner-logos/alibaba-logo-white-on-black.png',
+    CCTV: 'assets/partner-logos/cctv-logo-white-on-black.png',
+    DJI: 'assets/partner-logos/dji-logo-white-on-black.png',
+    CATL: 'assets/partner-logos/catl-logo-white-on-black.png',
+    'Luckin Coffee': 'assets/partner-logos/luckin-coffee-logo-white-on-black.png',
+    BMW: 'assets/partner-logos/bmw-logo-white-on-black.png',
+    Audi: 'assets/partner-logos/audi-logo-white-on-black.png'
+  };
   const FALLBACK = {
     cases: [{ caseId: 'MS-CA-004', title: '瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅', titleEn: 'Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story', client: '瑞幸咖啡', industry: '连锁咖啡／消费品牌', services: ['Field', 'Video'], intro: { zh: '围绕「瑞幸咖啡｜第 30000 店开业／印尼寻豆之旅」展开，聚焦现场摄制与跨地区协作、实拍、剪辑与品牌视频制作。', en: 'A project built around Luckin Coffee — 30,000th Store Opening / Indonesia Coffee-Origin Story, focused on field production and brand film production.' }, approach: { zh: '现场摄制与跨地区协作；实拍、剪辑与品牌视频制作。', en: 'Field production and cross-market collaboration; live action, editing and brand film production.' }, hero: [], gallery: [], videos: [] }]
   };
@@ -19,26 +37,26 @@
       'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan': '中国企业出海的全球内容制作伙伴', 'hero.cta': '预约咨询', 'hero.secondary': '浏览案例 ', 'hero.railLabel': '合作品牌',
       'cases.eyebrow': '真实项目库', 'cases.title': '案例精选', 'cases.sub': '从内容制作到现场交付，浏览 Match Studio 的项目案例。',
       'services.eyebrow': '出海服务', 'services.title': '全球现场与跨洲直播', 'services.sub': '从拍摄记录到跨洲直播，现场执行、制作协作和交付链路都在同一张网络上。', 'services.field.title': '海外拍摄', 'services.live.title': '跨洲直播', 'services.countriesLabel': '拍摄记录国家', 'services.citiesLabel': '协作网络城市', 'services.flip': '查看网络', 'services.flipBack': '返回服务',
-      'team.eyebrow': '关于我们', 'team.title': '创始人 & 核心团队', 'team.sub': '一支有审美、懂叙事、能落地的出海内容与 AI 团队。',
+      'team.eyebrow': '关于我们', 'team.title': '创始人 & 核心团队', 'team.sub': '一支有审美、懂叙事、能落地的出海内容与 AI 团队。', 'team.open': '查看履历',
       'brief.eyebrow': '发起项目', 'brief.title': '告诉我们你的需求', 'brief.sub': '三步形成一份可继续讨论的第一版项目简报。', 'brief.q1': '这是为哪个业务单元准备的？', 'brief.q2': '目标市场是哪里？', 'brief.q3': '需要什么类型的内容？', 'brief.cta': '生成项目简报',
       'concierge.eyebrow': 'AI 礼宾', 'concierge.title': '工作室礼宾', 'concierge.msg1': '告诉我行业、市场和你要解决的内容问题。', 'concierge.msg2': '消费电子 · 北美市场 · 一条 AI 分版广告片', 'concierge.placeholder': '补充一句你的需求…',
       'capabilities.eyebrow': '能力矩阵', 'capabilities.title': '四种能力', 'capabilities.sub': 'Field、Live、Story + AI、AI in Business，一条出海链路全覆盖。',
       'footer.tagline': '中国企业出海的全球内容制作伙伴', 'footer.col1': '工作室', 'footer.services': '服务', 'footer.cases': '案例', 'footer.col2': '公司', 'footer.team': '团队', 'footer.contact': '联系', 'footer.col3': '资源', 'footer.capabilities': '能力', 'footer.brief': '项目简报', 'footer.made': '为中国企业出海而生',
       'case.intro': 'Case Intro', 'case.approach': 'Creative / Production Approach', 'case.viewApproach': '查看制作方式', 'case.back': '返回案例', 'case.media': '查看项目素材', 'case.favorite': '收藏', 'case.unfavorite': '已收藏', 'case.mediaLabel': '项目素材', 'case.openVideo': '打开视频',
-      'modal.close': '关闭', 'modal.background': '个人介绍', 'team.open': '查看成员', 'drawer.eyebrow': '项目礼宾', 'drawer.title': '把需求先说清楚', 'drawer.body': '选择三项信息，我们会把它整理成一份可继续讨论的项目简报。', 'drawer.cta': '跳到项目表单', 'form.missing': '请先选择业务、市场和内容类型。', 'form.done': '已生成项目简报，我们会尽快跟进。', 'chat.empty': '先写一句需求，再发送。', 'cap.open': '查看能力'
+      'modal.close': '关闭', 'modal.background': '个人介绍', 'drawer.eyebrow': '项目礼宾', 'drawer.title': '把需求先说清楚', 'drawer.body': '选择三项信息，我们会把它整理成一份可继续讨论的项目简报。', 'drawer.cta': '跳到项目表单', 'form.missing': '请先选择业务、市场和内容类型。', 'form.done': '已生成项目简报，我们会尽快跟进。', 'chat.empty': '先写一句需求，再发送。', 'cap.open': '查看能力'
     },
     en: {
       'nav.services': 'Services', 'nav.cases': 'Cases', 'nav.team': 'Team', 'nav.capabilities': 'Capabilities', 'nav.cta': 'Book a consult',
       'hero.kicker': 'GLOBAL PRODUCTION / AI CO-CREATION', 'hero.slogan': 'The global content partner for outbound Chinese brands', 'hero.cta': 'Book a consult', 'hero.secondary': 'Browse cases ', 'hero.railLabel': 'Partner Brands',
       'cases.eyebrow': 'Project library', 'cases.title': 'Selected cases', 'cases.sub': 'Explore Match Studio projects across content production and field delivery.',
       'services.eyebrow': 'Global services', 'services.title': 'Field production and cross-continental live', 'services.sub': 'One network for field production, distributed crews, live delivery and post-production.', 'services.field.title': 'Field production', 'services.live.title': 'Cross-continental live', 'services.countriesLabel': 'Countries with shoot records', 'services.citiesLabel': 'Collaboration network cities', 'services.flip': 'View network', 'services.flipBack': 'Back to service',
-      'team.eyebrow': 'About us', 'team.title': 'Founder & core team', 'team.sub': 'A small team with taste, narrative judgment and the ability to deliver overseas.',
+      'team.eyebrow': 'About us', 'team.title': 'Founder & core team', 'team.sub': 'A small team with taste, narrative judgment and the ability to deliver overseas.', 'team.open': 'View profile',
       'brief.eyebrow': 'Start a project', 'brief.title': 'Tell us what you need', 'brief.sub': 'Three choices to shape a first project brief we can discuss.', 'brief.q1': 'Which business unit is this for?', 'brief.q2': 'Which market are you targeting?', 'brief.q3': 'What kind of content do you need?', 'brief.cta': 'Build the first brief',
       'concierge.eyebrow': 'AI concierge', 'concierge.title': 'Studio concierge', 'concierge.msg1': 'Tell me the industry, market and content problem you need to solve.', 'concierge.msg2': 'Consumer tech · North America · one AI-versioned commercial', 'concierge.placeholder': 'Add one line about the brief…',
       'capabilities.eyebrow': 'Capability matrix', 'capabilities.title': 'Four capabilities', 'capabilities.sub': 'Field, Live, Story + AI, and AI in Business — one connected outbound chain.',
       'footer.tagline': 'The global content partner for outbound Chinese brands', 'footer.col1': 'Studio', 'footer.services': 'Services', 'footer.cases': 'Cases', 'footer.col2': 'Company', 'footer.team': 'Team', 'footer.contact': 'Contact', 'footer.col3': 'Resources', 'footer.capabilities': 'Capabilities', 'footer.brief': 'Project brief', 'footer.made': 'Built for Chinese brands going global',
       'case.intro': 'Case Intro', 'case.approach': 'Creative / Production Approach', 'case.viewApproach': 'View approach', 'case.back': 'Back to case', 'case.media': 'View project media', 'case.favorite': 'Save', 'case.unfavorite': 'Saved', 'case.mediaLabel': 'Project media', 'case.openVideo': 'Open video',
-      'modal.close': 'Close', 'modal.background': 'Background', 'team.open': 'View member', 'drawer.eyebrow': 'Project concierge', 'drawer.title': 'Start with a clear brief', 'drawer.body': 'Choose three inputs and we will turn them into a first project brief for discussion.', 'drawer.cta': 'Go to project form', 'form.missing': 'Choose a business, market and content type first.', 'form.done': 'Your first brief is ready. We will follow up shortly.', 'chat.empty': 'Write one line about the brief first.', 'cap.open': 'View capability'
+      'modal.close': 'Close', 'modal.background': 'Background', 'drawer.eyebrow': 'Project concierge', 'drawer.title': 'Start with a clear brief', 'drawer.body': 'Choose three inputs and we will turn them into a first project brief for discussion.', 'drawer.cta': 'Go to project form', 'form.missing': 'Choose a business, market and content type first.', 'form.done': 'Your first brief is ready. We will follow up shortly.', 'chat.empty': 'Write one line about the brief first.', 'cap.open': 'View capability'
     }
   };
 
@@ -51,10 +69,10 @@
     stats: { zh: [['11', '拍摄记录国家'], ['13', '协作网络城市'], ['44', '案例'], ['100+', '核心团队项目经验']], en: [['11', 'countries with shoot records'], ['13', 'network cities'], ['44', 'projects'], ['100+', 'core-team project experience']] }
   };
   const TEAM = [
-    { name: 'Lux', nameEn: 'Lux', role: { zh: '创始人 · 项目负责人', en: 'Founder · Executive producer' }, desc: { zh: '品牌营销、整合 Campaign 与跨市场项目统筹。', en: 'Brand marketing, integrated campaigns and cross-market production.' }, background: { zh: '10+ 年品牌营销与整合 Campaign 经验，100+ 项目经验；负责中美团队沟通、内容创作与跨市场项目统筹，常驻美国。', en: '10+ years in brand marketing and integrated campaigns, with 100+ projects across US–China teams, content and cross-market production.' }, initials: 'LX', photo: 'assets/team/lux.jpg' },
-    { name: '廖阔', nameEn: 'Liao Kuo', role: { zh: '全球拍摄与直播', en: 'Global field production and live' }, desc: { zh: '纪录片、宣传片、无人机与海外现场制作。', en: 'Documentary, branded film, aerial and overseas field production.' }, background: { zh: '十多年纪录片、宣传片、无人机和海外拍摄经验，覆盖摄影指导、导播直播、航拍与全球现场执行。', en: 'More than a decade in documentary, branded film, aerial and overseas production, spanning cinematography, live direction and field execution.' }, initials: 'LK', photo: 'assets/team/liaokuo.jpg', safeHeadroom: true },
-    { name: '邦威', nameEn: 'Bang Wei', role: { zh: 'AI 导演 · 后期监制', en: 'AI director · Post-production supervisor' }, desc: { zh: 'TVC、CG、特效、AI 视频导演与整体制作统筹。', en: 'TVC, CG, VFX and AI video direction across the full production.' }, background: { zh: 'AI 导演、后期导演与后期监制，覆盖 TVC、CG、特效、AI 视频和整体制作统筹。', en: 'AI director, post-production director and supervisor across TVC, CG, VFX, AI video and full production coordination.' }, initials: 'BW', photo: 'assets/team/bangwei.jpg' },
-    { name: '刘宸', nameEn: 'Liu Chen', role: { zh: '企业 AI 落地', en: 'AI in Business' }, desc: { zh: '工学博士、大数据科学家，企业 AI 培训与工作流共创。', en: 'Engineer, data scientist and partner for AI training and workflow design.' }, background: { zh: '工学博士、大数据科学家与 AI 部署实践者，参与银行和企业 AI 培训、Agent、数字员工与工作流共创。', en: 'Engineer, data scientist and AI deployment practitioner working across enterprise training, agents, digital workers and workflow design.' }, initials: 'LC', photo: 'assets/team/liuchen.jpg' }
+    { slug: 'lux', name: 'Lux', nameEn: 'Lux', role: { zh: '创始人 · 项目负责人', en: 'Founder · Executive producer' }, desc: { zh: '品牌营销、整合 Campaign 与跨市场项目统筹。', en: 'Brand marketing, integrated campaigns and cross-market production.' }, background: { zh: '10+ 年品牌营销与整合 Campaign 经验，100+ 项目经验；负责中美团队沟通、内容创作与跨市场项目统筹，常驻美国。', en: '10+ years in brand marketing and integrated campaigns, with 100+ projects across US–China teams, content and cross-market production.' }, initials: 'LX', photo: 'assets/team/lux.jpg' },
+    { slug: 'liao-kuo', name: '廖阔', nameEn: 'Liao Kuo', role: { zh: '全球拍摄与直播', en: 'Global field production and live' }, desc: { zh: '纪录片、宣传片、无人机与海外现场制作。', en: 'Documentary, branded film, aerial and overseas field production.' }, background: { zh: '十多年纪录片、宣传片、无人机和海外拍摄经验，覆盖摄影指导、导播直播、航拍与全球现场执行。', en: 'More than a decade in documentary, branded film, aerial and overseas production, spanning cinematography, live direction and field execution.' }, initials: 'LK', photo: 'assets/team/liaokuo.jpg', safeHeadroom: true },
+    { slug: 'bang-wei', name: '邦威', nameEn: 'Bang Wei', role: { zh: 'AI 导演 · 后期监制', en: 'AI director · Post-production supervisor' }, desc: { zh: 'TVC、CG、特效、AI 视频导演与整体制作统筹。', en: 'TVC, CG, VFX and AI video direction across the full production.' }, background: { zh: 'AI 导演、后期导演与后期监制，覆盖 TVC、CG、特效、AI 视频和整体制作统筹。', en: 'AI director, post-production director and supervisor across TVC, CG, VFX, AI video and full production coordination.' }, initials: 'BW', photo: 'assets/team/bangwei.jpg' },
+    { slug: 'liu-chen', name: '刘宸', nameEn: 'Liu Chen', role: { zh: '企业 AI 落地', en: 'AI in Business' }, desc: { zh: '工学博士、大数据科学家，企业 AI 培训与工作流共创。', en: 'Engineer, data scientist and partner for AI training and workflow design.' }, background: { zh: '工学博士、大数据科学家与 AI 部署实践者，参与银行和企业 AI 培训、Agent、数字员工与工作流共创。', en: 'Engineer, data scientist and AI deployment practitioner working across enterprise training, agents, digital workers and workflow design.' }, initials: 'LC', photo: 'assets/team/liuchen.jpg' }
   ];
   const CAPABILITIES = [
     { key: 'field', title: { zh: '海外拍摄与直播', en: 'Field production & live' }, body: { zh: '在海外把现场拍好、把信号送回去。', en: 'Capture the field and get the signal home.' }, chips: { zh: ['现场执行', '发布会', '纪录片', '航拍'], en: ['Field ops', 'Launches', 'Documentary', 'Aerial'] }, image: IMAGE_ROOT + 'field-production.png' },
@@ -71,18 +89,20 @@
   function fileUrl(file) { return file && (file.url || (file.thumbnails && file.thumbnails.large && file.thumbnails.large.url)); }
   function caseMedia(c) { return (c.hero || [])[0] || (c.gallery || [])[0] || null; }
   function caseImage(c) { return fileUrl(caseMedia(c)); }
-  function caseFrameStyle(c) { const media = caseMedia(c); return media && Number(media.width) > 0 && Number(media.height) > 0 ? ' data-ratio="true" style="aspect-ratio:' + Number(media.width) + ' / ' + Number(media.height) + '"' : ''; }
+  function isPortraitHero(c) { const media = caseMedia(c); return media && Number(media.width) > 0 && Number(media.height) > 0 && Number(media.height) / Number(media.width) >= 1.5; }
+  function orderCases(list) { return list.slice().sort(function (a, b) { return Number(isPortraitHero(a)) - Number(isPortraitHero(b)); }); }
+  function caseFrameStyle(c) { const media = caseMedia(c); if (!media || Number(media.width) <= 0 || Number(media.height) <= 0) return ' data-frame="standard"'; const portrait = isPortraitHero(c); return ' data-frame="' + (portrait ? 'portrait' : 'standard') + '" style="aspect-ratio:' + (portrait ? Number(media.width) + ' / ' + Number(media.height) : '3 / 4') + '"'; }
   function publicClient(value) { const client = String(value || ''); return /^Open\s+—\s+Lux confirmed/i.test(client) ? '' : client; }
   function localizedCase(c) { if (lang === 'zh') return { title: c.title, client: publicClient(c.client), industry: c.industry, intro: c.intro.zh, approach: c.approach.zh }; const title = c.titleEn || translate(c.title); return { title: title, client: publicClient(title.split(' — ')[0]), industry: INDUSTRY_EN[c.industry] || translate(c.industry), intro: c.intro.en, approach: c.approach.en }; }
   function renderCases() {
-    const list = DATA.cases || [], pages = Math.max(1, Math.ceil(list.length / CASE_PAGE_SIZE));
+    const list = orderCases(DATA.cases || []), pages = Math.max(1, Math.ceil(list.length / CASE_PAGE_SIZE));
     if (casePage >= pages) casePage = pages - 1;
     const start = casePage * CASE_PAGE_SIZE;
     const grid = document.getElementById('casesGrid'); grid.innerHTML = '';
     list.slice(start, start + CASE_PAGE_SIZE).forEach(function (c) {
       const x = localizedCase(c), img = caseImage(c), card = el('article', 'case-card');
       const mediaButton = c.gallery?.length || c.videos?.length ? '<button class="case-media" type="button">' + esc(t('case.media')) + ' ↗</button>' : '';
-      card.innerHTML = '<div class="case-card-inner"><div class="case-face case-front"><div class="case-img' + (img ? '' : ' case-img-empty') + '"' + caseFrameStyle(c) + (img ? '' : ' data-empty="true"') + '>' + (img ? '<img src="' + esc(img) + '" alt="' + esc(x.title) + '" loading="lazy">' : '<span class="case-empty-mark">MS</span>') + '</div><div class="case-body"><div class="case-meta"><span>' + esc(x.client) + '</span><button class="save-case" type="button" aria-label="' + esc(favorites.has(c.caseId) ? t('case.unfavorite') : t('case.favorite')) + '">' + (favorites.has(c.caseId) ? '★' : '☆') + '</button></div><h3 class="case-title">' + esc(x.title) + '</h3><span class="case-copy-label">' + esc(t('case.intro')) + '</span><p class="case-intro">' + esc(x.intro) + '</p><button class="case-flip" type="button">' + esc(t('case.viewApproach')) + ' ↗</button></div></div><div class="case-face case-back"><div class="case-back-top"><span class="case-copy-label">' + esc(t('case.approach')) + '</span><button class="case-flip" type="button" aria-label="' + esc(t('case.back')) + '">↺</button></div><h3 class="case-title">' + esc(x.title) + '</h3><div class="case-back-copy"><span class="case-copy-label">' + esc(t('case.intro')) + '</span><p class="case-intro">' + esc(x.intro) + '</p><span class="case-copy-label">' + esc(t('case.approach')) + '</span><p class="case-approach">' + esc(x.approach) + '</p></div>' + mediaButton + '</div></div>';
+      card.innerHTML = '<div class="case-card-inner"><div class="case-face case-front"><div class="case-img' + (img ? '' : ' case-img-empty') + '"' + caseFrameStyle(c) + (img ? '' : ' data-empty="true"') + '>' + (img ? '<img src="' + esc(img) + '" alt="' + esc(x.title) + '" loading="lazy">' : '<span class="case-empty-mark">MS</span>') + '<button class="case-flip case-hero-flip" type="button">' + esc(t('case.viewApproach')) + ' ↗</button></div><div class="case-body"><div class="case-meta"><span>' + esc(x.client) + '</span><button class="save-case" type="button" aria-label="' + esc(favorites.has(c.caseId) ? t('case.unfavorite') : t('case.favorite')) + '">' + (favorites.has(c.caseId) ? '★' : '☆') + '</button></div><h3 class="case-title">' + esc(x.title) + '</h3><span class="case-copy-label">' + esc(t('case.intro')) + '</span><p class="case-intro">' + esc(x.intro) + '</p></div></div><div class="case-face case-back"><div class="case-back-top"><span class="case-copy-label">' + esc(t('case.approach')) + '</span><button class="case-flip" type="button" aria-label="' + esc(t('case.back')) + '">↺</button></div><h3 class="case-title">' + esc(x.title) + '</h3><div class="case-back-copy"><span class="case-copy-label">' + esc(t('case.intro')) + '</span><p class="case-intro">' + esc(x.intro) + '</p><span class="case-copy-label">' + esc(t('case.approach')) + '</span><p class="case-approach">' + esc(x.approach) + '</p></div>' + mediaButton + '</div></div>';
       card.addEventListener('click', function (event) { if (event.target.closest('.save-case, .case-media, .case-flip')) return; card.classList.toggle('is-flipped'); });
       card.querySelectorAll('.case-flip').forEach(function (button) { button.addEventListener('click', function (event) { event.stopPropagation(); card.classList.toggle('is-flipped'); }); });
       card.querySelector('.save-case').addEventListener('click', function (event) { event.stopPropagation(); toggleFavorite(c.caseId); });
@@ -93,10 +113,27 @@
     document.getElementById('prevCase').disabled = casePage === 0; document.getElementById('nextCase').disabled = casePage >= pages - 1;
   }
   function toggleFavorite(id) { if (favorites.has(id)) favorites.delete(id); else favorites.add(id); localStorage.setItem('ms-favorites', JSON.stringify(Array.from(favorites))); renderCases(); showToast(favorites.has(id) ? t('case.unfavorite') : t('case.favorite')); }
-  function renderLogos() { const box = document.getElementById('clientLogoRail'); box.innerHTML = ''; BRANDS.forEach(function (brand) { box.appendChild(el('span', 'brand-logo', esc(brand))); }); }
+  function renderLogos() {
+    const box = document.getElementById('clientLogoRail');
+    box.innerHTML = '';
+    BRANDS.forEach(function (brand) {
+      const item = el('span', 'brand-logo');
+      item.title = brand;
+      const image = document.createElement('img');
+      image.src = PARTNER_LOGOS[brand] || '';
+      image.alt = brand;
+      image.loading = 'lazy';
+      image.addEventListener('error', function () {
+        item.textContent = brand;
+        item.classList.add('brand-logo-fallback');
+      }, { once: true });
+      item.appendChild(image);
+      box.appendChild(item);
+    });
+  }
   function renderStats() { const box = document.getElementById('stats'); box.innerHTML = ''; const stats = STATIC.stats[lang].map(function (s) { return s.slice(); }); if (stats[2]) stats[2][0] = String((DATA.cases || []).length); stats.forEach(function (s) { box.appendChild(el('div', 'stat', '<span class="stat-num">' + esc(s[0]) + '</span><span class="stat-label">' + esc(s[1]) + '</span>')); }); }
   function renderLocations() { const render = function (id, values) { const box = document.getElementById(id); if (!box) return; box.innerHTML = ''; values.forEach(function (value, i) { box.appendChild(el('span', 'location-pill', '<b>' + String(i + 1).padStart(2, '0') + '</b>' + esc(value))); }); }; render('countryList', STATIC.countries[lang]); render('cityList', STATIC.cities[lang]); }
-  function renderTeam() { const grid = document.getElementById('teamGrid'); grid.innerHTML = ''; TEAM.forEach(function (m) { const card = el('article', 'member-card'); const displayName = lang === 'zh' ? m.name : m.nameEn; card.innerHTML = '<div class="member-photo' + (m.safeHeadroom ? ' safe-headroom' : '') + '"><img src="' + esc(m.photo) + '" alt="' + esc(displayName) + '" loading="lazy"></div><div class="member-body"><div class="member-name">' + esc(displayName) + '</div><div class="member-role">' + esc(m.role[lang]) + '</div><div class="member-desc">' + esc(m.desc[lang]) + '</div><button class="member-open" type="button">' + esc(t('team.open')) + ' ↗</button></div>'; card.addEventListener('click', function () { openTeamModal(m); }); grid.appendChild(card); }); }
+  function renderTeam() { const grid = document.getElementById('teamGrid'); grid.innerHTML = ''; TEAM.forEach(function (m) { const card = el('article', 'member-card'); const displayName = lang === 'zh' ? m.name : m.nameEn; card.innerHTML = '<a class="member-card-link" href="founders/' + esc(m.slug) + '.html"><div class="member-photo' + (m.safeHeadroom ? ' safe-headroom' : '') + '"><img src="' + esc(m.photo) + '" alt="' + esc(displayName) + '" loading="lazy"></div><div class="member-body"><div class="member-name">' + esc(displayName) + '</div><div class="member-role">' + esc(m.role[lang]) + '</div><div class="member-desc">' + esc(m.desc[lang]) + '</div><span class="member-open">' + esc(t('team.open')) + ' ↗</span></div></a>'; grid.appendChild(card); }); }
   function renderCapabilities() { const grid = document.getElementById('capGrid'); grid.innerHTML = ''; CAPABILITIES.forEach(function (c, index) { const card = el('article', 'cap-card'); card.innerHTML = '<div class="cap-img"><img src="' + esc(c.image) + '" alt="' + esc(c.title[lang]) + '" loading="lazy"><span class="cap-index">0' + (index + 1) + '</span></div><div class="cap-chips">' + c.chips[lang].map(function (chip) { return '<span class="cap-chip">' + esc(chip) + '</span>'; }).join('') + '</div><div class="cap-title">' + esc(c.title[lang]) + '</div><p class="cap-body">' + esc(c.body[lang]) + '</p><button class="cap-open" type="button">' + esc(t('cap.open')) + ' ↗</button>'; card.addEventListener('click', function () { openCapabilityModal(c); }); grid.appendChild(card); }); }
   function renderBriefChips() { document.querySelectorAll('[data-chips]').forEach(function (group) { const key = group.getAttribute('data-chips'); group.innerHTML = ''; BRIEF_CHIPS[lang][key].forEach(function (label) { const button = el('button', 'chip', esc(label)); button.type = 'button'; button.addEventListener('click', function () { group.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('selected'); }); button.classList.add('selected'); updateProgress(); }); group.appendChild(button); }); }); }
   function renderServiceLists() { document.querySelectorAll('[data-i18n-list]').forEach(function (list) { const key = list.getAttribute('data-i18n-list').split('.')[1]; list.innerHTML = STATIC.serviceItems[lang][key].map(function (item) { return '<li>' + esc(item) + '</li>'; }).join(''); }); }
