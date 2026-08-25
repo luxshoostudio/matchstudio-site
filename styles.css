@@ -175,6 +175,8 @@ html[lang="zh-CN"] .hero-slogan{width:max-content;max-width:none;white-space:now
 .founder-case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .founder-case-card{overflow:hidden;display:flex;flex-direction:column;min-width:0;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);transition:transform .3s,border-color .3s}
 .founder-case-card:hover{transform:translateY(-4px);border-color:rgba(231,255,46,.35)}
+.founder-case-card-clickable{cursor:pointer}
+.founder-case-card-clickable:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .founder-case-media{position:relative;aspect-ratio:4/3;overflow:hidden;background:#0a0c0a}
 .founder-case-media img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .45s}
 .founder-case-card:hover .founder-case-media img{transform:scale(1.035)}
@@ -190,7 +192,9 @@ html[lang="zh-CN"] .hero-slogan{width:max-content;max-width:none;white-space:now
 .founder-case-source{margin-top:7px;color:var(--text);font-size:12px;line-height:1.5}
 .founder-case-intro,.founder-case-approach{margin-top:9px;color:var(--muted);font-size:13px;line-height:1.58}
 .founder-case-approach{margin-top:6px}
+.founder-case-action{display:inline-flex;align-items:center;align-self:flex-start;margin-top:auto;padding-top:18px;color:var(--accent);font-size:13px;font-weight:700}
 .founder-empty{grid-column:1/-1;padding:70px 20px;border:1px solid var(--border);border-radius:var(--radius);color:var(--muted);text-align:center}
+.founder-detail-backdrop{z-index:1100}
 .founder-footer-actions{max-width:1272px;margin:0 auto;padding:28px 0 110px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--border)}
 @media(max-width:1000px){.founder-hero{grid-template-columns:minmax(0,1fr) 300px;gap:42px}.founder-summary,.founder-footer-actions{margin-left:64px;margin-right:64px}.founder-case-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.founder-hero{display:flex;flex-direction:column;padding:100px 20px 52px;gap:32px}.founder-hero-copy{width:100%}.founder-hero h1{font-size:66px;letter-spacing:-3px}.founder-role{font-size:17px}.founder-bio{font-size:16px}.founder-portrait{width:min(100%,360px);align-self:flex-start}.founder-summary{margin:0 20px;grid-template-columns:1fr;gap:24px;padding:24px 0}.founder-cases{padding:70px 20px 30px}.founder-section-head{display:block}.founder-counts{align-items:flex-start;margin-top:18px;text-align:left}.founder-case-grid{grid-template-columns:1fr}.founder-footer-actions{margin:0 20px;padding-bottom:80px}.founder-case-body h3{font-size:18px}}

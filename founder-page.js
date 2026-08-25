@@ -13,7 +13,7 @@
       'nav.services': '服务', 'nav.cases': '案例', 'nav.team': '团队', 'nav.capabilities': '能力', 'nav.cta': '预约咨询', 'footer.tagline': '中国企业出海的全球内容制作伙伴',
       'founder.eyebrow': '创始人履历', 'founder.source': 'Participants / Ability Source', 'founder.caseEyebrow': '关联内容案例', 'founder.caseTitle': '履历下的内容案例',
       'founder.caseSub': '按 Airtable 的 Participants / Ability Source 关系整理。公开口径保持为 Match Studio 核心团队服务经验，不扩写为未核实的直签项目。',
-      'founder.sourceLabel': '能力来源', 'founder.mediaReady': '本地媒体已同步', 'founder.mediaPending': '媒体快照待同步', 'founder.viewLibrary': '查看全部案例',
+      'founder.sourceLabel': '能力来源', 'founder.mediaReady': '本地媒体已同步', 'founder.mediaPending': '媒体快照待同步', 'founder.viewDetails': '查看项目详情', 'founder.linkedCase': '关联项目案例', 'founder.detailUnavailable': '该项目已关联，但本地媒体快照尚未同步。', 'founder.viewLibrary': '查看全部案例',
       'founder.back': '返回团队', 'founder.attribution': '公开归因', 'founder.attributionText': 'Match Studio 核心团队服务经验', 'founder.empty': '当前没有已关联的公开案例快照。',
       'founder.count': '条关联记录', 'founder.ready': '条已同步媒体', 'founder.roleLabel': '职责', 'founder.focusLabel': '工作范围'
     },
@@ -21,7 +21,7 @@
       'nav.services': 'Services', 'nav.cases': 'Cases', 'nav.team': 'Team', 'nav.capabilities': 'Capabilities', 'nav.cta': 'Book a consult', 'footer.tagline': 'The global content partner for outbound Chinese brands',
       'founder.eyebrow': 'Founder profile', 'founder.source': 'Participants / Ability Source', 'founder.caseEyebrow': 'Linked case library', 'founder.caseTitle': 'Cases from this profile',
       'founder.caseSub': 'Linked from Airtable Participants / Ability Source records. Public attribution stays with Match Studio core-team experience and does not overstate unverified direct commissions.',
-      'founder.sourceLabel': 'Ability source', 'founder.mediaReady': 'Local media synced', 'founder.mediaPending': 'Media snapshot pending', 'founder.viewLibrary': 'View all cases',
+      'founder.sourceLabel': 'Ability source', 'founder.mediaReady': 'Local media synced', 'founder.mediaPending': 'Media snapshot pending', 'founder.viewDetails': 'View project details', 'founder.linkedCase': 'Linked project case', 'founder.detailUnavailable': 'This project is linked, but its local media snapshot has not been synced yet.', 'founder.viewLibrary': 'View all cases',
       'founder.back': 'Back to team', 'founder.attribution': 'Public attribution', 'founder.attributionText': 'Match Studio core-team experience', 'founder.empty': 'No linked public case snapshot is available yet.',
       'founder.count': 'linked records', 'founder.ready': 'with synced media', 'founder.roleLabel': 'Role', 'founder.focusLabel': 'Focus'
     }
@@ -79,15 +79,36 @@
   }
   function displayCase(item, link) {
     var local = !!item;
-    var title = local ? (lang === 'zh' ? item.title : (item.titleEn || item.title)) : (lang === 'zh' ? (link.title || link.caseId) : (link.titleEn || link.title || link.caseId));
+    var title = local ? (lang === 'zh' ? item.title : (item.titleEn || item.title)) : (lang === 'zh' ? (link.title || t('founder.linkedCase')) : (link.titleEn || link.title || t('founder.linkedCase')));
     var client = local && item.client && !/^Open\s+—/i.test(item.client) ? item.client : (link.client || '');
     client = clientText(client);
-    var intro = local ? (lang === 'zh' ? item.intro.zh : (item.intro.en || item.intro.zh)) : (lang === 'zh' ? 'Airtable 已关联该案例，公开站点媒体快照待同步。' : 'This Airtable-linked case is awaiting a local public media snapshot.');
+    var intro = local ? (lang === 'zh' ? item.intro.zh : (item.intro.en || item.intro.zh)) : t('founder.detailUnavailable');
     var approach = local ? (lang === 'zh' ? item.approach.zh : (item.approach.en || item.approach.zh)) : (lang === 'zh' ? '具体制作方式以已核实资料为准。' : 'Production details remain subject to verified project records.');
     var media = local ? mediaUrl(mediaOf(item)) : '';
     var id = local ? item.caseId : normalizeId(link.caseId);
     var source = sourceText(link.source || '');
-    return { local: local, title: title, client: client, intro: intro, approach: approach, media: media, id: id, source: source };
+    return { local: local, title: title, client: client, intro: intro, approach: approach, media: media, id: id, source: source, record: item || null };
+  }
+  function ensureModalRoot() {
+    var root = document.getElementById('modalRoot');
+    if (!root) { root = document.createElement('div'); root.id = 'modalRoot'; root.setAttribute('aria-live', 'polite'); document.body.appendChild(root); }
+    return root;
+  }
+  function closeCaseDetail() { var root = document.getElementById('modalRoot'); if (root) root.innerHTML = ''; }
+  function openCaseDetail(item) {
+    var record = item.record;
+    var hero = record ? mediaUrl(mediaOf(record)) : '';
+    var gallery = record ? (record.gallery || []).map(mediaUrl).filter(Boolean).filter(function (url) { return url !== hero; }).slice(0, 12) : [];
+    var images = [hero].concat(gallery).filter(Boolean);
+    var videos = record ? (record.videos || []).map(function (video) {
+      var url = mediaUrl(video);
+      return url ? '<div class="video-row"><span>' + esc(video.filename || 'Video') + '</span><a href="' + esc(localAsset(url)) + '" target="_blank" rel="noreferrer">' + esc(lang === 'zh' ? '打开视频' : 'Open video') + ' ↗</a></div>' : '';
+    }).join('') : '';
+    var media = images.map(function (url) { return '<div class="library-media-item"><img src="' + esc(localAsset(url)) + '" alt="" loading="lazy"></div>'; }).join('');
+    var root = ensureModalRoot();
+    root.innerHTML = '<div class="modal-backdrop library-detail-backdrop founder-detail-backdrop"><div class="modal-card case-modal-card library-detail-modal" role="dialog" aria-modal="true" aria-label="' + esc(item.title) + '"><button class="modal-close" type="button" aria-label="' + esc(lang === 'zh' ? '关闭' : 'Close') + '">×</button>' + (hero ? '<div class="library-detail-hero"><img src="' + esc(localAsset(hero)) + '" alt="' + esc(item.title) + '"></div>' : '') + '<div class="modal-body"><div class="modal-kicker">' + esc(lang === 'zh' ? '关联项目' : 'Linked project') + '</div><h3>' + esc(item.title) + '</h3>' + (item.client ? '<p class="modal-client">' + esc(item.client) + '</p>' : '') + '<p class="modal-intro">' + esc(item.intro) + '</p><div class="library-detail-copy"><div><span class="detail-label">' + esc(lang === 'zh' ? '制作方式' : 'Approach') + '</span><p>' + esc(item.approach) + '</p></div><div><span class="detail-label">' + esc(t('founder.sourceLabel')) + '</span><p>' + esc(item.source || t('founder.attributionText')) + '</p></div></div>' + (media || videos ? '<div class="media-section">' + (media ? '<div class="library-media-grid">' + media + '</div>' : '') + (videos ? '<div class="video-list">' + videos + '</div>' : '') + '</div>' : '') + '</div></div></div>';
+    root.querySelector('.modal-close').addEventListener('click', closeCaseDetail);
+    root.querySelector('.modal-backdrop').addEventListener('click', function (event) { if (event.target === event.currentTarget) closeCaseDetail(); });
   }
   function renderProfile() {
     var profile = PROFILES[slug] || PROFILES.lux;
@@ -109,10 +130,15 @@
     document.getElementById('founderCount').textContent = cards.length + ' ' + t('founder.count');
     document.getElementById('founderReady').textContent = readyCount + ' ' + t('founder.ready');
     var grid = document.getElementById('founderCases');
-    grid.innerHTML = cards.length ? cards.map(function (item) {
-      var media = item.media ? '<div class="founder-case-media"><img src="' + esc(localAsset(item.media)) + '" alt="' + esc(item.title) + '" loading="lazy"><span class="founder-case-status">' + esc(t('founder.mediaReady')) + '</span></div>' : '<div class="founder-case-media is-pending"><span class="founder-pending-mark">' + esc(t('founder.mediaPending')) + '</span><b>' + esc(item.id) + '</b></div>';
-      return '<article class="founder-case-card' + (item.local ? '' : ' is-pending') + '">' + media + '<div class="founder-case-body"><div class="founder-case-meta"><span>' + esc(item.client || item.id) + '</span><span>' + esc(item.id) + '</span></div><h3>' + esc(item.title) + '</h3><span class="founder-case-label">' + esc(t('founder.sourceLabel')) + '</span><p class="founder-case-source">' + esc(item.source) + '</p><p class="founder-case-intro">' + esc(item.intro) + '</p><span class="founder-case-label">' + esc(lang === 'zh' ? '制作方式' : 'Approach') + '</span><p class="founder-case-approach">' + esc(item.approach) + '</p></div></article>';
+    grid.innerHTML = cards.length ? cards.map(function (item, index) {
+      var media = item.media ? '<div class="founder-case-media"><img src="' + esc(localAsset(item.media)) + '" alt="' + esc(item.title) + '" loading="lazy"><span class="founder-case-status">' + esc(t('founder.mediaReady')) + '</span></div>' : '<div class="founder-case-media is-pending"><span class="founder-pending-mark">' + esc(t('founder.mediaPending')) + '</span></div>';
+      return '<article class="founder-case-card founder-case-card-clickable' + (item.local ? '' : ' is-pending') + '" data-founder-case-index="' + index + '" tabindex="0" role="button" aria-label="' + esc(t('founder.viewDetails') + ': ' + item.title) + '">' + media + '<div class="founder-case-body"><div class="founder-case-meta"><span>' + esc(item.client) + '</span></div><h3>' + esc(item.title) + '</h3><span class="founder-case-label">' + esc(t('founder.sourceLabel')) + '</span><p class="founder-case-source">' + esc(item.source) + '</p><p class="founder-case-intro">' + esc(item.intro) + '</p><span class="founder-case-label">' + esc(lang === 'zh' ? '制作方式' : 'Approach') + '</span><p class="founder-case-approach">' + esc(item.approach) + '</p><span class="founder-case-action">' + esc(t('founder.viewDetails')) + ' ↗</span></div></article>';
     }).join('') : '<div class="founder-empty">' + esc(t('founder.empty')) + '</div>';
+    grid.querySelectorAll('[data-founder-case-index]').forEach(function (card) {
+      var open = function () { openCaseDetail(cards[Number(card.getAttribute('data-founder-case-index'))]); };
+      card.addEventListener('click', open);
+      card.addEventListener('keydown', function (event) { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); } });
+    });
   }
   function applyPageData() {
     var profile = PROFILES[slug] || PROFILES.lux;
@@ -121,6 +147,7 @@
   }
   function bind() {
     document.getElementById('langToggle').addEventListener('click', function () { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('ms-lang', lang); renderProfile(); });
+    document.addEventListener('keydown', function (event) { if (event.key === 'Escape') closeCaseDetail(); });
   }
   function load() {
     Promise.all([fetch('../data/cases.json?v=20260825-founders', { cache: 'no-store' }).then(function (r) { return r.json(); }), fetch('../data/founder-cases.json?v=20260825-founders', { cache: 'no-store' }).then(function (r) { return r.json(); })]).then(function (result) {
