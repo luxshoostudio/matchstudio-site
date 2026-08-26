@@ -81,6 +81,17 @@ main{padding-top:74px}.hero{min-height:790px;position:relative;display:flex;flex
 @media(max-width:1100px){.cases-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.hero-slogan{font-size:37px}.cases-grid{grid-template-columns:1fr}.service-pair,.service-flip-inner{min-height:460px}.cases-toolbar{justify-content:center}}
 
+/* Mobile hero: keep the brand rail in flow so a wrapped slogan cannot be covered. */
+@media(max-width:720px){
+  .hero{min-height:0;padding-top:76px;justify-content:flex-start}
+  .hero-content{width:100%;max-width:360px;gap:16px;flex:0 0 auto}
+  .hero-logo-image{width:min(280px,82vw)}
+  .hero-kicker{margin-top:10px;font-size:9px;letter-spacing:1.2px;white-space:nowrap}
+  .hero-slogan{width:100%;max-width:100%;font-size:clamp(32px,9.7vw,37px);line-height:1.08;letter-spacing:-1.35px}
+  .logo-rail-wrap{position:relative;inset:auto;width:100%;margin-top:44px;padding:22px 0 22px}
+  .hero-logos{gap:8px 7px}
+}
+
 /* Centered case pagination and second-level library */
 .cases-nav{gap:24px;padding:10px 14px;border:1px solid rgba(231,255,46,.16);border-radius:999px;background:rgba(17,19,14,.82);box-shadow:0 14px 34px rgba(0,0,0,.2)}
 .nav a.is-current{color:var(--accent)}
